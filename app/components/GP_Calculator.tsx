@@ -1,11 +1,20 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import { useState, useEffect, useCallback } from 'react';
-import { useVanaTime, calculateEarthDays, getVanaTime } from '../hooks/useVanaTime';
+import {
+    useVanaTime,
+    calculateEarthDays,
+    getVanaTime,
+} from '../hooks/useVanaTime';
 import { useTheme } from '../hooks/useTheme';
 import { useGuildScroll } from '../hooks/useGuildScroll';
-import Sidebar from './Sidebar';
 import GuildList from './GuildList';
+
+const Sidebar = dynamic(() => import('./Sidebar'), {
+    loading: () => <div className="w-72 bg-white dark:bg-slate-800 animate-pulse" />,
+    ssr: false,
+});
 import { GuildData } from '../types/guild';
 import { TARGET_GUILD_IDS } from '../constants';
 
@@ -13,30 +22,36 @@ interface GP_CalculatorProps {
     initialGuildData: GuildData | null;
 }
 
-export default function GP_Calculator({ initialGuildData }: GP_CalculatorProps) {
+export default function GP_Calculator({
+    initialGuildData,
+}: GP_CalculatorProps) {
     const [vYear, setVYear] = useState(1495);
     const [vMonth, setVMonth] = useState(3);
     const [vDay, setVDay] = useState(13);
     const [pattern, setPattern] = useState(1);
-    const [guildData, setGuildData] = useState<GuildData | null>(initialGuildData);
+    const [guildData, setGuildData] = useState<GuildData | null>(
+        initialGuildData,
+    );
 
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const currentVana = useVanaTime();
     const { theme, toggleTheme } = useTheme();
 
     const {
-        pendingScrollGuild, setPendingScrollGuild,
-        selectedGuild, setSelectedGuild,
+        pendingScrollGuild,
+        setPendingScrollGuild,
+        selectedGuild,
+        setSelectedGuild,
         isProgrammaticScroll,
-        scrollToGuild
+        scrollToGuild,
     } = useGuildScroll();
 
     useEffect(() => {
         // Fallback if data wasn't passed from server
         if (!guildData) {
             fetch('/guild_data.json')
-                .then(res => res.json())
-                .then(data => setGuildData(data));
+                .then((res) => res.json())
+                .then((data) => setGuildData(data));
         }
 
         if (typeof window !== 'undefined') {
@@ -63,43 +78,48 @@ export default function GP_Calculator({ initialGuildData }: GP_CalculatorProps) 
 
     const { earthDays } = calculateEarthDays(vYear, vMonth, vDay);
 
-    const updateUrl = useCallback((newParams: Record<string, string>, replace = false) => {
-        if (typeof window === 'undefined') return;
-        const url = new URL(window.location.href);
-        let hasChanges = false;
-        Object.keys(newParams).forEach(key => {
-            const current = url.searchParams.get(key);
-            const next = newParams[key];
-            if (key === 'guild') {
-                setSelectedGuild(next ? Number(next) : null);
-            }
-            if (next) {
-                if (current !== next) {
-                    url.searchParams.set(key, next);
-                    hasChanges = true;
+    const updateUrl = useCallback(
+        (newParams: Record<string, string>, replace = false) => {
+            if (typeof window === 'undefined') return;
+            const url = new URL(window.location.href);
+            let hasChanges = false;
+            Object.keys(newParams).forEach((key) => {
+                const current = url.searchParams.get(key);
+                const next = newParams[key];
+                if (key === 'guild') {
+                    setSelectedGuild(next ? Number(next) : null);
                 }
-            } else {
-                if (url.searchParams.has(key)) {
-                    url.searchParams.delete(key);
-                    hasChanges = true;
+                if (next) {
+                    if (current !== next) {
+                        url.searchParams.set(key, next);
+                        hasChanges = true;
+                    }
+                } else {
+                    if (url.searchParams.has(key)) {
+                        url.searchParams.delete(key);
+                        hasChanges = true;
+                    }
+                }
+            });
+            if (hasChanges) {
+                if (replace) {
+                    window.history.replaceState({}, '', url.toString());
+                } else {
+                    window.history.pushState({}, '', url.toString());
                 }
             }
-        });
-        if (hasChanges) {
-            if (replace) {
-                window.history.replaceState({}, '', url.toString());
-            } else {
-                window.history.pushState({}, '', url.toString());
-            }
-        }
-    }, [setSelectedGuild]);
+        },
+        [setSelectedGuild],
+    );
 
     // Handle Auto-Scroll
     // We use a small timeout to ensure the DOM elements are rendered
     useEffect(() => {
         if (guildData && pendingScrollGuild !== null) {
             setTimeout(() => {
-                scrollToGuild(pendingScrollGuild, updateUrl, () => setIsSidebarOpen(false));
+                scrollToGuild(pendingScrollGuild, updateUrl, () =>
+                    setIsSidebarOpen(false),
+                );
                 setPendingScrollGuild(null);
             }, 100);
         }
@@ -107,14 +127,18 @@ export default function GP_Calculator({ initialGuildData }: GP_CalculatorProps) 
 
     // Sync state to URL
     useEffect(() => {
-        const daysSinceEpochVana = (vYear - 886) * 360 + (vMonth - 1) * 30 + (vDay - 1);
+        const daysSinceEpochVana =
+            (vYear - 886) * 360 + (vMonth - 1) * 30 + (vDay - 1);
         const earthMilliseconds = (daysSinceEpochVana / 25) * 86400000;
-        const epochBase = Date.UTC(2002, 0, 1) - (9 * 3600000);
+        const epochBase = Date.UTC(2002, 0, 1) - 9 * 3600000;
         const finalTimestamp = epochBase + earthMilliseconds;
-        updateUrl({
-            pattern: String(pattern),
-            timestamp: String(Math.floor(finalTimestamp))
-        }, true);
+        updateUrl(
+            {
+                pattern: String(pattern),
+                timestamp: String(Math.floor(finalTimestamp)),
+            },
+            true,
+        );
     }, [vYear, vMonth, vDay, pattern]); // eslint-disable-line react-hooks/exhaustive-deps
 
     const setDateToNow = () => {
@@ -127,10 +151,10 @@ export default function GP_Calculator({ initialGuildData }: GP_CalculatorProps) 
         scrollToGuild(guildId, updateUrl, () => setIsSidebarOpen(false));
     };
 
-
     return (
-        <div className={`flex h-screen font-sans transition-colors duration-300 ${theme === 'dark' ? 'dark bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900'}`}>
-
+        <div
+            className={`flex h-screen font-sans transition-colors duration-300 ${theme === 'dark' ? 'dark bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900'}`}
+        >
             <Sidebar
                 isSidebarOpen={isSidebarOpen}
                 setIsSidebarOpen={setIsSidebarOpen}
@@ -138,10 +162,14 @@ export default function GP_Calculator({ initialGuildData }: GP_CalculatorProps) 
                 toggleTheme={toggleTheme}
                 currentVana={currentVana}
                 setDateToNow={setDateToNow}
-                vYear={vYear} setVYear={setVYear}
-                vMonth={vMonth} setVMonth={setVMonth}
-                vDay={vDay} setVDay={setVDay}
-                pattern={pattern} setPattern={setPattern}
+                vYear={vYear}
+                setVYear={setVYear}
+                vMonth={vMonth}
+                setVMonth={setVMonth}
+                vDay={vDay}
+                setVDay={setVDay}
+                pattern={pattern}
+                setPattern={setPattern}
                 targetGuilds={TARGET_GUILD_IDS}
                 selectedGuild={selectedGuild}
                 onGuildClick={handleGuildClick}
@@ -158,7 +186,6 @@ export default function GP_Calculator({ initialGuildData }: GP_CalculatorProps) 
                 isProgrammaticScroll={isProgrammaticScroll}
                 updateUrl={updateUrl}
             />
-
         </div>
     );
 }

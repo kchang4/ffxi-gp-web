@@ -12,7 +12,5 @@ async function getGuildData(): Promise<GuildData> {
 export default async function Home() {
   const guildData = await getGuildData();
 
-  return (
-    <GP_Calculator initialGuildData={guildData} />
-  );
+  return <GP_Calculator initialGuildData={guildData} />;
 }
