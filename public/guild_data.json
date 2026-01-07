@@ -1,0 +1,9386 @@
+{
+  "0": {
+    "0": {
+      "0": [
+        {
+          "name": "Bastore Sardine",
+          "id": 4360,
+          "points": 24,
+          "max": 3600
+        }
+      ],
+      "1": [
+        {
+          "name": "Copper Frog",
+          "id": 4515,
+          "points": 60,
+          "max": 5040
+        }
+      ],
+      "2": [
+        {
+          "name": "Pipira",
+          "id": 4464,
+          "points": 138,
+          "max": 6720
+        }
+      ],
+      "3": [
+        {
+          "name": "Shining Trout",
+          "id": 4354,
+          "points": 78,
+          "max": 6720
+        }
+      ],
+      "4": [
+        {
+          "name": "Monke-Onke",
+          "id": 4462,
+          "points": 900,
+          "max": 13440
+        }
+      ],
+      "5": [
+        {
+          "name": "Gold Carp",
+          "id": 4427,
+          "points": 900,
+          "max": 13680
+        }
+      ],
+      "6": [
+        {
+          "name": "Crescent Fish",
+          "id": 4473,
+          "points": 1320,
+          "max": 15360
+        }
+      ],
+      "7": [
+        {
+          "name": "Gavial Fish",
+          "id": 4477,
+          "points": 1500,
+          "max": 16080
+        }
+      ],
+      "8": [
+        {
+          "name": "Emperor Fish",
+          "id": 4454,
+          "points": 1800,
+          "max": 17040
+        }
+      ],
+      "9": [
+        {
+          "name": "Sea Zombie",
+          "id": 4475,
+          "points": 2100,
+          "max": 17520
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Crayfish",
+          "id": 4472,
+          "points": 30,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Forest Carp",
+          "id": 4289,
+          "points": 45,
+          "max": 4800
+        }
+      ],
+      "2": [
+        {
+          "name": "Giant Catfish",
+          "id": 4469,
+          "points": 300,
+          "max": 8640
+        }
+      ],
+      "3": [
+        {
+          "name": "Crystal Bass",
+          "id": 4528,
+          "points": 375,
+          "max": 9840
+        }
+      ],
+      "4": [
+        {
+          "name": "Giant Donko",
+          "id": 4306,
+          "points": 576,
+          "max": 11760
+        }
+      ],
+      "5": [
+        {
+          "name": "Elshimo Newt",
+          "id": 4579,
+          "points": 525,
+          "max": 11760
+        }
+      ],
+      "6": [
+        {
+          "name": "Crescent Fish",
+          "id": 4473,
+          "points": 1320,
+          "max": 15360
+        }
+      ],
+      "7": [
+        {
+          "name": "Jungle Catfish",
+          "id": 4307,
+          "points": 1800,
+          "max": 16800
+        }
+      ],
+      "8": [
+        {
+          "name": "Emperor Fish",
+          "id": 4454,
+          "points": 1800,
+          "max": 17040
+        }
+      ],
+      "9": [
+        {
+          "name": "Titanictus",
+          "id": 4476,
+          "points": 2100,
+          "max": 17520
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Bastore Sardine",
+          "id": 4360,
+          "points": 24,
+          "max": 3600
+        }
+      ],
+      "1": [
+        {
+          "name": "Quus",
+          "id": 4514,
+          "points": 60,
+          "max": 5040
+        }
+      ],
+      "2": [
+        {
+          "name": "Nebimonite",
+          "id": 4361,
+          "points": 156,
+          "max": 6960
+        }
+      ],
+      "3": [
+        {
+          "name": "Nosteau Herring",
+          "id": 4482,
+          "points": 240,
+          "max": 8640
+        }
+      ],
+      "4": [
+        {
+          "name": "Gold Lobster",
+          "id": 4383,
+          "points": 576,
+          "max": 11760
+        }
+      ],
+      "5": [
+        {
+          "name": "Bhefhel Marlin",
+          "id": 4479,
+          "points": 900,
+          "max": 13680
+        }
+      ],
+      "6": [
+        {
+          "name": "Trumpet Shell",
+          "id": 5466,
+          "points": 1536,
+          "max": 16080
+        }
+      ],
+      "7": [
+        {
+          "name": "Three-eyed Fish",
+          "id": 4478,
+          "points": 1500,
+          "max": 16080
+        }
+      ],
+      "8": [
+        {
+          "name": "Bastore Bream",
+          "id": 4461,
+          "points": 1800,
+          "max": 17040
+        }
+      ],
+      "9": [
+        {
+          "name": "Sea Zombie",
+          "id": 4475,
+          "points": 2100,
+          "max": 17520
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Moat Carp",
+          "id": 4401,
+          "points": 30,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Cheval Salmon",
+          "id": 4379,
+          "points": 60,
+          "max": 5040
+        }
+      ],
+      "2": [
+        {
+          "name": "Tricolored Carp",
+          "id": 4426,
+          "points": 156,
+          "max": 6960
+        }
+      ],
+      "3": [
+        {
+          "name": "Veydal Wrasse",
+          "id": 5141,
+          "points": 1350,
+          "max": 15120
+        }
+      ],
+      "4": [
+        {
+          "name": "Icefish",
+          "id": 4470,
+          "points": 459,
+          "max": 10800
+        }
+      ],
+      "5": [
+        {
+          "name": "Red Terrapin",
+          "id": 4402,
+          "points": 900,
+          "max": 13680
+        }
+      ],
+      "6": [
+        {
+          "name": "Zebra Eel",
+          "id": 4288,
+          "points": 1200,
+          "max": 15120
+        }
+      ],
+      "7": [
+        {
+          "name": "Jungle Catfish",
+          "id": 4307,
+          "points": 1800,
+          "max": 16800
+        }
+      ],
+      "8": [
+        {
+          "name": "Grimmonite",
+          "id": 4304,
+          "points": 2100,
+          "max": 17520
+        }
+      ],
+      "9": [
+        {
+          "name": "Armored Pisces",
+          "id": 4316,
+          "points": 2850,
+          "max": 18720
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Crayfish",
+          "id": 4472,
+          "points": 30,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Bastore Sweeper",
+          "id": 5473,
+          "points": 279,
+          "max": 7920
+        }
+      ],
+      "2": [
+        {
+          "name": "Lungfish",
+          "id": 4315,
+          "points": 720,
+          "max": 12000
+        }
+      ],
+      "3": [
+        {
+          "name": "Gugru Tuna",
+          "id": 4480,
+          "points": 300,
+          "max": 9120
+        }
+      ],
+      "4": [
+        {
+          "name": "Zafmlug Bass",
+          "id": 4385,
+          "points": 93,
+          "max": 7440
+        }
+      ],
+      "5": [
+        {
+          "name": "Bluetail",
+          "id": 4399,
+          "points": 900,
+          "max": 13680
+        }
+      ],
+      "6": [
+        {
+          "name": "Bladefish",
+          "id": 4471,
+          "points": 1200,
+          "max": 15120
+        }
+      ],
+      "7": [
+        {
+          "name": "Silver Shark",
+          "id": 4451,
+          "points": 1500,
+          "max": 16080
+        }
+      ],
+      "8": [
+        {
+          "name": "Gigant Squid",
+          "id": 4474,
+          "points": 1800,
+          "max": 17040
+        }
+      ],
+      "9": [
+        {
+          "name": "Titanictus",
+          "id": 4476,
+          "points": 2100,
+          "max": 17520
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Bibikibo",
+          "id": 4314,
+          "points": 300,
+          "max": 7680
+        }
+      ],
+      "1": [
+        {
+          "name": "Bastore Sweeper",
+          "id": 5473,
+          "points": 279,
+          "max": 7920
+        }
+      ],
+      "2": [
+        {
+          "name": "Moorish Idol",
+          "id": 5121,
+          "points": 714,
+          "max": 12000
+        }
+      ],
+      "3": [
+        {
+          "name": "Coral Butterfly",
+          "id": 4580,
+          "points": 375,
+          "max": 9840
+        }
+      ],
+      "4": [
+        {
+          "name": "Gold Lobster",
+          "id": 4383,
+          "points": 576,
+          "max": 11760
+        }
+      ],
+      "5": [
+        {
+          "name": "Bhefhel Marlin",
+          "id": 4479,
+          "points": 900,
+          "max": 13680
+        }
+      ],
+      "6": [
+        {
+          "name": "Zebra Eel",
+          "id": 4288,
+          "points": 1200,
+          "max": 15120
+        }
+      ],
+      "7": [
+        {
+          "name": "Three-eyed Fish",
+          "id": 4478,
+          "points": 1500,
+          "max": 16080
+        }
+      ],
+      "8": [
+        {
+          "name": "Grimmonite",
+          "id": 4304,
+          "points": 2100,
+          "max": 17520
+        }
+      ],
+      "9": [
+        {
+          "name": "Takitaro",
+          "id": 4463,
+          "points": 2100,
+          "max": 17520
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Moat Carp",
+          "id": 4401,
+          "points": 30,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Blindfish",
+          "id": 4313,
+          "points": 675,
+          "max": 11280
+        }
+      ],
+      "2": [
+        {
+          "name": "Elshimo Frog",
+          "id": 4290,
+          "points": 156,
+          "max": 6960
+        }
+      ],
+      "3": [
+        {
+          "name": "Shining Trout",
+          "id": 4354,
+          "points": 78,
+          "max": 6720
+        }
+      ],
+      "4": [
+        {
+          "name": "Black Eel",
+          "id": 4429,
+          "points": 576,
+          "max": 11760
+        }
+      ],
+      "5": [
+        {
+          "name": "Trilobite",
+          "id": 4317,
+          "points": 120,
+          "max": 8400
+        }
+      ],
+      "6": [
+        {
+          "name": "Crescent Fish",
+          "id": 4473,
+          "points": 1320,
+          "max": 15360
+        }
+      ],
+      "7": [
+        {
+          "name": "Gavial Fish",
+          "id": 4477,
+          "points": 1500,
+          "max": 16080
+        }
+      ],
+      "8": [
+        {
+          "name": "Gigant Squid",
+          "id": 4474,
+          "points": 1800,
+          "max": 17040
+        }
+      ],
+      "9": [
+        {
+          "name": "Takitaro",
+          "id": 4463,
+          "points": 2100,
+          "max": 17520
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Cobalt Jellyfish",
+          "id": 4443,
+          "points": 24,
+          "max": 3600
+        }
+      ],
+      "1": [
+        {
+          "name": "Yellow Globe",
+          "id": 4403,
+          "points": 60,
+          "max": 5040
+        }
+      ],
+      "2": [
+        {
+          "name": "Tiger Cod",
+          "id": 4483,
+          "points": 156,
+          "max": 6960
+        }
+      ],
+      "3": [
+        {
+          "name": "Ogre Eel",
+          "id": 4481,
+          "points": 96,
+          "max": 6960
+        }
+      ],
+      "4": [
+        {
+          "name": "Zafmlug Bass",
+          "id": 4385,
+          "points": 93,
+          "max": 7440
+        }
+      ],
+      "5": [
+        {
+          "name": "Bluetail",
+          "id": 4399,
+          "points": 900,
+          "max": 13680
+        }
+      ],
+      "6": [
+        {
+          "name": "Noble Lady",
+          "id": 4485,
+          "points": 1200,
+          "max": 15120
+        }
+      ],
+      "7": [
+        {
+          "name": "Silver Shark",
+          "id": 4451,
+          "points": 1500,
+          "max": 16080
+        }
+      ],
+      "8": [
+        {
+          "name": "Grimmonite",
+          "id": 4304,
+          "points": 2100,
+          "max": 17520
+        }
+      ],
+      "9": [
+        {
+          "name": "Black Sole",
+          "id": 4384,
+          "points": 2100,
+          "max": 17520
+        }
+      ]
+    }
+  },
+  "1": {
+    "0": {
+      "0": [
+        {
+          "name": "Ash Pole",
+          "id": 17095,
+          "points": 105,
+          "max": 5040
+        },
+        {
+          "name": "Ash Pole +1",
+          "id": 17122,
+          "points": 120,
+          "max": 5040
+        }
+      ],
+      "1": [
+        {
+          "name": "Self Bow",
+          "id": 17153,
+          "points": 134,
+          "max": 6240
+        },
+        {
+          "name": "Self Bow +1",
+          "id": 17176,
+          "points": 154,
+          "max": 6240
+        }
+      ],
+      "2": [
+        {
+          "name": "Yew Wand",
+          "id": 17051,
+          "points": 261,
+          "max": 8160
+        },
+        {
+          "name": "Yew Wand +1",
+          "id": 17140,
+          "points": 414,
+          "max": 8160
+        }
+      ],
+      "3": [
+        {
+          "name": "Crossbow",
+          "id": 17217,
+          "points": 471,
+          "max": 10560
+        },
+        {
+          "name": "Crossbow +1",
+          "id": 17225,
+          "points": 471,
+          "max": 10560
+        }
+      ],
+      "4": [
+        {
+          "name": "Ebony Sabots",
+          "id": 12987,
+          "points": 1344,
+          "max": 15120
+        },
+        {
+          "name": "Ebony Sabots +1",
+          "id": 13023,
+          "points": 1400,
+          "max": 15120
+        }
+      ],
+      "5": [
+        {
+          "name": "Rose Harp",
+          "id": 17355,
+          "points": 2500,
+          "max": 18000
+        },
+        {
+          "name": "Rose Harp +1",
+          "id": 17376,
+          "points": 3000,
+          "max": 18000
+        }
+      ],
+      "6": [
+        {
+          "name": "Coffer",
+          "id": 49,
+          "points": 1278,
+          "max": 15360
+        }
+      ],
+      "7": [
+        {
+          "name": "Commode",
+          "id": 56,
+          "points": 4900,
+          "max": 20400
+        }
+      ],
+      "8": [
+        {
+          "name": "Cermet Lance",
+          "id": 16849,
+          "points": 2650,
+          "max": 18480
+        },
+        {
+          "name": "Cermet Lance +1",
+          "id": 16879,
+          "points": 3312,
+          "max": 18480
+        }
+      ],
+      "9": [
+        {
+          "name": "Ox Tongue",
+          "id": 16840,
+          "points": 7950,
+          "max": 21600
+        },
+        {
+          "name": "Ox Tongue +1",
+          "id": 16894,
+          "points": 7950,
+          "max": 21600
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Humus",
+          "id": 17868,
+          "points": 52,
+          "max": 4080
+        },
+        {
+          "name": "Rich Humus",
+          "id": 17869,
+          "points": 97,
+          "max": 4080
+        }
+      ],
+      "1": [
+        {
+          "name": "Holly Clogs",
+          "id": 12985,
+          "points": 325,
+          "max": 8400
+        },
+        {
+          "name": "Holly Clogs +1",
+          "id": 12991,
+          "points": 406,
+          "max": 8400
+        }
+      ],
+      "2": [
+        {
+          "name": "Shihei",
+          "id": 1179,
+          "points": 25,
+          "max": 5280
+        }
+      ],
+      "3": [
+        {
+          "name": "Composite Bow",
+          "id": 17155,
+          "points": 1250,
+          "max": 14640
+        },
+        {
+          "name": "Composite Bow +1",
+          "id": 17179,
+          "points": 1300,
+          "max": 14640
+        }
+      ],
+      "4": [
+        {
+          "name": "Oak Staff",
+          "id": 17091,
+          "points": 1218,
+          "max": 14880
+        },
+        {
+          "name": "Oak Staff +1",
+          "id": 17127,
+          "points": 1798,
+          "max": 14880
+        }
+      ],
+      "5": [
+        {
+          "name": "Great Club",
+          "id": 17030,
+          "points": 1102,
+          "max": 14640
+        },
+        {
+          "name": "Great Club +1",
+          "id": 17408,
+          "points": 1160,
+          "max": 14640
+        }
+      ],
+      "6": [
+        {
+          "name": "Rapid Bow",
+          "id": 17157,
+          "points": 3655,
+          "max": 19440
+        },
+        {
+          "name": "Rapid Bow +1",
+          "id": 17189,
+          "points": 3762,
+          "max": 19440
+        }
+      ],
+      "7": [
+        {
+          "name": "Round Shield",
+          "id": 12295,
+          "points": 2817,
+          "max": 18480
+        },
+        {
+          "name": "Round Shield +1",
+          "id": 12352,
+          "points": 2990,
+          "max": 18480
+        }
+      ],
+      "8": [
+        {
+          "name": "Mythic Harp",
+          "id": 17359,
+          "points": 7000,
+          "max": 21360
+        },
+        {
+          "name": "Mythic Harp +1",
+          "id": 17834,
+          "points": 7140,
+          "max": 21360
+        }
+      ],
+      "9": [
+        {
+          "name": "Gendawa",
+          "id": 17205,
+          "points": 11305,
+          "max": 22320
+        },
+        {
+          "name": "Gendawa +1",
+          "id": 17206,
+          "points": 12255,
+          "max": 22320
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Workbench",
+          "id": 22,
+          "points": 94,
+          "max": 4800
+        }
+      ],
+      "1": [
+        {
+          "name": "Bamboo Fishing Rod",
+          "id": 17389,
+          "points": 135,
+          "max": 6240
+        }
+      ],
+      "2": [
+        {
+          "name": "Tarutaru Stool",
+          "id": 92,
+          "points": 246,
+          "max": 8160
+        }
+      ],
+      "3": [
+        {
+          "name": "Great Bow",
+          "id": 17162,
+          "points": 3116,
+          "max": 18720
+        },
+        {
+          "name": "Great Bow  +1",
+          "id": 17180,
+          "points": 3496,
+          "max": 18720
+        }
+      ],
+      "4": [
+        {
+          "name": "Lance",
+          "id": 16845,
+          "points": 1535,
+          "max": 15840
+        },
+        {
+          "name": "Lance +1",
+          "id": 16876,
+          "points": 1561,
+          "max": 15840
+        }
+      ],
+      "5": [
+        {
+          "name": "Mythril Lance",
+          "id": 16847,
+          "points": 2580,
+          "max": 18000
+        },
+        {
+          "name": "Mythril Lance +1",
+          "id": 16877,
+          "points": 2640,
+          "max": 18000
+        }
+      ],
+      "6": [
+        {
+          "name": "Ebony Wand",
+          "id": 17054,
+          "points": 1912,
+          "max": 17040
+        },
+        {
+          "name": "Ebony Wand +1",
+          "id": 17427,
+          "points": 3037,
+          "max": 17040
+        }
+      ],
+      "7": [
+        {
+          "name": "Water Barrel",
+          "id": 95,
+          "points": 2500,
+          "max": 18000
+        }
+      ],
+      "8": [
+        {
+          "name": "Mythic Pole",
+          "id": 17101,
+          "points": 4740,
+          "max": 20400
+        },
+        {
+          "name": "Mythic Pole +1",
+          "id": 17526,
+          "points": 5727,
+          "max": 20400
+        }
+      ],
+      "9": [
+        {
+          "name": "Shigeto Bow",
+          "id": 18142,
+          "points": 18550,
+          "max": 23040
+        },
+        {
+          "name": "Shigeto Bow +1",
+          "id": 18143,
+          "points": 18550,
+          "max": 23040
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Workbench",
+          "id": 22,
+          "points": 94,
+          "max": 4800
+        }
+      ],
+      "1": [
+        {
+          "name": "Maple Table",
+          "id": 23,
+          "points": 158,
+          "max": 6480
+        }
+      ],
+      "2": [
+        {
+          "name": "Harp",
+          "id": 17354,
+          "points": 500,
+          "max": 10320
+        },
+        {
+          "name": "Harp +1",
+          "id": 17374,
+          "points": 600,
+          "max": 10320
+        }
+      ],
+      "3": [
+        {
+          "name": "Spiked Club",
+          "id": 17424,
+          "points": 300,
+          "max": 9120
+        },
+        {
+          "name": "Spiked Club +1",
+          "id": 17425,
+          "points": 330,
+          "max": 9120
+        }
+      ],
+      "4": [
+        {
+          "name": "Zamburak",
+          "id": 17218,
+          "points": 1710,
+          "max": 16320
+        },
+        {
+          "name": "Zamburak +1",
+          "id": 17229,
+          "points": 1748,
+          "max": 16320
+        }
+      ],
+      "5": [
+        {
+          "name": "Arbalest",
+          "id": 17219,
+          "points": 2550,
+          "max": 18000
+        },
+        {
+          "name": "Arbalest +1",
+          "id": 17226,
+          "points": 2625,
+          "max": 18000
+        }
+      ],
+      "6": [
+        {
+          "name": "Partisan",
+          "id": 16839,
+          "points": 2415,
+          "max": 18000
+        },
+        {
+          "name": "Partisan +1",
+          "id": 16874,
+          "points": 2520,
+          "max": 18000
+        }
+      ],
+      "7": [
+        {
+          "name": "Chiffonier",
+          "id": 59,
+          "points": 4594,
+          "max": 20160
+        }
+      ],
+      "8": [
+        {
+          "name": "Credenza",
+          "id": 358,
+          "points": 7070,
+          "max": 21360
+        }
+      ],
+      "9": [
+        {
+          "name": "Eight-Sided Pole",
+          "id": 17102,
+          "points": 1200,
+          "max": 15600
+        },
+        {
+          "name": "Eight-Sided Pole +1",
+          "id": 17568,
+          "points": 1800,
+          "max": 15600
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Lauan Shield",
+          "id": 12289,
+          "points": 30,
+          "max": 3840
+        },
+        {
+          "name": "Lauan Shield +1",
+          "id": 12333,
+          "points": 38,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Willow Wand",
+          "id": 17050,
+          "points": 74,
+          "max": 5280
+        },
+        {
+          "name": "Willow Wand +1",
+          "id": 17138,
+          "points": 119,
+          "max": 5280
+        }
+      ],
+      "2": [
+        {
+          "name": "Brass Spear",
+          "id": 16834,
+          "points": 400,
+          "max": 9600
+        },
+        {
+          "name": "Brass Spear +1",
+          "id": 16864,
+          "points": 410,
+          "max": 9600
+        }
+      ],
+      "3": [
+        {
+          "name": "Chestnut Sabots",
+          "id": 12986,
+          "points": 612,
+          "max": 11520
+        },
+        {
+          "name": "Chestnut Sabots +1",
+          "id": 13022,
+          "points": 646,
+          "max": 11520
+        }
+      ],
+      "4": [
+        {
+          "name": "Oak Cudgel",
+          "id": 17027,
+          "points": 1248,
+          "max": 14880
+        },
+        {
+          "name": "Oak Cudgel +1",
+          "id": 17142,
+          "points": 1768,
+          "max": 14880
+        }
+      ],
+      "5": [
+        {
+          "name": "Kamayari",
+          "id": 16871,
+          "points": 4070,
+          "max": 19686
+        },
+        {
+          "name": "Kamayari +1",
+          "id": 16872,
+          "points": 4162,
+          "max": 19686
+        }
+      ],
+      "6": [
+        {
+          "name": "Chest",
+          "id": 51,
+          "points": 195,
+          "max": 9600
+        }
+      ],
+      "7": [
+        {
+          "name": "Bureau",
+          "id": 30,
+          "points": 7010,
+          "max": 21360
+        }
+      ],
+      "8": [
+        {
+          "name": "Repeating Crossbow",
+          "id": 17221,
+          "points": 5425,
+          "max": 20640
+        },
+        {
+          "name": "Machine Crossbow",
+          "id": 17233,
+          "points": 6200,
+          "max": 20640
+        }
+      ],
+      "9": [
+        {
+          "name": "Star Globe",
+          "id": 139,
+          "points": 13430,
+          "max": 22560
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Harpoon",
+          "id": 16832,
+          "points": 27,
+          "max": 3840
+        },
+        {
+          "name": "Harpoon +1",
+          "id": 16862,
+          "points": 30,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Light Crossbow",
+          "id": 17216,
+          "points": 45,
+          "max": 4800
+        },
+        {
+          "name": "Light Crossbow +1",
+          "id": 17228,
+          "points": 53,
+          "max": 4800
+        }
+      ],
+      "2": [
+        {
+          "name": "Elm Shield",
+          "id": 12291,
+          "points": 363,
+          "max": 9360
+        },
+        {
+          "name": "Elm Shield +1",
+          "id": 12319,
+          "points": 457,
+          "max": 9360
+        }
+      ],
+      "3": [
+        {
+          "name": "Chestnut Wand",
+          "id": 17052,
+          "points": 714,
+          "max": 12240
+        },
+        {
+          "name": "Solid Wand",
+          "id": 17141,
+          "points": 1134,
+          "max": 12240
+        }
+      ],
+      "4": [
+        {
+          "name": "Halberd",
+          "id": 16836,
+          "points": 1350,
+          "max": 15120
+        },
+        {
+          "name": "Halberd +1",
+          "id": 16866,
+          "points": 1400,
+          "max": 15120
+        }
+      ],
+      "5": [
+        {
+          "name": "War Bow",
+          "id": 17164,
+          "points": 4080,
+          "max": 19680
+        },
+        {
+          "name": "War Bow +1",
+          "id": 17173,
+          "points": 4160,
+          "max": 19680
+        }
+      ],
+      "6": [
+        {
+          "name": "Mahogany Staff",
+          "id": 17092,
+          "points": 2310,
+          "max": 17760
+        },
+        {
+          "name": "Heavy Staff",
+          "id": 17520,
+          "points": 2310,
+          "max": 17760
+        }
+      ],
+      "7": [
+        {
+          "name": "Tarutaru Folding Screen",
+          "id": 104,
+          "points": 427,
+          "max": 11760
+        }
+      ],
+      "8": [
+        {
+          "name": "Nymph Shield",
+          "id": 12364,
+          "points": 2560,
+          "max": 18240
+        },
+        {
+          "name": "Nymph Shield +1",
+          "id": 12365,
+          "points": 2760,
+          "max": 18240
+        }
+      ],
+      "9": [
+        {
+          "name": "Cythara Anglica",
+          "id": 17364,
+          "points": 5697,
+          "max": 20880
+        },
+        {
+          "name": "Cythara Anglica +1",
+          "id": 17837,
+          "points": 7022,
+          "max": 20880
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Lauan Shield",
+          "id": 12289,
+          "points": 30,
+          "max": 3840
+        },
+        {
+          "name": "Lauan Shield +1",
+          "id": 12333,
+          "points": 38,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Holly Pole",
+          "id": 17096,
+          "points": 423,
+          "max": 9360
+        },
+        {
+          "name": "Holly Pole +1",
+          "id": 17124,
+          "points": 435,
+          "max": 9360
+        }
+      ],
+      "2": [
+        {
+          "name": "Elm Staff",
+          "id": 17090,
+          "points": 601,
+          "max": 11040
+        },
+        {
+          "name": "Elm Staff +1",
+          "id": 17126,
+          "points": 887,
+          "max": 11040
+        }
+      ],
+      "3": [
+        {
+          "name": "Mahogany Shield",
+          "id": 12292,
+          "points": 830,
+          "max": 12960
+        },
+        {
+          "name": "Strong Shield",
+          "id": 12334,
+          "points": 1043,
+          "max": 12960
+        }
+      ],
+      "4": [
+        {
+          "name": "Rose Wand",
+          "id": 17053,
+          "points": 1360,
+          "max": 15360
+        },
+        {
+          "name": "Rose Wand +1",
+          "id": 17143,
+          "points": 2160,
+          "max": 15360
+        }
+      ],
+      "5": [
+        {
+          "name": "Oak Pole",
+          "id": 17098,
+          "points": 1560,
+          "max": 16080
+        },
+        {
+          "name": "Oak Pole +1",
+          "id": 17120,
+          "points": 1620,
+          "max": 16080
+        }
+      ],
+      "6": [
+        {
+          "name": "Angel's Flute",
+          "id": 17350,
+          "points": 1200,
+          "max": 15120
+        },
+        {
+          "name": "Angel's Flute +1",
+          "id": 17378,
+          "points": 1280,
+          "max": 15120
+        }
+      ],
+      "7": [
+        {
+          "name": "Ebony Pole",
+          "id": 17100,
+          "points": 4350,
+          "max": 19920
+        },
+        {
+          "name": "Ebony Pole +1",
+          "id": 17525,
+          "points": 4495,
+          "max": 19920
+        }
+      ],
+      "8": [
+        {
+          "name": "Armoire",
+          "id": 61,
+          "points": 12750,
+          "max": 22560
+        }
+      ],
+      "9": [
+        {
+          "name": "Royal Bookshelf",
+          "id": 76,
+          "points": 7520,
+          "max": 22560
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Humus",
+          "id": 17868,
+          "points": 52,
+          "max": 4080
+        },
+        {
+          "name": "Rich Humus",
+          "id": 17869,
+          "points": 97,
+          "max": 4080
+        }
+      ],
+      "1": [
+        {
+          "name": "Maple Shield",
+          "id": 12290,
+          "points": 121,
+          "max": 6000
+        },
+        {
+          "name": "Maple Shield +1",
+          "id": 12330,
+          "points": 152,
+          "max": 6000
+        }
+      ],
+      "2": [
+        {
+          "name": "Chestnut Club",
+          "id": 17025,
+          "points": 290,
+          "max": 8640
+        },
+        {
+          "name": "Solid Club",
+          "id": 17139,
+          "points": 447,
+          "max": 8640
+        }
+      ],
+      "3": [
+        {
+          "name": "Spear",
+          "id": 16835,
+          "points": 840,
+          "max": 12960
+        },
+        {
+          "name": "Spear +1",
+          "id": 16865,
+          "points": 870,
+          "max": 12960
+        }
+      ],
+      "4": [
+        {
+          "name": "Oak Shield",
+          "id": 12293,
+          "points": 1950,
+          "max": 16800
+        },
+        {
+          "name": "Oak Shield +1",
+          "id": 12331,
+          "points": 2450,
+          "max": 16800
+        }
+      ],
+      "5": [
+        {
+          "name": "Kaman",
+          "id": 17156,
+          "points": 2465,
+          "max": 18000
+        },
+        {
+          "name": "Kaman +1",
+          "id": 17182,
+          "points": 2550,
+          "max": 18000
+        }
+      ],
+      "6": [
+        {
+          "name": "Mahogany Pole",
+          "id": 17099,
+          "points": 7200,
+          "max": 21600
+        },
+        {
+          "name": "Mahogany Pole +1",
+          "id": 17521,
+          "points": 7700,
+          "max": 21600
+        }
+      ],
+      "7": [
+        {
+          "name": "Couse",
+          "id": 18093,
+          "points": 4826,
+          "max": 20400
+        },
+        {
+          "name": "Couse +1",
+          "id": 18094,
+          "points": 5776,
+          "max": 20400
+        }
+      ],
+      "8": [
+        {
+          "name": "Cabinet",
+          "id": 55,
+          "points": 3200,
+          "max": 18960
+        }
+      ],
+      "9": [
+        {
+          "name": "Bookshelf",
+          "id": 77,
+          "points": 14600,
+          "max": 22560
+        }
+      ]
+    }
+  },
+  "2": {
+    "0": {
+      "0": [
+        {
+          "name": "Bronze Knuckles",
+          "id": 16390,
+          "points": 61,
+          "max": 4320
+        },
+        {
+          "name": "Bronze Knuckles +1",
+          "id": 16440,
+          "points": 61,
+          "max": 4320
+        }
+      ],
+      "1": [
+        {
+          "name": "Scale Cuisses",
+          "id": 12816,
+          "points": 358,
+          "max": 8640
+        },
+        {
+          "name": "Solid Cuisses",
+          "id": 12863,
+          "points": 410,
+          "max": 8640
+        }
+      ],
+      "2": [
+        {
+          "name": "Mace",
+          "id": 17035,
+          "points": 808,
+          "max": 12480
+        },
+        {
+          "name": "Mace +1",
+          "id": 17145,
+          "points": 980,
+          "max": 12480
+        }
+      ],
+      "3": [
+        {
+          "name": "Targe",
+          "id": 12300,
+          "points": 680,
+          "max": 12000
+        },
+        {
+          "name": "Targe +1",
+          "id": 12335,
+          "points": 1000,
+          "max": 12000
+        }
+      ],
+      "4": [
+        {
+          "name": "Shinobi-Gatana",
+          "id": 16919,
+          "points": 933,
+          "max": 13680
+        },
+        {
+          "name": "Shinobi-Gatana +1",
+          "id": 16920,
+          "points": 942,
+          "max": 13680
+        }
+      ],
+      "5": [
+        {
+          "name": "Darksteel Claws",
+          "id": 16413,
+          "points": 4320,
+          "max": 19920
+        },
+        {
+          "name": "Darksteel Claws +1",
+          "id": 16697,
+          "points": 5220,
+          "max": 19920
+        }
+      ],
+      "6": [
+        {
+          "name": "Kote",
+          "id": 12715,
+          "points": 3300,
+          "max": 18960
+        },
+        {
+          "name": "Kote +1",
+          "id": 13996,
+          "points": 3300,
+          "max": 18960
+        }
+      ],
+      "7": [
+        {
+          "name": "Bastard Sword",
+          "id": 16577,
+          "points": 12150,
+          "max": 22320
+        },
+        {
+          "name": "Bastard Sword +1",
+          "id": 16828,
+          "points": 13257,
+          "max": 22320
+        }
+      ],
+      "8": [
+        {
+          "name": "Thick Mufflers",
+          "id": 12684,
+          "points": 6345,
+          "max": 21120
+        },
+        {
+          "name": "Thick Mufflers +1",
+          "id": 14012,
+          "points": 6480,
+          "max": 21120
+        }
+      ],
+      "9": [
+        {
+          "name": "Ritter Shield",
+          "id": 12309,
+          "points": 6440,
+          "max": 21120
+        },
+        {
+          "name": "Ritter Shield +1",
+          "id": 12358,
+          "points": 7840,
+          "max": 21120
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Bronze Sword",
+          "id": 16535,
+          "points": 67,
+          "max": 4320
+        },
+        {
+          "name": "Bronze Sword +1",
+          "id": 16623,
+          "points": 75,
+          "max": 4320
+        }
+      ],
+      "1": [
+        {
+          "name": "Scale Greaves",
+          "id": 12944,
+          "points": 217,
+          "max": 7200
+        },
+        {
+          "name": "Solid Greaves",
+          "id": 13024,
+          "points": 269,
+          "max": 7200
+        }
+      ],
+      "2": [
+        {
+          "name": "Iron Visor",
+          "id": 13871,
+          "points": 3024,
+          "max": 18480
+        },
+        {
+          "name": "Iron Visor +1",
+          "id": 13872,
+          "points": 3078,
+          "max": 18480
+        }
+      ],
+      "3": [
+        {
+          "name": "Fleuret",
+          "id": 16524,
+          "points": 2128,
+          "max": 17040
+        },
+        {
+          "name": "Fleuret +1",
+          "id": 16803,
+          "points": 3648,
+          "max": 17040
+        }
+      ],
+      "4": [
+        {
+          "name": "Mythril Scythe",
+          "id": 16775,
+          "points": 6900,
+          "max": 21120
+        },
+        {
+          "name": "Mythril Scythe +1",
+          "id": 16782,
+          "points": 6900,
+          "max": 21120
+        }
+      ],
+      "5": [
+        {
+          "name": "Breastplate",
+          "id": 12544,
+          "points": 5460,
+          "max": 20640
+        },
+        {
+          "name": "Breastplate +1",
+          "id": 13724,
+          "points": 6060,
+          "max": 20640
+        }
+      ],
+      "6": [
+        {
+          "name": "Zunari Kabuto",
+          "id": 12459,
+          "points": 3604,
+          "max": 19440
+        },
+        {
+          "name": "Zunari Kabuto +1",
+          "id": 13865,
+          "points": 3604,
+          "max": 19440
+        }
+      ],
+      "7": [
+        {
+          "name": "Darksteel Scythe",
+          "id": 16789,
+          "points": 12535,
+          "max": 22320
+        },
+        {
+          "name": "Darksteel Scythe +1",
+          "id": 16790,
+          "points": 12650,
+          "max": 22320
+        }
+      ],
+      "8": [
+        {
+          "name": "Darksteel Cuirass",
+          "id": 12547,
+          "points": 11830,
+          "max": 22320
+        },
+        {
+          "name": "Darksteel Cuirass +1",
+          "id": 13756,
+          "points": 13130,
+          "max": 22320
+        }
+      ],
+      "9": [
+        {
+          "name": "Buzdygan",
+          "id": 17038,
+          "points": 11925,
+          "max": 22320
+        },
+        {
+          "name": "Buzdygan +1",
+          "id": 17460,
+          "points": 13250,
+          "max": 22320
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Xiphos",
+          "id": 16530,
+          "points": 168,
+          "max": 6000
+        },
+        {
+          "name": "Xiphos +1",
+          "id": 16624,
+          "points": 188,
+          "max": 6000
+        }
+      ],
+      "1": [
+        {
+          "name": "Aspis",
+          "id": 12299,
+          "points": 189,
+          "max": 6960
+        },
+        {
+          "name": "Aspis +1",
+          "id": 12325,
+          "points": 233,
+          "max": 6960
+        }
+      ],
+      "2": [
+        {
+          "name": "Knife",
+          "id": 16466,
+          "points": 485,
+          "max": 10320
+        },
+        {
+          "name": "Knife +1",
+          "id": 16614,
+          "points": 578,
+          "max": 10320
+        }
+      ],
+      "3": [
+        {
+          "name": "Tuck",
+          "id": 16513,
+          "points": 2146,
+          "max": 17040
+        },
+        {
+          "name": "Tuck +1",
+          "id": 16617,
+          "points": 2432,
+          "max": 17040
+        }
+      ],
+      "4": [
+        {
+          "name": "Tulwar",
+          "id": 16553,
+          "points": 4850,
+          "max": 20160
+        },
+        {
+          "name": "Tulwar +1",
+          "id": 16636,
+          "points": 5330,
+          "max": 20160
+        }
+      ],
+      "5": [
+        {
+          "name": "Greatsword",
+          "id": 16590,
+          "points": 6758,
+          "max": 21120
+        },
+        {
+          "name": "Greatsword +1",
+          "id": 16932,
+          "points": 7562,
+          "max": 21120
+        }
+      ],
+      "6": [
+        {
+          "name": "Sakurafubuki",
+          "id": 16902,
+          "points": 2310,
+          "max": 17760
+        },
+        {
+          "name": "Sakurafubuki +1",
+          "id": 16922,
+          "points": 2442,
+          "max": 17760
+        }
+      ],
+      "7": [
+        {
+          "name": "Darksteel Kris",
+          "id": 16759,
+          "points": 5670,
+          "max": 20880
+        },
+        {
+          "name": "Darksteel Kris +1",
+          "id": 16760,
+          "points": 6720,
+          "max": 20880
+        }
+      ],
+      "8": [
+        {
+          "name": "Darksteel Maul",
+          "id": 17046,
+          "points": 5880,
+          "max": 20880
+        },
+        {
+          "name": "Darksteel Maul +1",
+          "id": 17432,
+          "points": 6492,
+          "max": 20880
+        }
+      ],
+      "9": [
+        {
+          "name": "Misericorde",
+          "id": 16452,
+          "points": 4637,
+          "max": 20160
+        },
+        {
+          "name": "Misericorde +1",
+          "id": 17620,
+          "points": 5962,
+          "max": 20160
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Hatchet",
+          "id": 1021,
+          "points": 125,
+          "max": 5280
+        }
+      ],
+      "1": [
+        {
+          "name": "Bronze Hammer",
+          "id": 17042,
+          "points": 85,
+          "max": 5520
+        },
+        {
+          "name": "Bronze Hammer +1",
+          "id": 17144,
+          "points": 100,
+          "max": 5520
+        }
+      ],
+      "2": [
+        {
+          "name": "Scimitar",
+          "id": 16552,
+          "points": 905,
+          "max": 12960
+        },
+        {
+          "name": "Scimitar +1",
+          "id": 16625,
+          "points": 998,
+          "max": 12960
+        }
+      ],
+      "3": [
+        {
+          "name": "Wakizashi",
+          "id": 16900,
+          "points": 300,
+          "max": 9120
+        },
+        {
+          "name": "Wakizashi +1",
+          "id": 16918,
+          "points": 302,
+          "max": 9120
+        }
+      ],
+      "4": [
+        {
+          "name": "Mythril Kukri",
+          "id": 16475,
+          "points": 2484,
+          "max": 17760
+        },
+        {
+          "name": "Mythril Kukri +1",
+          "id": 16750,
+          "points": 2944,
+          "max": 17760
+        }
+      ],
+      "5": [
+        {
+          "name": "Sallet",
+          "id": 12416,
+          "points": 3540,
+          "max": 19200
+        },
+        {
+          "name": "Sallet +1",
+          "id": 13831,
+          "points": 4140,
+          "max": 19200
+        }
+      ],
+      "6": [
+        {
+          "name": "Nodowa",
+          "id": 13111,
+          "points": 2722,
+          "max": 18480
+        },
+        {
+          "name": "Nodowa +1",
+          "id": 13124,
+          "points": 3547,
+          "max": 18480
+        }
+      ],
+      "7": [
+        {
+          "name": "Mikazuki",
+          "id": 16967,
+          "points": 3740,
+          "max": 19440
+        },
+        {
+          "name": "Mikazuki +1",
+          "id": 16989,
+          "points": 3808,
+          "max": 19440
+        }
+      ],
+      "8": [
+        {
+          "name": "Darksteel Sabatons",
+          "id": 12931,
+          "points": 5720,
+          "max": 20880
+        },
+        {
+          "name": "Darksteel Sabatons +1",
+          "id": 14105,
+          "points": 7020,
+          "max": 20880
+        }
+      ],
+      "9": [
+        {
+          "name": "Anelace",
+          "id": 16547,
+          "points": 8820,
+          "max": 21840
+        },
+        {
+          "name": "Anelace +1",
+          "id": 17657,
+          "points": 10220,
+          "max": 21840
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Bronze Zaghnal",
+          "id": 16768,
+          "points": 86,
+          "max": 4800
+        },
+        {
+          "name": "Bronze Zaghnal +1",
+          "id": 16778,
+          "points": 93,
+          "max": 4800
+        }
+      ],
+      "1": [
+        {
+          "name": "Dagger",
+          "id": 16450,
+          "points": 406,
+          "max": 9120
+        },
+        {
+          "name": "Dagger +1",
+          "id": 16736,
+          "points": 484,
+          "max": 9120
+        }
+      ],
+      "2": [
+        {
+          "name": "Baghnakhs",
+          "id": 16406,
+          "points": 1440,
+          "max": 15120
+        },
+        {
+          "name": "Baghnakhs +1",
+          "id": 16444,
+          "points": 1740,
+          "max": 15120
+        }
+      ],
+      "3": [
+        {
+          "name": "Rod",
+          "id": 17060,
+          "points": 442,
+          "max": 10320
+        },
+        {
+          "name": "Rod +1",
+          "id": 17146,
+          "points": 702,
+          "max": 10320
+        }
+      ],
+      "4": [
+        {
+          "name": "Heavy Axe",
+          "id": 16706,
+          "points": 5152,
+          "max": 20400
+        },
+        {
+          "name": "Heavy Axe +1",
+          "id": 16718,
+          "points": 5612,
+          "max": 20400
+        }
+      ],
+      "5": [
+        {
+          "name": "Uchigatana",
+          "id": 16960,
+          "points": 667,
+          "max": 12480
+        },
+        {
+          "name": "Uchigatana +1",
+          "id": 16978,
+          "points": 728,
+          "max": 12480
+        }
+      ],
+      "6": [
+        {
+          "name": "Darksteel Mufflers",
+          "id": 12683,
+          "points": 5170,
+          "max": 20400
+        },
+        {
+          "name": "Darksteel Mufflers +1",
+          "id": 13976,
+          "points": 6270,
+          "max": 20400
+        }
+      ],
+      "7": [
+        {
+          "name": "Darksteel Cap",
+          "id": 12452,
+          "points": 7020,
+          "max": 21360
+        },
+        {
+          "name": "Darksteel Cap +1",
+          "id": 13863,
+          "points": 7020,
+          "max": 21360
+        }
+      ],
+      "8": [
+        {
+          "name": "Darksteel Tabar",
+          "id": 16658,
+          "points": 8287,
+          "max": 21600
+        },
+        {
+          "name": "Darksteel Tabar +1",
+          "id": 16683,
+          "points": 8925,
+          "max": 21600
+        }
+      ],
+      "9": [
+        {
+          "name": "Culverin",
+          "id": 17252,
+          "points": 8082,
+          "max": 21840
+        },
+        {
+          "name": "Culverin +1",
+          "id": 18147,
+          "points": 9407,
+          "max": 21840
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Faceguard",
+          "id": 12432,
+          "points": 290,
+          "max": 7440
+        },
+        {
+          "name": "Faceguard +1",
+          "id": 12487,
+          "points": 342,
+          "max": 7440
+        }
+      ],
+      "1": [
+        {
+          "name": "Scale Mail",
+          "id": 12560,
+          "points": 446,
+          "max": 9600
+        },
+        {
+          "name": "Solid Mail",
+          "id": 12661,
+          "points": 498,
+          "max": 9600
+        }
+      ],
+      "2": [
+        {
+          "name": "Longsword",
+          "id": 16566,
+          "points": 1536,
+          "max": 15600
+        },
+        {
+          "name": "Longsword +1",
+          "id": 16628,
+          "points": 1689,
+          "max": 15600
+        }
+      ],
+      "3": [
+        {
+          "name": "Iron Scale Mail",
+          "id": 13783,
+          "points": 4644,
+          "max": 20160
+        },
+        {
+          "name": "Iron Scale Mail +1",
+          "id": 13784,
+          "points": 5184,
+          "max": 20160
+        }
+      ],
+      "4": [
+        {
+          "name": "Mythril Axe",
+          "id": 16644,
+          "points": 5400,
+          "max": 20640
+        },
+        {
+          "name": "Mythril Axe +1",
+          "id": 16665,
+          "points": 5940,
+          "max": 20640
+        }
+      ],
+      "5": [
+        {
+          "name": "Tanegashima",
+          "id": 17265,
+          "points": 1866,
+          "max": 16800
+        },
+        {
+          "name": "Tanegashima +1",
+          "id": 17266,
+          "points": 1875,
+          "max": 16800
+        }
+      ],
+      "6": [
+        {
+          "name": "Darksteel Kukri",
+          "id": 16476,
+          "points": 5940,
+          "max": 20880
+        },
+        {
+          "name": "Darksteel Kukri +1",
+          "id": 16763,
+          "points": 7040,
+          "max": 20880
+        }
+      ],
+      "7": [
+        {
+          "name": "Darksteel Subligar",
+          "id": 12839,
+          "points": 8580,
+          "max": 21840
+        },
+        {
+          "name": "Darksteel Subligar +1",
+          "id": 14234,
+          "points": 9880,
+          "max": 21840
+        }
+      ],
+      "8": [
+        {
+          "name": "Flanged Mace",
+          "id": 18858,
+          "points": 5075,
+          "max": 20400
+        },
+        {
+          "name": "Flanged Mace +1",
+          "id": 18860,
+          "points": 5625,
+          "max": 20400
+        }
+      ],
+      "9": [
+        {
+          "name": "Nadziak",
+          "id": 16653,
+          "points": 5565,
+          "max": 20880
+        },
+        {
+          "name": "Nadziak +1",
+          "id": 16685,
+          "points": 6890,
+          "max": 20880
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Bronze Mace",
+          "id": 17034,
+          "points": 47,
+          "max": 4080
+        },
+        {
+          "name": "Bronze Mace +1",
+          "id": 17086,
+          "points": 57,
+          "max": 4080
+        }
+      ],
+      "1": [
+        {
+          "name": "Scale Finger Gauntlets",
+          "id": 12688,
+          "points": 238,
+          "max": 7440
+        },
+        {
+          "name": "Solid Finger Gauntlets",
+          "id": 12768,
+          "points": 290,
+          "max": 7440
+        }
+      ],
+      "2": [
+        {
+          "name": "Butterfly Axe",
+          "id": 16704,
+          "points": 168,
+          "max": 7200
+        },
+        {
+          "name": "Butterfly Axe +1",
+          "id": 16716,
+          "points": 183,
+          "max": 7200
+        }
+      ],
+      "3": [
+        {
+          "name": "Mythril Mace",
+          "id": 17036,
+          "points": 2256,
+          "max": 17280
+        },
+        {
+          "name": "Mythril Mace +1",
+          "id": 17147,
+          "points": 2736,
+          "max": 17280
+        }
+      ],
+      "4": [
+        {
+          "name": "Knight's Sword",
+          "id": 16567,
+          "points": 7750,
+          "max": 21600
+        },
+        {
+          "name": "Knight's Sword +1",
+          "id": 16800,
+          "points": 8525,
+          "max": 21600
+        }
+      ],
+      "5": [
+        {
+          "name": "Schlaeger",
+          "id": 16519,
+          "points": 8600,
+          "max": 21600
+        },
+        {
+          "name": "Schlaeger +1",
+          "id": 16813,
+          "points": 9675,
+          "max": 21600
+        }
+      ],
+      "6": [
+        {
+          "name": "Hien",
+          "id": 16915,
+          "points": 2325,
+          "max": 17760
+        },
+        {
+          "name": "Hien +1",
+          "id": 16916,
+          "points": 2402,
+          "max": 17760
+        }
+      ],
+      "7": [
+        {
+          "name": "Holy Breastplate",
+          "id": 13812,
+          "points": 9000,
+          "max": 21840
+        },
+        {
+          "name": "Divine Breastplate",
+          "id": 13813,
+          "points": 9500,
+          "max": 21840
+        }
+      ],
+      "8": [
+        {
+          "name": "Flamberge",
+          "id": 16596,
+          "points": 14850,
+          "max": 22560
+        },
+        {
+          "name": "Flamberge +1",
+          "id": 16941,
+          "points": 14987,
+          "max": 22560
+        }
+      ],
+      "9": [
+        {
+          "name": "Tabarzin",
+          "id": 16659,
+          "points": 7440,
+          "max": 22320
+        },
+        {
+          "name": "Tabarzin +1",
+          "id": 17935,
+          "points": 7440,
+          "max": 22320
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Bronze Axe",
+          "id": 16640,
+          "points": 79,
+          "max": 4560
+        },
+        {
+          "name": "Bronze Axe +1",
+          "id": 16646,
+          "points": 86,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Bronze Harness",
+          "id": 12576,
+          "points": 64,
+          "max": 5040
+        },
+        {
+          "name": "Bronze Harness +1",
+          "id": 12607,
+          "points": 64,
+          "max": 5040
+        }
+      ],
+      "2": [
+        {
+          "name": "Metal Knuckles",
+          "id": 16392,
+          "points": 873,
+          "max": 12720
+        },
+        {
+          "name": "Metal Knuckles +1",
+          "id": 16437,
+          "points": 873,
+          "max": 12720
+        }
+      ],
+      "3": [
+        {
+          "name": "Greataxe",
+          "id": 16705,
+          "points": 910,
+          "max": 13200
+        },
+        {
+          "name": "Greataxe +1",
+          "id": 16717,
+          "points": 991,
+          "max": 13200
+        }
+      ],
+      "4": [
+        {
+          "name": "Mythril Claymore",
+          "id": 16584,
+          "points": 5250,
+          "max": 20400
+        },
+        {
+          "name": "Fine Claymore",
+          "id": 16639,
+          "points": 5275,
+          "max": 20400
+        }
+      ],
+      "5": [
+        {
+          "name": "Broadsword",
+          "id": 16545,
+          "points": 3344,
+          "max": 18960
+        },
+        {
+          "name": "Broadsword +1",
+          "id": 16634,
+          "points": 3572,
+          "max": 18960
+        }
+      ],
+      "6": [
+        {
+          "name": "Mythril Zaghnal",
+          "id": 16796,
+          "points": 6976,
+          "max": 21360
+        },
+        {
+          "name": "Mythril Zaghnal +1",
+          "id": 16797,
+          "points": 7616,
+          "max": 21360
+        }
+      ],
+      "7": [
+        {
+          "name": "Schwert",
+          "id": 16526,
+          "points": 9100,
+          "max": 21840
+        },
+        {
+          "name": "Schwert +1",
+          "id": 17635,
+          "points": 9262,
+          "max": 21840
+        }
+      ],
+      "8": [
+        {
+          "name": "Darksteel Cuisses",
+          "id": 12803,
+          "points": 6500,
+          "max": 21120
+        },
+        {
+          "name": "Darksteel Cuisses +1",
+          "id": 14229,
+          "points": 7150,
+          "max": 21120
+        }
+      ],
+      "9": [
+        {
+          "name": "Gully",
+          "id": 16470,
+          "points": 2890,
+          "max": 18720
+        },
+        {
+          "name": "Gully +1",
+          "id": 17621,
+          "points": 4590,
+          "max": 18720
+        }
+      ]
+    }
+  },
+  "3": {
+    "0": {
+      "0": [
+        {
+          "name": "Brass Cap",
+          "id": 12449,
+          "points": 327,
+          "max": 7920
+        },
+        {
+          "name": "Brass Cap +1",
+          "id": 12528,
+          "points": 388,
+          "max": 7920
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Hairpin",
+          "id": 12497,
+          "points": 259,
+          "max": 7680
+        },
+        {
+          "name": "Brass Hairpin +1",
+          "id": 12529,
+          "points": 264,
+          "max": 7680
+        }
+      ],
+      "2": [
+        {
+          "name": "Poet's Circlet",
+          "id": 12473,
+          "points": 414,
+          "max": 9600
+        },
+        {
+          "name": "Sage's Circlet",
+          "id": 12530,
+          "points": 495,
+          "max": 9600
+        }
+      ],
+      "3": [
+        {
+          "name": "Chain Choker",
+          "id": 13083,
+          "points": 810,
+          "max": 12720
+        },
+        {
+          "name": "Red Choker",
+          "id": 13066,
+          "points": 1110,
+          "max": 12720
+        }
+      ],
+      "4": [
+        {
+          "name": "Banded Helm",
+          "id": 12426,
+          "points": 4275,
+          "max": 19920
+        },
+        {
+          "name": "Banded Helm +1",
+          "id": 13832,
+          "points": 5025,
+          "max": 19920
+        }
+      ],
+      "5": [
+        {
+          "name": "Gold Ring",
+          "id": 13445,
+          "points": 1750,
+          "max": 16560
+        },
+        {
+          "name": "Gold Ring +1",
+          "id": 13520,
+          "points": 2450,
+          "max": 16560
+        }
+      ],
+      "6": [
+        {
+          "name": "Mythril Cuisses",
+          "id": 12801,
+          "points": 3547,
+          "max": 19200
+        },
+        {
+          "name": "Mythril Cuisses +1",
+          "id": 14211,
+          "points": 3630,
+          "max": 19200
+        }
+      ],
+      "7": [
+        {
+          "name": "Gold Patas",
+          "id": 16421,
+          "points": 6370,
+          "max": 21120
+        },
+        {
+          "name": "Gold Patas +1",
+          "id": 17489,
+          "points": 6492,
+          "max": 21120
+        }
+      ],
+      "8": [
+        {
+          "name": "Kazaridachi",
+          "id": 16972,
+          "points": 7950,
+          "max": 21600
+        },
+        {
+          "name": "Kazaridachi +1",
+          "id": 17805,
+          "points": 7950,
+          "max": 21600
+        }
+      ],
+      "9": [
+        {
+          "name": "Verdun",
+          "id": 16520,
+          "points": 17340,
+          "max": 22800
+        },
+        {
+          "name": "Verdun +1",
+          "id": 17656,
+          "points": 17977,
+          "max": 22800
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Sapara",
+          "id": 16551,
+          "points": 194,
+          "max": 6240
+        },
+        {
+          "name": "Sapara +1",
+          "id": 16801,
+          "points": 214,
+          "max": 6240
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Baghnakhs",
+          "id": 16407,
+          "points": 338,
+          "max": 8400
+        },
+        {
+          "name": "Brass Baghnakhs +1",
+          "id": 16441,
+          "points": 338,
+          "max": 8400
+        }
+      ],
+      "2": [
+        {
+          "name": "Brass Mask",
+          "id": 12433,
+          "points": 800,
+          "max": 12480
+        },
+        {
+          "name": "Brass Mask +1",
+          "id": 12532,
+          "points": 832,
+          "max": 12480
+        }
+      ],
+      "3": [
+        {
+          "name": "Brass Cuisses",
+          "id": 12817,
+          "points": 672,
+          "max": 12000
+        },
+        {
+          "name": "Brass Cuisses +1",
+          "id": 12893,
+          "points": 752,
+          "max": 12000
+        }
+      ],
+      "4": [
+        {
+          "name": "Buckler",
+          "id": 12301,
+          "points": 3117,
+          "max": 18270
+        },
+        {
+          "name": "Buckler +1",
+          "id": 12327,
+          "points": 3842,
+          "max": 18270
+        }
+      ],
+      "5": [
+        {
+          "name": "Spark Kris",
+          "id": 17988,
+          "points": 6037,
+          "max": 20880
+        },
+        {
+          "name": "Spark Kris +1",
+          "id": 17989,
+          "points": 6912,
+          "max": 20880
+        }
+      ],
+      "6": [
+        {
+          "name": "Gold Bangles",
+          "id": 13983,
+          "points": 3870,
+          "max": 19680
+        },
+        {
+          "name": "Gold Bangles +1",
+          "id": 13984,
+          "points": 4470,
+          "max": 19680
+        }
+      ],
+      "7": [
+        {
+          "name": "Diamond Knuckles",
+          "id": 16395,
+          "points": 5637,
+          "max": 20640
+        },
+        {
+          "name": "Diamond Knuckles +1",
+          "id": 17480,
+          "points": 5775,
+          "max": 20640
+        }
+      ],
+      "8": [
+        {
+          "name": "Diamond Shield",
+          "id": 12310,
+          "points": 5640,
+          "max": 20880
+        },
+        {
+          "name": "Diamond Shield +1",
+          "id": 12355,
+          "points": 6815,
+          "max": 20880
+        }
+      ],
+      "9": [
+        {
+          "name": "Orichalcum Dagger",
+          "id": 16453,
+          "points": 22200,
+          "max": 23040
+        },
+        {
+          "name": "Triton's Dagger",
+          "id": 17992,
+          "points": 22800,
+          "max": 23040
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Copper Hairpin",
+          "id": 12496,
+          "points": 39,
+          "max": 3840
+        },
+        {
+          "name": "Copper Hairpin +1",
+          "id": 12526,
+          "points": 79,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Dagger",
+          "id": 16449,
+          "points": 186,
+          "max": 6720
+        },
+        {
+          "name": "Brass Dagger +1",
+          "id": 16740,
+          "points": 221,
+          "max": 6720
+        }
+      ],
+      "2": [
+        {
+          "name": "Brass Rod",
+          "id": 17081,
+          "points": 138,
+          "max": 6720
+        },
+        {
+          "name": "Brass Rod +1",
+          "id": 17148,
+          "points": 219,
+          "max": 6720
+        }
+      ],
+      "3": [
+        {
+          "name": "Chain Belt",
+          "id": 13209,
+          "points": 1020,
+          "max": 13680
+        },
+        {
+          "name": "Chain Belt +1",
+          "id": 13213,
+          "points": 1320,
+          "max": 13680
+        }
+      ],
+      "4": [
+        {
+          "name": "Mythril Baselard",
+          "id": 16456,
+          "points": 1976,
+          "max": 16800
+        },
+        {
+          "name": "Fine Baselard",
+          "id": 16752,
+          "points": 2028,
+          "max": 16800
+        }
+      ],
+      "5": [
+        {
+          "name": "Mythril Gorget",
+          "id": 13084,
+          "points": 2805,
+          "max": 18480
+        },
+        {
+          "name": "Mythril Gorget +1",
+          "id": 13067,
+          "points": 3630,
+          "max": 18480
+        }
+      ],
+      "6": [
+        {
+          "name": "Mythril Leggings",
+          "id": 12929,
+          "points": 3630,
+          "max": 19440
+        },
+        {
+          "name": "Mythril Leggings +1",
+          "id": 14086,
+          "points": 4455,
+          "max": 19440
+        }
+      ],
+      "7": [
+        {
+          "name": "Gold Sword",
+          "id": 16569,
+          "points": 14640,
+          "max": 22560
+        },
+        {
+          "name": "Gold Sword +1",
+          "id": 17641,
+          "points": 14792,
+          "max": 22560
+        }
+      ],
+      "8": [
+        {
+          "name": "Golden Spear",
+          "id": 16842,
+          "points": 5460,
+          "max": 20640
+        },
+        {
+          "name": "Golden Spear +1",
+          "id": 16875,
+          "points": 6435,
+          "max": 20640
+        }
+      ],
+      "9": [
+        {
+          "name": "Muscle Belt",
+          "id": 13185,
+          "points": 1800,
+          "max": 17040
+        },
+        {
+          "name": "Muscle Belt +1",
+          "id": 13279,
+          "points": 2925,
+          "max": 17040
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Copper Hairpin",
+          "id": 12496,
+          "points": 39,
+          "max": 3840
+        },
+        {
+          "name": "Copper Hairpin +1",
+          "id": 12526,
+          "points": 79,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Zaghnal",
+          "id": 16769,
+          "points": 140,
+          "max": 6240
+        },
+        {
+          "name": "Brass Zaghnal +1",
+          "id": 16772,
+          "points": 181,
+          "max": 6240
+        }
+      ],
+      "2": [
+        {
+          "name": "Silver Hairpin",
+          "id": 12495,
+          "points": 345,
+          "max": 9120
+        },
+        {
+          "name": "Silver Hairpin +1",
+          "id": 12531,
+          "points": 364,
+          "max": 9120
+        }
+      ],
+      "3": [
+        {
+          "name": "Silver Mask",
+          "id": 12425,
+          "points": 2850,
+          "max": 18240
+        },
+        {
+          "name": "Silver Mask +1",
+          "id": 12533,
+          "points": 3350,
+          "max": 18240
+        }
+      ],
+      "4": [
+        {
+          "name": "Mythril Ring",
+          "id": 13446,
+          "points": 750,
+          "max": 12720
+        },
+        {
+          "name": "Mythril Ring +1",
+          "id": 13519,
+          "points": 1050,
+          "max": 12720
+        }
+      ],
+      "5": [
+        {
+          "name": "Hydro Baghnakhs",
+          "id": 17512,
+          "points": 1794,
+          "max": 16560
+        },
+        {
+          "name": "Hydro Baghnakhs +1",
+          "id": 17513,
+          "points": 1872,
+          "max": 16560
+        }
+      ],
+      "6": [
+        {
+          "name": "Platinum Ring",
+          "id": 13447,
+          "points": 6200,
+          "max": 20880
+        },
+        {
+          "name": "Platinum Ring +1",
+          "id": 13498,
+          "points": 8800,
+          "max": 20880
+        }
+      ],
+      "7": [
+        {
+          "name": "Ashura",
+          "id": 16962,
+          "points": 3250,
+          "max": 18960
+        },
+        {
+          "name": "Ashura +1",
+          "id": 16979,
+          "points": 3300,
+          "max": 18960
+        }
+      ],
+      "8": [
+        {
+          "name": "Platinum Bangles",
+          "id": 13985,
+          "points": 5697,
+          "max": 20880
+        },
+        {
+          "name": "Platinum Bangles +1",
+          "id": 13986,
+          "points": 7022,
+          "max": 20880
+        }
+      ],
+      "9": [
+        {
+          "name": "Brisingamen",
+          "id": 13097,
+          "points": 21105,
+          "max": 23040
+        },
+        {
+          "name": "Brisingamen +1",
+          "id": 13162,
+          "points": 22680,
+          "max": 23040
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Sapara",
+          "id": 16551,
+          "points": 194,
+          "max": 6240
+        },
+        {
+          "name": "Sapara +1",
+          "id": 16801,
+          "points": 214,
+          "max": 6240
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Knuckles",
+          "id": 16391,
+          "points": 180,
+          "max": 6720
+        },
+        {
+          "name": "Brass Knuckles +1",
+          "id": 16689,
+          "points": 222,
+          "max": 6720
+        }
+      ],
+      "2": [
+        {
+          "name": "Brass Hammer",
+          "id": 17043,
+          "points": 463,
+          "max": 10080
+        },
+        {
+          "name": "Brass Hammer +1",
+          "id": 17149,
+          "points": 544,
+          "max": 10080
+        }
+      ],
+      "3": [
+        {
+          "name": "Spark Bilbo",
+          "id": 17686,
+          "points": 669,
+          "max": 12000
+        },
+        {
+          "name": "Spark Bilbo +1",
+          "id": 17687,
+          "points": 706,
+          "max": 12000
+        }
+      ],
+      "4": [
+        {
+          "name": "Silver Mail",
+          "id": 12553,
+          "points": 4400,
+          "max": 19920
+        },
+        {
+          "name": "Silver Mail +1",
+          "id": 12666,
+          "points": 4900,
+          "max": 19920
+        }
+      ],
+      "5": [
+        {
+          "name": "Heater Shield",
+          "id": 12307,
+          "points": 3168,
+          "max": 18960
+        },
+        {
+          "name": "Heater Shield +1",
+          "id": 12328,
+          "points": 3828,
+          "max": 18960
+        }
+      ],
+      "6": [
+        {
+          "name": "Mythril Gauntlets",
+          "id": 12673,
+          "points": 3960,
+          "max": 19680
+        },
+        {
+          "name": "Mythril Gauntlets +1",
+          "id": 13958,
+          "points": 4785,
+          "max": 19680
+        }
+      ],
+      "7": [
+        {
+          "name": "Moonring Blade",
+          "id": 17285,
+          "points": 3990,
+          "max": 19680
+        },
+        {
+          "name": "Moonring Blade +1",
+          "id": 17279,
+          "points": 4095,
+          "max": 19680
+        }
+      ],
+      "8": [
+        {
+          "name": "Platinum Mace",
+          "id": 17039,
+          "points": 8342,
+          "max": 21600
+        },
+        {
+          "name": "Platinum Mace +1",
+          "id": 17431,
+          "points": 8697,
+          "max": 21600
+        }
+      ],
+      "9": [
+        {
+          "name": "Orichalcum Ring",
+          "id": 13466,
+          "points": 29750,
+          "max": 23280
+        },
+        {
+          "name": "Triton Ring",
+          "id": 14616,
+          "points": 31450,
+          "max": 23280
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Copper Ring",
+          "id": 13454,
+          "points": 19,
+          "max": 3600
+        },
+        {
+          "name": "Copper Ring +1",
+          "id": 13492,
+          "points": 27,
+          "max": 3600
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Leggings",
+          "id": 12961,
+          "points": 248,
+          "max": 7440
+        },
+        {
+          "name": "Brass Leggings +1",
+          "id": 13027,
+          "points": 309,
+          "max": 7440
+        }
+      ],
+      "2": [
+        {
+          "name": "Silver Belt",
+          "id": 13196,
+          "points": 357,
+          "max": 9120
+        },
+        {
+          "name": "Silver Belt +1",
+          "id": 13223,
+          "points": 441,
+          "max": 9120
+        }
+      ],
+      "3": [
+        {
+          "name": "Chain Gorget",
+          "id": 13082,
+          "points": 1020,
+          "max": 13680
+        },
+        {
+          "name": "Fine Gorget",
+          "id": 13059,
+          "points": 1320,
+          "max": 13680
+        }
+      ],
+      "4": [
+        {
+          "name": "Sollerets",
+          "id": 12938,
+          "points": 3225,
+          "max": 18960
+        },
+        {
+          "name": "Sollerets +1",
+          "id": 13047,
+          "points": 3975,
+          "max": 18960
+        }
+      ],
+      "5": [
+        {
+          "name": "Gold Earring",
+          "id": 13315,
+          "points": 1750,
+          "max": 16560
+        },
+        {
+          "name": "Gold Earring +1",
+          "id": 13372,
+          "points": 2450,
+          "max": 16560
+        }
+      ],
+      "6": [
+        {
+          "name": "Mythril Breastplate",
+          "id": 12545,
+          "points": 7507,
+          "max": 21360
+        },
+        {
+          "name": "Mythril Breastplate +1",
+          "id": 13737,
+          "points": 8332,
+          "max": 21360
+        }
+      ],
+      "7": [
+        {
+          "name": "Gold Sabatons",
+          "id": 12930,
+          "points": 4950,
+          "max": 20400
+        },
+        {
+          "name": "Gilt Sabatons",
+          "id": 14087,
+          "points": 6075,
+          "max": 20400
+        }
+      ],
+      "8": [
+        {
+          "name": "Epee",
+          "id": 16527,
+          "points": 10920,
+          "max": 22080
+        },
+        {
+          "name": "Epee +1",
+          "id": 16619,
+          "points": 11895,
+          "max": 22080
+        }
+      ],
+      "9": [
+        {
+          "name": "Koenig Shield",
+          "id": 12387,
+          "points": 22312,
+          "max": 23040
+        },
+        {
+          "name": "Kaiser Shield",
+          "id": 12388,
+          "points": 23587,
+          "max": 23040
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Brass Cap",
+          "id": 12449,
+          "points": 327,
+          "max": 7920
+        },
+        {
+          "name": "Brass Cap +1",
+          "id": 12528,
+          "points": 388,
+          "max": 7920
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Harness",
+          "id": 12577,
+          "points": 497,
+          "max": 10080
+        },
+        {
+          "name": "Brass Harness +1",
+          "id": 12664,
+          "points": 558,
+          "max": 10080
+        }
+      ],
+      "2": [
+        {
+          "name": "Brass Finger Gauntlets",
+          "id": 12689,
+          "points": 432,
+          "max": 9840
+        },
+        {
+          "name": "Brass Finger Gauntlets",
+          "id": 12771,
+          "points": 544,
+          "max": 9840
+        }
+      ],
+      "3": [
+        {
+          "name": "Silver Mittens",
+          "id": 12681,
+          "points": 2350,
+          "max": 17520
+        },
+        {
+          "name": "Silver Mittens +1",
+          "id": 12772,
+          "points": 2850,
+          "max": 17520
+        }
+      ],
+      "4": [
+        {
+          "name": "Silver Bangles",
+          "id": 13979,
+          "points": 992,
+          "max": 13920
+        },
+        {
+          "name": "Silver Bangles +1",
+          "id": 13980,
+          "points": 1054,
+          "max": 13920
+        }
+      ],
+      "5": [
+        {
+          "name": "Mythril Degen",
+          "id": 16518,
+          "points": 3100,
+          "max": 18720
+        },
+        {
+          "name": "Mythril Degen +1",
+          "id": 16815,
+          "points": 3150,
+          "max": 18720
+        }
+      ],
+      "6": [
+        {
+          "name": "Mailbreaker",
+          "id": 16514,
+          "points": 3037,
+          "max": 18720
+        },
+        {
+          "name": "Mailbreaker +1",
+          "id": 16618,
+          "points": 3150,
+          "max": 18720
+        }
+      ],
+      "7": [
+        {
+          "name": "Gold Buckler",
+          "id": 12303,
+          "points": 4080,
+          "max": 19920
+        },
+        {
+          "name": "Gilt Buckler",
+          "id": 12353,
+          "points": 4207,
+          "max": 19920
+        }
+      ],
+      "8": [
+        {
+          "name": "Jeweled Collar",
+          "id": 13087,
+          "points": 3780,
+          "max": 19680
+        },
+        {
+          "name": "Jeweled Collar +1",
+          "id": 13130,
+          "points": 4060,
+          "max": 19680
+        }
+      ],
+      "9": [
+        {
+          "name": "Millionaire Desk",
+          "id": 33,
+          "points": 24500,
+          "max": 23280
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Copper Ring",
+          "id": 13454,
+          "points": 19,
+          "max": 3600
+        },
+        {
+          "name": "Copper Ring +1",
+          "id": 13492,
+          "points": 27,
+          "max": 3600
+        }
+      ],
+      "1": [
+        {
+          "name": "Brass Axe",
+          "id": 16641,
+          "points": 312,
+          "max": 8160
+        },
+        {
+          "name": "Brass Axe +1",
+          "id": 16661,
+          "points": 343,
+          "max": 8160
+        }
+      ],
+      "2": [
+        {
+          "name": "Silver Earring",
+          "id": 13327,
+          "points": 250,
+          "max": 8160
+        },
+        {
+          "name": "Silver Earring +1",
+          "id": 13370,
+          "points": 350,
+          "max": 8160
+        }
+      ],
+      "3": [
+        {
+          "name": "Spark Spear",
+          "id": 18076,
+          "points": 240,
+          "max": 8640
+        },
+        {
+          "name": "Spark Spear +1",
+          "id": 18077,
+          "points": 390,
+          "max": 8640
+        }
+      ],
+      "4": [
+        {
+          "name": "Mythril Earring",
+          "id": 13328,
+          "points": 750,
+          "max": 12720
+        },
+        {
+          "name": "Mythril Earring +1",
+          "id": 13371,
+          "points": 1050,
+          "max": 12720
+        }
+      ],
+      "5": [
+        {
+          "name": "Wingedge",
+          "id": 17281,
+          "points": 1260,
+          "max": 15120
+        },
+        {
+          "name": "Wingedge +1",
+          "id": 17288,
+          "points": 1560,
+          "max": 15120
+        }
+      ],
+      "6": [
+        {
+          "name": "Mythril Cuisses",
+          "id": 12801,
+          "points": 3547,
+          "max": 19200
+        },
+        {
+          "name": "Mythril Cuisses +1",
+          "id": 14211,
+          "points": 3630,
+          "max": 19200
+        }
+      ],
+      "7": [
+        {
+          "name": "Gold Cuisses",
+          "id": 12802,
+          "points": 3937,
+          "max": 19680
+        },
+        {
+          "name": "Gilt Cuisses",
+          "id": 14212,
+          "points": 4050,
+          "max": 19680
+        }
+      ],
+      "8": [
+        {
+          "name": "Jagdplaute",
+          "id": 16541,
+          "points": 13545,
+          "max": 22560
+        },
+        {
+          "name": "Jagdplaute +1",
+          "id": 17636,
+          "points": 13702,
+          "max": 22560
+        }
+      ],
+      "9": [
+        {
+          "name": "Orichalcum Earring",
+          "id": 13329,
+          "points": 29750,
+          "max": 23280
+        },
+        {
+          "name": "Triton Earring",
+          "id": 13434,
+          "points": 31450,
+          "max": 23280
+        }
+      ]
+    }
+  },
+  "4": {
+    "0": {
+      "0": [
+        {
+          "name": "Gloves",
+          "id": 12720,
+          "points": 303,
+          "max": 7680
+        },
+        {
+          "name": "Gloves +1",
+          "id": 12773,
+          "points": 373,
+          "max": 7680
+        }
+      ],
+      "1": [
+        {
+          "name": "Tunic",
+          "id": 12608,
+          "points": 280,
+          "max": 7920
+        },
+        {
+          "name": "Tunic +1",
+          "id": 12616,
+          "points": 312,
+          "max": 7920
+        }
+      ],
+      "2": [
+        {
+          "name": "Cotton Tekko",
+          "id": 12713,
+          "points": 675,
+          "max": 11760
+        },
+        {
+          "name": "Cotton Tekko +1",
+          "id": 12777,
+          "points": 829,
+          "max": 11760
+        }
+      ],
+      "3": [
+        {
+          "name": "Soil Kyahan",
+          "id": 12970,
+          "points": 1836,
+          "max": 16560
+        },
+        {
+          "name": "Soil Kyahan +1",
+          "id": 13035,
+          "points": 1872,
+          "max": 16560
+        }
+      ],
+      "4": [
+        {
+          "name": "Wool Bracers",
+          "id": 12723,
+          "points": 3440,
+          "max": 19200
+        },
+        {
+          "name": "Wool Bracers +1",
+          "id": 12783,
+          "points": 4240,
+          "max": 19200
+        }
+      ],
+      "5": [
+        {
+          "name": "Black Mitts",
+          "id": 12739,
+          "points": 2550,
+          "max": 18000
+        },
+        {
+          "name": "Mage's Mitts",
+          "id": 12794,
+          "points": 2720,
+          "max": 18000
+        }
+      ],
+      "6": [
+        {
+          "name": "Silk Coat",
+          "id": 12604,
+          "points": 7030,
+          "max": 21360
+        },
+        {
+          "name": "Silk Coat +1",
+          "id": 12652,
+          "points": 7030,
+          "max": 21360
+        }
+      ],
+      "7": [
+        {
+          "name": "Green Beret",
+          "id": 12468,
+          "points": 3055,
+          "max": 18960
+        },
+        {
+          "name": "Green Beret +1",
+          "id": 13866,
+          "points": 3250,
+          "max": 18960
+        }
+      ],
+      "8": [
+        {
+          "name": "Arhat's Tekko",
+          "id": 14023,
+          "points": 3225,
+          "max": 19200
+        },
+        {
+          "name": "Arhat's Tekko +1",
+          "id": 14028,
+          "points": 3762,
+          "max": 19200
+        }
+      ],
+      "9": [
+        {
+          "name": "Rasetsu Tekko",
+          "id": 14819,
+          "points": 15000,
+          "max": 22560
+        },
+        {
+          "name": "Rasetsu Tekko +1",
+          "id": 14820,
+          "points": 16250,
+          "max": 22560
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Brais",
+          "id": 12848,
+          "points": 211,
+          "max": 6480
+        },
+        {
+          "name": "Brais +1",
+          "id": 12896,
+          "points": 282,
+          "max": 6480
+        }
+      ],
+      "1": [
+        {
+          "name": "Cotton Doublet",
+          "id": 12593,
+          "points": 858,
+          "max": 12480
+        },
+        {
+          "name": "Cotton Doublet +1",
+          "id": 12669,
+          "points": 2518,
+          "max": 12480
+        }
+      ],
+      "2": [
+        {
+          "name": "Cotton Kyahan",
+          "id": 12969,
+          "points": 629,
+          "max": 11280
+        },
+        {
+          "name": "Cotton Kyahan +1",
+          "id": 13033,
+          "points": 783,
+          "max": 11280
+        }
+      ],
+      "3": [
+        {
+          "name": "Mist Tunic",
+          "id": 14423,
+          "points": 3120,
+          "max": 18720
+        }
+      ],
+      "4": [
+        {
+          "name": "Wool Socks",
+          "id": 12979,
+          "points": 3200,
+          "max": 18960
+        },
+        {
+          "name": "Wool Socks +1",
+          "id": 13036,
+          "points": 4000,
+          "max": 18960
+        }
+      ],
+      "5": [
+        {
+          "name": "Velvet Robe",
+          "id": 12603,
+          "points": 4256,
+          "max": 19920
+        },
+        {
+          "name": "Mage's Robe",
+          "id": 13726,
+          "points": 4816,
+          "max": 19920
+        }
+      ],
+      "6": [
+        {
+          "name": "Silk Headband",
+          "id": 12503,
+          "points": 2280,
+          "max": 17760
+        },
+        {
+          "name": "Silk Headband +1",
+          "id": 13851,
+          "points": 2375,
+          "max": 17760
+        }
+      ],
+      "7": [
+        {
+          "name": "Silk Cloak",
+          "id": 12612,
+          "points": 6375,
+          "max": 21120
+        },
+        {
+          "name": "Silk Cloak +1",
+          "id": 13777,
+          "points": 6500,
+          "max": 21120
+        }
+      ],
+      "8": [
+        {
+          "name": "Rainbow Obi",
+          "id": 13208,
+          "points": 3840,
+          "max": 19680
+        },
+        {
+          "name": "Prism Obi",
+          "id": 13235,
+          "points": 3840,
+          "max": 19680
+        }
+      ],
+      "9": [
+        {
+          "name": "Rasetsu Hakama",
+          "id": 14299,
+          "points": 12375,
+          "max": 22320
+        },
+        {
+          "name": "Rasetsu Hakama +1",
+          "id": 14300,
+          "points": 13625,
+          "max": 22320
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Cape",
+          "id": 13583,
+          "points": 85,
+          "max": 4800
+        },
+        {
+          "name": "Cape +1",
+          "id": 13605,
+          "points": 111,
+          "max": 4800
+        }
+      ],
+      "1": [
+        {
+          "name": "Kenpogi",
+          "id": 12584,
+          "points": 249,
+          "max": 7440
+        },
+        {
+          "name": "Kenpogi +1",
+          "id": 12668,
+          "points": 280,
+          "max": 7440
+        }
+      ],
+      "2": [
+        {
+          "name": "Cotton Dogi",
+          "id": 12585,
+          "points": 460,
+          "max": 10080
+        },
+        {
+          "name": "Cotton Dogi +1",
+          "id": 12624,
+          "points": 476,
+          "max": 10080
+        }
+      ],
+      "3": [
+        {
+          "name": "Mist Mitts",
+          "id": 14855,
+          "points": 1395,
+          "max": 15120
+        }
+      ],
+      "4": [
+        {
+          "name": "Wool Slops",
+          "id": 12858,
+          "points": 2108,
+          "max": 17280
+        },
+        {
+          "name": "Wool Slops +1",
+          "id": 12906,
+          "points": 2448,
+          "max": 17280
+        }
+      ],
+      "5": [
+        {
+          "name": "Scarlet Ribbon",
+          "id": 13568,
+          "points": 250,
+          "max": 9600
+        },
+        {
+          "name": "Noble's Ribbon",
+          "id": 13833,
+          "points": 350,
+          "max": 9600
+        }
+      ],
+      "6": [
+        {
+          "name": "White Slacks",
+          "id": 12867,
+          "points": 5100,
+          "max": 20400
+        },
+        {
+          "name": "White Slacks +1",
+          "id": 12926,
+          "points": 5950,
+          "max": 20400
+        }
+      ],
+      "7": [
+        {
+          "name": "Shinobi Kyahan",
+          "id": 12972,
+          "points": 3382,
+          "max": 19200
+        },
+        {
+          "name": "Shinobi Kyahan +1",
+          "id": 14082,
+          "points": 4207,
+          "max": 19200
+        }
+      ],
+      "8": [
+        {
+          "name": "Noble's Slacks",
+          "id": 12861,
+          "points": 7750,
+          "max": 21600
+        },
+        {
+          "name": "Aristocrat's Slacks",
+          "id": 14239,
+          "points": 9000,
+          "max": 21600
+        }
+      ],
+      "9": [
+        {
+          "name": "Tarutaru Sash",
+          "id": 13212,
+          "points": 3600,
+          "max": 19440
+        },
+        {
+          "name": "Tarutaru Sash +1",
+          "id": 13188,
+          "points": 4200,
+          "max": 19440
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Gaiters",
+          "id": 12976,
+          "points": 282,
+          "max": 7440
+        },
+        {
+          "name": "Gaiters +1",
+          "id": 13030,
+          "points": 352,
+          "max": 7440
+        }
+      ],
+      "1": [
+        {
+          "name": "Kyahan",
+          "id": 12968,
+          "points": 127,
+          "max": 6000
+        },
+        {
+          "name": "Kyahan +1",
+          "id": 13031,
+          "points": 159,
+          "max": 6000
+        }
+      ],
+      "2": [
+        {
+          "name": "Cotton Hachimaki",
+          "id": 12457,
+          "points": 814,
+          "max": 12480
+        },
+        {
+          "name": "Cotton Hachimaki +1",
+          "id": 12537,
+          "points": 967,
+          "max": 12480
+        }
+      ],
+      "3": [
+        {
+          "name": "Cloak",
+          "id": 12610,
+          "points": 1748,
+          "max": 16320
+        },
+        {
+          "name": "Cloak +1",
+          "id": 12670,
+          "points": 1794,
+          "max": 16320
+        }
+      ],
+      "4": [
+        {
+          "name": "Wool Cap",
+          "id": 12467,
+          "points": 1155,
+          "max": 14640
+        },
+        {
+          "name": "Wool Cap +1",
+          "id": 12541,
+          "points": 1251,
+          "max": 14640
+        }
+      ],
+      "5": [
+        {
+          "name": "Red Cape",
+          "id": 13586,
+          "points": 2178,
+          "max": 17520
+        },
+        {
+          "name": "Red Cape +1",
+          "id": 13611,
+          "points": 2838,
+          "max": 17520
+        }
+      ],
+      "6": [
+        {
+          "name": "Wool Doublet",
+          "id": 13752,
+          "points": 4992,
+          "max": 20400
+        },
+        {
+          "name": "Wool Doublet +1",
+          "id": 13753,
+          "points": 5632,
+          "max": 20400
+        }
+      ],
+      "7": [
+        {
+          "name": "Shinobi Tekko",
+          "id": 12716,
+          "points": 3630,
+          "max": 19200
+        },
+        {
+          "name": "Shinobi Tekko +1",
+          "id": 13955,
+          "points": 4455,
+          "max": 19200
+        }
+      ],
+      "8": [
+        {
+          "name": "Rainbow Headband",
+          "id": 12504,
+          "points": 5300,
+          "max": 20640
+        },
+        {
+          "name": "Rainbow Headband +1",
+          "id": 13858,
+          "points": 5962,
+          "max": 20640
+        }
+      ],
+      "9": [
+        {
+          "name": "Errant Slops",
+          "id": 14301,
+          "points": 3750,
+          "max": 19680
+        },
+        {
+          "name": "Mahatma Slops",
+          "id": 14302,
+          "points": 5000,
+          "max": 19680
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Doublet",
+          "id": 12592,
+          "points": 549,
+          "max": 5280
+        },
+        {
+          "name": "Doublet +1",
+          "id": 12591,
+          "points": 549,
+          "max": 5280
+        }
+      ],
+      "1": [
+        {
+          "name": "Tekko",
+          "id": 12712,
+          "points": 137,
+          "max": 6240
+        },
+        {
+          "name": "Tekko +1",
+          "id": 12774,
+          "points": 168,
+          "max": 6240
+        }
+      ],
+      "2": [
+        {
+          "name": "Gambison",
+          "id": 12594,
+          "points": 2500,
+          "max": 17760
+        },
+        {
+          "name": "Gambison +1",
+          "id": 12625,
+          "points": 2550,
+          "max": 17760
+        }
+      ],
+      "3": [
+        {
+          "name": "Soil Tekko",
+          "id": 12714,
+          "points": 1584,
+          "max": 15840
+        },
+        {
+          "name": "Soil Tekko +1",
+          "id": 12781,
+          "points": 1944,
+          "max": 15840
+        }
+      ],
+      "4": [
+        {
+          "name": "Wool Robe",
+          "id": 12602,
+          "points": 2584,
+          "max": 18000
+        },
+        {
+          "name": "Wool Robe +1",
+          "id": 12627,
+          "points": 2584,
+          "max": 18000
+        }
+      ],
+      "5": [
+        {
+          "name": "Black Slacks",
+          "id": 12865,
+          "points": 1150,
+          "max": 14640
+        },
+        {
+          "name": "Mage's Slacks",
+          "id": 12917,
+          "points": 1342,
+          "max": 14640
+        }
+      ],
+      "6": [
+        {
+          "name": "Green Ribbon",
+          "id": 13590,
+          "points": 2025,
+          "max": 17280
+        },
+        {
+          "name": "Green Ribbon +1",
+          "id": 13854,
+          "points": 2137,
+          "max": 17280
+        }
+      ],
+      "7": [
+        {
+          "name": "Jester's Cape",
+          "id": 13579,
+          "points": 3217,
+          "max": 18960
+        },
+        {
+          "name": "Jester's Cape +1",
+          "id": 13620,
+          "points": 4192,
+          "max": 18960
+        }
+      ],
+      "8": [
+        {
+          "name": "Noble's Mitts",
+          "id": 12733,
+          "points": 5590,
+          "max": 20640
+        },
+        {
+          "name": "Aristocrat's Mitts",
+          "id": 13999,
+          "points": 6880,
+          "max": 20640
+        }
+      ],
+      "9": [
+        {
+          "name": "Errant Hat",
+          "id": 13929,
+          "points": 4500,
+          "max": 20160
+        },
+        {
+          "name": "Mahatma Hat",
+          "id": 13930,
+          "points": 5750,
+          "max": 20160
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Cape",
+          "id": 13583,
+          "points": 85,
+          "max": 4800
+        },
+        {
+          "name": "Cape +1",
+          "id": 13605,
+          "points": 111,
+          "max": 4800
+        }
+      ],
+      "1": [
+        {
+          "name": "Slacks",
+          "id": 12864,
+          "points": 187,
+          "max": 6720
+        },
+        {
+          "name": "Slacks +1",
+          "id": 12898,
+          "points": 218,
+          "max": 6720
+        }
+      ],
+      "2": [
+        {
+          "name": "Linen Cuffs",
+          "id": 12729,
+          "points": 349,
+          "max": 9120
+        },
+        {
+          "name": "Linen Cuffs +1",
+          "id": 12778,
+          "points": 430,
+          "max": 9120
+        }
+      ],
+      "3": [
+        {
+          "name": "Soil Sitabaki",
+          "id": 12842,
+          "points": 2304,
+          "max": 17520
+        },
+        {
+          "name": "Soil Sitabaki +1",
+          "id": 12905,
+          "points": 2664,
+          "max": 17520
+        }
+      ],
+      "4": [
+        {
+          "name": "Hemp Gorget",
+          "id": 13085,
+          "points": 180,
+          "max": 8400
+        },
+        {
+          "name": "Hemp Gorget +1",
+          "id": 13068,
+          "points": 320,
+          "max": 8400
+        }
+      ],
+      "5": [
+        {
+          "name": "Black Cape",
+          "id": 13577,
+          "points": 1386,
+          "max": 15600
+        },
+        {
+          "name": "Black Cape +1",
+          "id": 13610,
+          "points": 1806,
+          "max": 15600
+        }
+      ],
+      "6": [
+        {
+          "name": "White Cloak",
+          "id": 12611,
+          "points": 7200,
+          "max": 21600
+        },
+        {
+          "name": "White Cloak +1",
+          "id": 12651,
+          "points": 7650,
+          "max": 21600
+        }
+      ],
+      "7": [
+        {
+          "name": "Silk Mitts",
+          "id": 12740,
+          "points": 4830,
+          "max": 20400
+        },
+        {
+          "name": "Silk Mitts +1",
+          "id": 14000,
+          "points": 5980,
+          "max": 20400
+        }
+      ],
+      "8": [
+        {
+          "name": "Arhat's Sune-Ate",
+          "id": 14129,
+          "points": 3762,
+          "max": 19680
+        },
+        {
+          "name": "Arhat's Sune-Ate +1",
+          "id": 14136,
+          "points": 4300,
+          "max": 19680
+        }
+      ],
+      "9": [
+        {
+          "name": "Rasetsu Sune-Ate",
+          "id": 14178,
+          "points": 12000,
+          "max": 22320
+        },
+        {
+          "name": "Rasetsu Sune-Ate +1",
+          "id": 14179,
+          "points": 13250,
+          "max": 22320
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Headgear",
+          "id": 12464,
+          "points": 176,
+          "max": 4560
+        },
+        {
+          "name": "Headgear +1",
+          "id": 12471,
+          "points": 183,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Cotton Cape",
+          "id": 13584,
+          "points": 506,
+          "max": 10080
+        },
+        {
+          "name": "Cotton Cape +1",
+          "id": 13601,
+          "points": 660,
+          "max": 10080
+        }
+      ],
+      "2": [
+        {
+          "name": "Heko Obi",
+          "id": 13204,
+          "points": 99,
+          "max": 6240
+        },
+        {
+          "name": "Heko Obi +1",
+          "id": 13190,
+          "points": 131,
+          "max": 6240
+        }
+      ],
+      "3": [
+        {
+          "name": "Mist Slacks",
+          "id": 14324,
+          "points": 2460,
+          "max": 17760
+        }
+      ],
+      "4": [
+        {
+          "name": "Wool Hose",
+          "id": 12851,
+          "points": 4800,
+          "max": 20160
+        },
+        {
+          "name": "Wool Hose +1",
+          "id": 12907,
+          "points": 4880,
+          "max": 20160
+        }
+      ],
+      "5": [
+        {
+          "name": "Linen Doublet",
+          "id": 13750,
+          "points": 2508,
+          "max": 18000
+        },
+        {
+          "name": "Linen Doublet +1",
+          "id": 13751,
+          "points": 2552,
+          "max": 18000
+        }
+      ],
+      "6": [
+        {
+          "name": "Silk Slops",
+          "id": 12860,
+          "points": 5735,
+          "max": 20880
+        },
+        {
+          "name": "Silk Slops +1",
+          "id": 12927,
+          "points": 6660,
+          "max": 20880
+        }
+      ],
+      "7": [
+        {
+          "name": "Shinobi Hakama",
+          "id": 12844,
+          "points": 3465,
+          "max": 19200
+        },
+        {
+          "name": "Shinobi Hakama +1",
+          "id": 12925,
+          "points": 3547,
+          "max": 19200
+        }
+      ],
+      "8": [
+        {
+          "name": "Arhat's Hakama",
+          "id": 14253,
+          "points": 4300,
+          "max": 19920
+        },
+        {
+          "name": "Arhat's Hakama +1",
+          "id": 14256,
+          "points": 4837,
+          "max": 19920
+        }
+      ],
+      "9": [
+        {
+          "name": "Errant Cuffs",
+          "id": 14078,
+          "points": 6875,
+          "max": 21360
+        },
+        {
+          "name": "Mahatma Cuffs",
+          "id": 14079,
+          "points": 8125,
+          "max": 21360
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Vagabond's Hose",
+          "id": 14290,
+          "points": 110,
+          "max": 5040
+        },
+        {
+          "name": "Nomad's Hose",
+          "id": 14291,
+          "points": 118,
+          "max": 5040
+        }
+      ],
+      "1": [
+        {
+          "name": "Vagabond's Tunica",
+          "id": 13806,
+          "points": 118,
+          "max": 6000
+        },
+        {
+          "name": "Nomad's Tunica",
+          "id": 13807,
+          "points": 126,
+          "max": 6000
+        }
+      ],
+      "2": [
+        {
+          "name": "Linen Robe",
+          "id": 12601,
+          "points": 617,
+          "max": 11280
+        },
+        {
+          "name": "Linen Robe +1",
+          "id": 12626,
+          "points": 617,
+          "max": 11280
+        }
+      ],
+      "3": [
+        {
+          "name": "Soil Hachimaki",
+          "id": 12458,
+          "points": 1116,
+          "max": 14160
+        },
+        {
+          "name": "Soil Hachimaki +1",
+          "id": 12539,
+          "points": 1152,
+          "max": 14160
+        }
+      ],
+      "4": [
+        {
+          "name": "Wool Cuffs",
+          "id": 12730,
+          "points": 1462,
+          "max": 15600
+        },
+        {
+          "name": "Wool Cuffs +1",
+          "id": 12782,
+          "points": 1802,
+          "max": 15600
+        }
+      ],
+      "5": [
+        {
+          "name": "Silver Obi",
+          "id": 13205,
+          "points": 613,
+          "max": 12240
+        },
+        {
+          "name": "Silver Obi +1",
+          "id": 13224,
+          "points": 824,
+          "max": 12240
+        }
+      ],
+      "6": [
+        {
+          "name": "Velvet Cuffs",
+          "id": 12731,
+          "points": 2408,
+          "max": 18000
+        },
+        {
+          "name": "Mage's Cuffs",
+          "id": 12793,
+          "points": 2968,
+          "max": 18000
+        }
+      ],
+      "7": [
+        {
+          "name": "Shinobi Tekko",
+          "id": 12716,
+          "points": 3630,
+          "max": 19440
+        },
+        {
+          "name": "Shinobi Tekko +1",
+          "id": 13955,
+          "points": 4455,
+          "max": 19440
+        }
+      ],
+      "8": [
+        {
+          "name": "Arhat's Jinpachi",
+          "id": 13881,
+          "points": 3225,
+          "max": 19200
+        },
+        {
+          "name": "Arhat's Jinpachi +1",
+          "id": 13886,
+          "points": 3762,
+          "max": 19200
+        }
+      ],
+      "9": [
+        {
+          "name": "Rasetsu Jinpachi",
+          "id": 13925,
+          "points": 13750,
+          "max": 22560
+        },
+        {
+          "name": "Rasetsu Jinpachi",
+          "id": 13926,
+          "points": 15000,
+          "max": 22560
+        }
+      ]
+    }
+  },
+  "5": {
+    "0": {
+      "0": [
+        {
+          "name": "Leather Vest",
+          "id": 12568,
+          "points": 92,
+          "max": 4800
+        },
+        {
+          "name": "Leather Vest +1",
+          "id": 12599,
+          "points": 153,
+          "max": 4800
+        }
+      ],
+      "1": [
+        {
+          "name": "Solea",
+          "id": 12992,
+          "points": 121,
+          "max": 6000
+        },
+        {
+          "name": "Solea +1",
+          "id": 13037,
+          "points": 152,
+          "max": 6000
+        }
+      ],
+      "2": [
+        {
+          "name": "Studded Bandana",
+          "id": 12442,
+          "points": 1102,
+          "max": 13920
+        },
+        {
+          "name": "Strong Bandana",
+          "id": 13824,
+          "points": 1140,
+          "max": 13920
+        }
+      ],
+      "3": [
+        {
+          "name": "Mist Pumps",
+          "id": 15312,
+          "points": 1305,
+          "max": 14880
+        }
+      ],
+      "4": [
+        {
+          "name": "Corsette",
+          "id": 13271,
+          "points": 3250,
+          "max": 18960
+        },
+        {
+          "name": "Corsette +1",
+          "id": 13272,
+          "points": 3750,
+          "max": 18960
+        }
+      ],
+      "5": [
+        {
+          "name": "Raptor Helm",
+          "id": 12444,
+          "points": 2240,
+          "max": 17520
+        },
+        {
+          "name": "Dino Helm",
+          "id": 13835,
+          "points": 2400,
+          "max": 17520
+        }
+      ],
+      "6": [
+        {
+          "name": "Beak Helm",
+          "id": 13698,
+          "points": 2687,
+          "max": 18240
+        },
+        {
+          "name": "Beak Helm +1",
+          "id": 13701,
+          "points": 2795,
+          "max": 18240
+        }
+      ],
+      "7": [
+        {
+          "name": "Silk Pumps",
+          "id": 12996,
+          "points": 4485,
+          "max": 20160
+        },
+        {
+          "name": "Silk Pumps +1",
+          "id": 14115,
+          "points": 5635,
+          "max": 20160
+        }
+      ],
+      "8": [
+        {
+          "name": "Ogre Jerkin",
+          "id": 13705,
+          "points": 4560,
+          "max": 20160
+        },
+        {
+          "name": "Ogre Jerkin +1",
+          "id": 14366,
+          "points": 5760,
+          "max": 20160
+        }
+      ],
+      "9": [
+        {
+          "name": "Bison Gamashes",
+          "id": 15307,
+          "points": 6492,
+          "max": 21120
+        },
+        {
+          "name": "Brave's Gamashes",
+          "id": 15308,
+          "points": 7717,
+          "max": 21120
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Leather Gloves",
+          "id": 12696,
+          "points": 90,
+          "max": 4800
+        },
+        {
+          "name": "Leather Gloves +1",
+          "id": 12784,
+          "points": 110,
+          "max": 4800
+        }
+      ],
+      "1": [
+        {
+          "name": "Lizard Helm",
+          "id": 12441,
+          "points": 177,
+          "max": 6270
+        },
+        {
+          "name": "Lizard Helm +1",
+          "id": 12480,
+          "points": 177,
+          "max": 6270
+        }
+      ],
+      "2": [
+        {
+          "name": "Studded Gloves",
+          "id": 12698,
+          "points": 1710,
+          "max": 16090
+        },
+        {
+          "name": "Studded Gloves +1",
+          "id": 12786,
+          "points": 2090,
+          "max": 16090
+        }
+      ],
+      "3": [
+        {
+          "name": "Wolf Gorget",
+          "id": 13089,
+          "points": 608,
+          "max": 11520
+        },
+        {
+          "name": "Wolf Gorget +1",
+          "id": 13070,
+          "points": 684,
+          "max": 11520
+        }
+      ],
+      "4": [
+        {
+          "name": "Ram Mantle",
+          "id": 13570,
+          "points": 900,
+          "max": 13440
+        },
+        {
+          "name": "Ram Mantle +1",
+          "id": 13575,
+          "points": 1000,
+          "max": 13440
+        }
+      ],
+      "5": [
+        {
+          "name": "Raptor Gloves",
+          "id": 12700,
+          "points": 3600,
+          "max": 19200
+        },
+        {
+          "name": "Dino Gloves",
+          "id": 12795,
+          "points": 3760,
+          "max": 19200
+        }
+      ],
+      "6": [
+        {
+          "name": "Beak Gloves",
+          "id": 13700,
+          "points": 3600,
+          "max": 19200
+        },
+        {
+          "name": "Beak Gloves +1",
+          "id": 13960,
+          "points": 3760,
+          "max": 19200
+        }
+      ],
+      "7": [
+        {
+          "name": "Tiger Gloves",
+          "id": 12702,
+          "points": 1912,
+          "max": 17040
+        },
+        {
+          "name": "Feral Gloves",
+          "id": 13992,
+          "points": 2040,
+          "max": 17040
+        }
+      ],
+      "8": [
+        {
+          "name": "Ogre Mask",
+          "id": 13704,
+          "points": 4200,
+          "max": 19920
+        },
+        {
+          "name": "Ogre Mask +1",
+          "id": 13907,
+          "points": 5400,
+          "max": 19920
+        }
+      ],
+      "9": [
+        {
+          "name": "Bison Kecks",
+          "id": 14319,
+          "points": 6247,
+          "max": 21120
+        },
+        {
+          "name": "Brave's Kecks",
+          "id": 14320,
+          "points": 7472,
+          "max": 21120
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Vagabond's Gloves",
+          "id": 14068,
+          "points": 63,
+          "max": 4320
+        },
+        {
+          "name": "Nomad's Gloves",
+          "id": 14069,
+          "points": 71,
+          "max": 4320
+        }
+      ],
+      "1": [
+        {
+          "name": "Leather Belt",
+          "id": 13192,
+          "points": 85,
+          "max": 5520
+        },
+        {
+          "name": "Leather Belt +1",
+          "id": 13210,
+          "points": 111,
+          "max": 5520
+        }
+      ],
+      "2": [
+        {
+          "name": "Chocobo Gloves",
+          "id": 14072,
+          "points": 519,
+          "max": 10560
+        },
+        {
+          "name": "Rider's Gloves",
+          "id": 14073,
+          "points": 570,
+          "max": 10560
+        }
+      ],
+      "3": [
+        {
+          "name": "Wolf Mantle",
+          "id": 13571,
+          "points": 1224,
+          "max": 14640
+        },
+        {
+          "name": "Wolf Mantle +1",
+          "id": 13609,
+          "points": 1564,
+          "max": 14640
+        }
+      ],
+      "4": [
+        {
+          "name": "Cuir Highboots",
+          "id": 12955,
+          "points": 1736,
+          "max": 16320
+        },
+        {
+          "name": "Cuir Highboots +1",
+          "id": 13041,
+          "points": 1792,
+          "max": 16320
+        }
+      ],
+      "5": [
+        {
+          "name": "Himantes",
+          "id": 16388,
+          "points": 1140,
+          "max": 14640
+        },
+        {
+          "name": "Himantes +1",
+          "id": 16699,
+          "points": 1720,
+          "max": 14640
+        }
+      ],
+      "6": [
+        {
+          "name": "Beak Mantle",
+          "id": 13597,
+          "points": 1612,
+          "max": 16320
+        },
+        {
+          "name": "Beak Mantle +1",
+          "id": 13621,
+          "points": 1720,
+          "max": 16320
+        }
+      ],
+      "7": [
+        {
+          "name": "Coeurl Cesti",
+          "id": 16389,
+          "points": 1980,
+          "max": 17280
+        },
+        {
+          "name": "Torama Cesti",
+          "id": 17473,
+          "points": 2070,
+          "max": 17280
+        }
+      ],
+      "8": [
+        {
+          "name": "Coeurl Mantle",
+          "id": 13595,
+          "points": 2100,
+          "max": 17520
+        },
+        {
+          "name": "Torama Mantle",
+          "id": 13603,
+          "points": 2800,
+          "max": 17520
+        }
+      ],
+      "9": [
+        {
+          "name": "Cardinal Vest",
+          "id": 14372,
+          "points": 4800,
+          "max": 20400
+        },
+        {
+          "name": "Bachelor Vest",
+          "id": 14373,
+          "points": 6000,
+          "max": 20400
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Leather Highboots",
+          "id": 12952,
+          "points": 84,
+          "max": 4560
+        },
+        {
+          "name": "Leather Highboots +1",
+          "id": 12971,
+          "points": 104,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Lizard Cesti",
+          "id": 16386,
+          "points": 252,
+          "max": 7680
+        },
+        {
+          "name": "Burning Cesti",
+          "id": 16398,
+          "points": 333,
+          "max": 7680
+        }
+      ],
+      "2": [
+        {
+          "name": "Dhalmel Mantle",
+          "id": 13588,
+          "points": 552,
+          "max": 10800
+        },
+        {
+          "name": "Dhalmel Mantle +1",
+          "id": 13600,
+          "points": 706,
+          "max": 10800
+        }
+      ],
+      "3": [
+        {
+          "name": "Field Boots",
+          "id": 14176,
+          "points": 665,
+          "max": 12000
+        },
+        {
+          "name": "Worker Boots",
+          "id": 14177,
+          "points": 1140,
+          "max": 12000
+        }
+      ],
+      "4": [
+        {
+          "name": "Cuir Bouilli",
+          "id": 12571,
+          "points": 1960,
+          "max": 16800
+        },
+        {
+          "name": "Cuir Bouilli +1",
+          "id": 13709,
+          "points": 2072,
+          "max": 16800
+        }
+      ],
+      "5": [
+        {
+          "name": "Raptor Ledelsens",
+          "id": 12956,
+          "points": 3360,
+          "max": 18960
+        },
+        {
+          "name": "Dino Ledelsens",
+          "id": 13049,
+          "points": 4160,
+          "max": 18960
+        }
+      ],
+      "6": [
+        {
+          "name": "Battle Boots",
+          "id": 12980,
+          "points": 2860,
+          "max": 18480
+        },
+        {
+          "name": "Battle Boots +1",
+          "id": 14104,
+          "points": 3190,
+          "max": 18480
+        }
+      ],
+      "7": [
+        {
+          "name": "Tiger Mantle",
+          "id": 13589,
+          "points": 1250,
+          "max": 15360
+        },
+        {
+          "name": "Feral Mantle",
+          "id": 13602,
+          "points": 1375,
+          "max": 15360
+        }
+      ],
+      "8": [
+        {
+          "name": "Koenigs Belt",
+          "id": 13197,
+          "points": 4785,
+          "max": 20400
+        },
+        {
+          "name": "Kaiser Belt",
+          "id": 13239,
+          "points": 6235,
+          "max": 20400
+        }
+      ],
+      "9": [
+        {
+          "name": "Bison Wristbands",
+          "id": 14850,
+          "points": 4042,
+          "max": 19920
+        },
+        {
+          "name": "Brave's Wristbands",
+          "id": 14851,
+          "points": 5267,
+          "max": 19920
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Leather Bandana",
+          "id": 12440,
+          "points": 52,
+          "max": 4080
+        },
+        {
+          "name": "Leather Bandana +1",
+          "id": 12542,
+          "points": 120,
+          "max": 4080
+        }
+      ],
+      "1": [
+        {
+          "name": "Lizard Mantle",
+          "id": 13592,
+          "points": 81,
+          "max": 5280
+        },
+        {
+          "name": "Lizard Mantle +1",
+          "id": 13608,
+          "points": 95,
+          "max": 5280
+        }
+      ],
+      "2": [
+        {
+          "name": "Warrior's Belt",
+          "id": 13194,
+          "points": 330,
+          "max": 8880
+        },
+        {
+          "name": "Warrior's Belt +1",
+          "id": 13240,
+          "points": 400,
+          "max": 8880
+        }
+      ],
+      "3": [
+        {
+          "name": "Shoes",
+          "id": 12994,
+          "points": 1104,
+          "max": 14160
+        },
+        {
+          "name": "Shoes +1",
+          "id": 13040,
+          "points": 1196,
+          "max": 14160
+        }
+      ],
+      "4": [
+        {
+          "name": "Waistbelt",
+          "id": 13200,
+          "points": 1680,
+          "max": 16080
+        },
+        {
+          "name": "Waistbelt +1",
+          "id": 13214,
+          "points": 1740,
+          "max": 16080
+        }
+      ],
+      "5": [
+        {
+          "name": "Raptor Mantle",
+          "id": 13593,
+          "points": 1280,
+          "max": 15120
+        },
+        {
+          "name": "Dino Mantle",
+          "id": 13612,
+          "points": 1440,
+          "max": 15120
+        }
+      ],
+      "6": [
+        {
+          "name": "Beak Trousers",
+          "id": 12829,
+          "points": 3225,
+          "max": 18960
+        },
+        {
+          "name": "Beak Trousers +1",
+          "id": 14213,
+          "points": 3225,
+          "max": 18960
+        }
+      ],
+      "7": [
+        {
+          "name": "Battle Hose",
+          "id": 12852,
+          "points": 3680,
+          "max": 19440
+        },
+        {
+          "name": "Battle Hose +1",
+          "id": 14237,
+          "points": 3795,
+          "max": 19440
+        }
+      ],
+      "8": [
+        {
+          "name": "Ogre Ledelsens",
+          "id": 13708,
+          "points": 5040,
+          "max": 20400
+        },
+        {
+          "name": "Ogre Ledelsens +1",
+          "id": 14159,
+          "points": 6240,
+          "max": 20400
+        }
+      ],
+      "9": [
+        {
+          "name": "Tiger Mask",
+          "id": 13918,
+          "points": 1080,
+          "max": 15120
+        },
+        {
+          "name": "Feral Mask",
+          "id": 13919,
+          "points": 2280,
+          "max": 15120
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Leather Trousers",
+          "id": 12824,
+          "points": 134,
+          "max": 5520
+        },
+        {
+          "name": "Leather Trousers +1",
+          "id": 12908,
+          "points": 154,
+          "max": 5520
+        }
+      ],
+      "1": [
+        {
+          "name": "Fisherman's Boots",
+          "id": 14171,
+          "points": 180,
+          "max": 6720
+        },
+        {
+          "name": "Angler's Boots",
+          "id": 14172,
+          "points": 519,
+          "max": 6720
+        }
+      ],
+      "2": [
+        {
+          "name": "Chocobo Boots",
+          "id": 14173,
+          "points": 519,
+          "max": 10560
+        },
+        {
+          "name": "Rider's Boots",
+          "id": 14174,
+          "points": 570,
+          "max": 10560
+        }
+      ],
+      "3": [
+        {
+          "name": "Magic Belt",
+          "id": 13195,
+          "points": 506,
+          "max": 10800
+        },
+        {
+          "name": "Magic Belt +1",
+          "id": 13219,
+          "points": 660,
+          "max": 10800
+        }
+      ],
+      "4": [
+        {
+          "name": "Cuir Trousers",
+          "id": 12827,
+          "points": 1008,
+          "max": 13920
+        },
+        {
+          "name": "Cuir Trousers +1",
+          "id": 12911,
+          "points": 1232,
+          "max": 13920
+        }
+      ],
+      "5": [
+        {
+          "name": "Raptor Trousers",
+          "id": 12828,
+          "points": 2160,
+          "max": 17280
+        },
+        {
+          "name": "Dino Trousers",
+          "id": 12919,
+          "points": 2320,
+          "max": 17280
+        }
+      ],
+      "6": [
+        {
+          "name": "Beak Ledelsens",
+          "id": 13702,
+          "points": 4515,
+          "max": 20160
+        },
+        {
+          "name": "Beak Ledelsens +1",
+          "id": 14088,
+          "points": 4622,
+          "max": 20160
+        }
+      ],
+      "7": [
+        {
+          "name": "Tiger Trousers",
+          "id": 12830,
+          "points": 2040,
+          "max": 17280
+        },
+        {
+          "name": "Feral Trousers",
+          "id": 14232,
+          "points": 2160,
+          "max": 17280
+        }
+      ],
+      "8": [
+        {
+          "name": "Coeurl Mask",
+          "id": 12447,
+          "points": 3500,
+          "max": 19440
+        },
+        {
+          "name": "Torama Mask",
+          "id": 13862,
+          "points": 4200,
+          "max": 19440
+        }
+      ],
+      "9": [
+        {
+          "name": "Barone Cosciales",
+          "id": 14317,
+          "points": 6737,
+          "max": 21360
+        },
+        {
+          "name": "Conte Cosciales",
+          "id": 14318,
+          "points": 7962,
+          "max": 21360
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Vagabond's Boots",
+          "id": 14169,
+          "points": 63,
+          "max": 4320
+        },
+        {
+          "name": "Nomad's Boots",
+          "id": 14170,
+          "points": 71,
+          "max": 4320
+        }
+      ],
+      "1": [
+        {
+          "name": "Lizard Jerkin",
+          "id": 12569,
+          "points": 245,
+          "max": 7440
+        },
+        {
+          "name": "Fine Jerkin",
+          "id": 13697,
+          "points": 259,
+          "max": 7440
+        }
+      ],
+      "2": [
+        {
+          "name": "Sandals",
+          "id": 12993,
+          "points": 748,
+          "max": 12000
+        },
+        {
+          "name": "Mages' Sandals",
+          "id": 13048,
+          "points": 939,
+          "max": 12000
+        }
+      ],
+      "3": [
+        {
+          "name": "Cuir Gloves",
+          "id": 12699,
+          "points": 1624,
+          "max": 15840
+        },
+        {
+          "name": "Cuir Gloves +1",
+          "id": 12787,
+          "points": 1680,
+          "max": 15840
+        }
+      ],
+      "4": [
+        {
+          "name": "Chocobo Jack Coat",
+          "id": 13810,
+          "points": 1297,
+          "max": 15120
+        },
+        {
+          "name": "Rider's Jack Coat",
+          "id": 13811,
+          "points": 1349,
+          "max": 15120
+        }
+      ],
+      "5": [
+        {
+          "name": "Moccasins",
+          "id": 12995,
+          "points": 1700,
+          "max": 16320
+        },
+        {
+          "name": "Moccasins +1",
+          "id": 13050,
+          "points": 1785,
+          "max": 16320
+        }
+      ],
+      "6": [
+        {
+          "name": "Beak Jerkin",
+          "id": 13699,
+          "points": 2150,
+          "max": 17520
+        },
+        {
+          "name": "Beak Jerkin +1",
+          "id": 13739,
+          "points": 2257,
+          "max": 17520
+        }
+      ],
+      "7": [
+        {
+          "name": "Black Mantle",
+          "id": 13641,
+          "points": 2200,
+          "max": 17520
+        },
+        {
+          "name": "Black Mantle +1",
+          "id": 13642,
+          "points": 3300,
+          "max": 17520
+        }
+      ],
+      "8": [
+        {
+          "name": "Ogre Gloves",
+          "id": 13706,
+          "points": 3600,
+          "max": 19440
+        },
+        {
+          "name": "Ogre Gloves +1",
+          "id": 14057,
+          "points": 4800,
+          "max": 19440
+        }
+      ],
+      "9": [
+        {
+          "name": "Tiger Mask",
+          "id": 13918,
+          "points": 1080,
+          "max": 15120
+        },
+        {
+          "name": "Feral Mask",
+          "id": 13919,
+          "points": 2280,
+          "max": 15120
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Cesti",
+          "id": 16385,
+          "points": 24,
+          "max": 3600
+        },
+        {
+          "name": "Cesti +1",
+          "id": 16690,
+          "points": 32,
+          "max": 3600
+        }
+      ],
+      "1": [
+        {
+          "name": "Fisherman's Gloves",
+          "id": 14070,
+          "points": 360,
+          "max": 8640
+        },
+        {
+          "name": "Angler's Gloves",
+          "id": 14071,
+          "points": 986,
+          "max": 8640
+        }
+      ],
+      "2": [
+        {
+          "name": "Leather Ring",
+          "id": 13469,
+          "points": 250,
+          "max": 8160
+        },
+        {
+          "name": "Leather Ring +1",
+          "id": 13499,
+          "points": 350,
+          "max": 8160
+        }
+      ],
+      "3": [
+        {
+          "name": "Studded Vest",
+          "id": 12570,
+          "points": 2280,
+          "max": 17520
+        },
+        {
+          "name": "Studded Vest +1",
+          "id": 13707,
+          "points": 2318,
+          "max": 17520
+        }
+      ],
+      "4": [
+        {
+          "name": "Barbarian's Belt",
+          "id": 13203,
+          "points": 506,
+          "max": 11280
+        },
+        {
+          "name": "Brave Belt",
+          "id": 13225,
+          "points": 660,
+          "max": 11280
+        }
+      ],
+      "5": [
+        {
+          "name": "Leather Shield",
+          "id": 12294,
+          "points": 1280,
+          "max": 15120
+        },
+        {
+          "name": "Leather Shield +1",
+          "id": 12329,
+          "points": 1360,
+          "max": 15120
+        }
+      ],
+      "6": [
+        {
+          "name": "Hard Leather Ring",
+          "id": 13546,
+          "points": 770,
+          "max": 13200
+        },
+        {
+          "name": "Tiger Ring",
+          "id": 13547,
+          "points": 880,
+          "max": 13200
+        }
+      ],
+      "7": [
+        {
+          "name": "Swordbelt",
+          "id": 13198,
+          "points": 2178,
+          "max": 17520
+        },
+        {
+          "name": "Swordbelt +1",
+          "id": 13232,
+          "points": 2838,
+          "max": 17520
+        }
+      ],
+      "8": [
+        {
+          "name": "Ogre Trousers",
+          "id": 12880,
+          "points": 4800,
+          "max": 20400
+        },
+        {
+          "name": "Ogre Trousers +1",
+          "id": 14279,
+          "points": 6000,
+          "max": 20400
+        }
+      ],
+      "9": [
+        {
+          "name": "Errant Pigaches",
+          "id": 14182,
+          "points": 2500,
+          "max": 18240
+        },
+        {
+          "name": "Mahatma Pigaches",
+          "id": 14183,
+          "points": 3750,
+          "max": 18240
+        }
+      ]
+    }
+  },
+  "6": {
+    "0": {
+      "0": [
+        {
+          "name": "Bone Hairpin",
+          "id": 12505,
+          "points": 112,
+          "max": 5040
+        },
+        {
+          "name": "Bone Hairpin +1",
+          "id": 13825,
+          "points": 187,
+          "max": 5040
+        }
+      ],
+      "1": [
+        {
+          "name": "Bone Mittens",
+          "id": 12710,
+          "points": 544,
+          "max": 10320
+        },
+        {
+          "name": "Bone Mittens +1",
+          "id": 12788,
+          "points": 664,
+          "max": 10320
+        }
+      ],
+      "2": [
+        {
+          "name": "Bone Harness",
+          "id": 12582,
+          "points": 362,
+          "max": 9120
+        },
+        {
+          "name": "Bone Harness +1",
+          "id": 13716,
+          "points": 374,
+          "max": 9120
+        }
+      ],
+      "3": [
+        {
+          "name": "Horn Ring",
+          "id": 13459,
+          "points": 1200,
+          "max": 14400
+        },
+        {
+          "name": "Horn Ring +1",
+          "id": 13502,
+          "points": 1680,
+          "max": 14400
+        }
+      ],
+      "4": [
+        {
+          "name": "Horn",
+          "id": 17352,
+          "points": 780,
+          "max": 12960
+        },
+        {
+          "name": "Horn +1",
+          "id": 17371,
+          "points": 840,
+          "max": 12960
+        }
+      ],
+      "5": [
+        {
+          "name": "Bone Scythe",
+          "id": 16794,
+          "points": 825,
+          "max": 13440
+        },
+        {
+          "name": "Bone Scythe +1",
+          "id": 16795,
+          "points": 907,
+          "max": 13440
+        }
+      ],
+      "6": [
+        {
+          "name": "Crumhorn",
+          "id": 17361,
+          "points": 1845,
+          "max": 16800
+        },
+        {
+          "name": "Crumhorn +1",
+          "id": 17377,
+          "points": 1947,
+          "max": 16800
+        },
+        {
+          "name": "Crumhorn +2",
+          "id": 17847,
+          "points": 1947,
+          "max": 16800
+        }
+      ],
+      "7": [
+        {
+          "name": "Coral Cap",
+          "id": 12453,
+          "points": 2992,
+          "max": 18720
+        },
+        {
+          "name": "Merman's Cap",
+          "id": 13864,
+          "points": 3150,
+          "max": 18720
+        }
+      ],
+      "8": [
+        {
+          "name": "Dragon Mask",
+          "id": 12436,
+          "points": 7840,
+          "max": 21600
+        },
+        {
+          "name": "Dragon Mask +1",
+          "id": 13860,
+          "points": 8120,
+          "max": 21600
+        }
+      ],
+      "9": [
+        {
+          "name": "Gavial Finger Gauntlets",
+          "id": 12693,
+          "points": 2000,
+          "max": 17520
+        },
+        {
+          "name": "Gavial Finger Gauntlets +1",
+          "id": 14829,
+          "points": 2625,
+          "max": 17520
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Shell Ring",
+          "id": 13442,
+          "points": 151,
+          "max": 5760
+        },
+        {
+          "name": "Shell Ring +1",
+          "id": 13494,
+          "points": 212,
+          "max": 5760
+        }
+      ],
+      "1": [
+        {
+          "name": "Bone Mask",
+          "id": 12454,
+          "points": 652,
+          "max": 11280
+        },
+        {
+          "name": "Bone Mask +1",
+          "id": 13826,
+          "points": 773,
+          "max": 11280
+        }
+      ],
+      "2": [
+        {
+          "name": "Horn Hairpin",
+          "id": 12507,
+          "points": 950,
+          "max": 13200
+        },
+        {
+          "name": "Horn Hairpin +1",
+          "id": 13828,
+          "points": 988,
+          "max": 13200
+        }
+      ],
+      "3": [
+        {
+          "name": "Bone Cudgel",
+          "id": 17026,
+          "points": 768,
+          "max": 12480
+        },
+        {
+          "name": "Bone Cudgel +1",
+          "id": 17033,
+          "points": 1088,
+          "max": 12480
+        }
+      ],
+      "4": [
+        {
+          "name": "Carapace Subligar",
+          "id": 17371,
+          "points": 1540,
+          "max": 15840
+        },
+        {
+          "name": "Carapace Subligar +1",
+          "id": 12914,
+          "points": 1610,
+          "max": 15840
+        }
+      ],
+      "5": [
+        {
+          "name": "Scorpion Ring",
+          "id": 13458,
+          "points": 450,
+          "max": 11040
+        },
+        {
+          "name": "Scorpion Ring +1",
+          "id": 13513,
+          "points": 600,
+          "max": 11040
+        }
+      ],
+      "6": [
+        {
+          "name": "Scorpion Subligar",
+          "id": 12838,
+          "points": 1575,
+          "max": 16080
+        },
+        {
+          "name": "Scorpion Subligar +1",
+          "id": 14208,
+          "points": 1680,
+          "max": 16080
+        }
+      ],
+      "7": [
+        {
+          "name": "Coral Gorget",
+          "id": 13108,
+          "points": 1560,
+          "max": 16320
+        },
+        {
+          "name": "Merman's Gorget",
+          "id": 13123,
+          "points": 1690,
+          "max": 16320
+        }
+      ],
+      "8": [
+        {
+          "name": "Coral Bangles",
+          "id": 13987,
+          "points": 3600,
+          "max": 19440
+        },
+        {
+          "name": "Merman's Bangles",
+          "id": 13988,
+          "points": 4162,
+          "max": 19440
+        }
+      ],
+      "9": [
+        {
+          "name": "Scorpion Gauntlets",
+          "id": 12751,
+          "points": 5940,
+          "max": 20880
+        },
+        {
+          "name": "Scorpion Gauntlets +1",
+          "id": 12717,
+          "points": 7040,
+          "max": 20880
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Bone Hairpin",
+          "id": 12505,
+          "points": 112,
+          "max": 5040
+        },
+        {
+          "name": "Bone Hairpin +1",
+          "id": 13825,
+          "points": 187,
+          "max": 5040
+        }
+      ],
+      "1": [
+        {
+          "name": "Fang Necklace",
+          "id": 13076,
+          "points": 141,
+          "max": 6240
+        },
+        {
+          "name": "Spike Necklace",
+          "id": 13061,
+          "points": 235,
+          "max": 6240
+        }
+      ],
+      "2": [
+        {
+          "name": "Bone Leggings",
+          "id": 12966,
+          "points": 495,
+          "max": 10320
+        },
+        {
+          "name": "Bone Leggings +1",
+          "id": 13042,
+          "points": 616,
+          "max": 10320
+        }
+      ],
+      "3": [
+        {
+          "name": "Beetle Leggings",
+          "id": 12967,
+          "points": 966,
+          "max": 13440
+        },
+        {
+          "name": "Beetle Leggings +1",
+          "id": 13043,
+          "points": 1202,
+          "max": 13440
+        }
+      ],
+      "4": [
+        {
+          "name": "Carapace Ring",
+          "id": 13461,
+          "points": 1812,
+          "max": 16560
+        },
+        {
+          "name": "Carapace Ring +1",
+          "id": 13503,
+          "points": 2537,
+          "max": 16560
+        }
+      ],
+      "5": [
+        {
+          "name": "Bandit's Gun",
+          "id": 17257,
+          "points": 2000,
+          "max": 17040
+        },
+        {
+          "name": "Bandit's Gun +1",
+          "id": 17258,
+          "points": 2100,
+          "max": 17040
+        }
+      ],
+      "6": [
+        {
+          "name": "Pirate's Gun",
+          "id": 17259,
+          "points": 4320,
+          "max": 19920
+        },
+        {
+          "name": "Pirate's Gun +1",
+          "id": 17260,
+          "points": 4352,
+          "max": 19920
+        }
+      ],
+      "7": [
+        {
+          "name": "Coral Cuisses",
+          "id": 12819,
+          "points": 4375,
+          "max": 19920
+        },
+        {
+          "name": "Coral Cuisses +1",
+          "id": 14230,
+          "points": 4500,
+          "max": 19920
+        }
+      ],
+      "8": [
+        {
+          "name": "Dragon Cuisses",
+          "id": 12820,
+          "points": 9487,
+          "max": 21840
+        },
+        {
+          "name": "Dragon Cuisses +1",
+          "id": 14231,
+          "points": 9762,
+          "max": 21840
+        }
+      ],
+      "9": [
+        {
+          "name": "Carapace Gauntlets",
+          "id": 14008,
+          "points": 5850,
+          "max": 20880
+        },
+        {
+          "name": "Carapace Gauntlets +1",
+          "id": 14009,
+          "points": 6825,
+          "max": 20880
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Shell Earring",
+          "id": 13313,
+          "points": 151,
+          "max": 5760
+        },
+        {
+          "name": "Shell Earring +1",
+          "id": 13314,
+          "points": 212,
+          "max": 5760
+        }
+      ],
+      "1": [
+        {
+          "name": "Bone Mask",
+          "id": 12454,
+          "points": 652,
+          "max": 11280
+        },
+        {
+          "name": "Bone Mask +1",
+          "id": 13826,
+          "points": 773,
+          "max": 11280
+        }
+      ],
+      "2": [
+        {
+          "name": "Gemshorn",
+          "id": 17351,
+          "points": 860,
+          "max": 12720
+        },
+        {
+          "name": "Gemshorn +1",
+          "id": 17370,
+          "points": 1032,
+          "max": 12720
+        }
+      ],
+      "3": [
+        {
+          "name": "Beetle Harness",
+          "id": 12583,
+          "points": 471,
+          "max": 10560
+        },
+        {
+          "name": "Beetle Harness +1",
+          "id": 13717,
+          "points": 495,
+          "max": 10560
+        }
+      ],
+      "4": [
+        {
+          "name": "Carapace Leggings",
+          "id": 13715,
+          "points": 1470,
+          "max": 15600
+        },
+        {
+          "name": "Carapace Leggings +1",
+          "id": 13044,
+          "points": 1540,
+          "max": 15600
+        }
+      ],
+      "5": [
+        {
+          "name": "Tortoise Earring",
+          "id": 13324,
+          "points": 1750,
+          "max": 16560
+        },
+        {
+          "name": "Tortoise Earring +1",
+          "id": 13363,
+          "points": 2450,
+          "max": 16560
+        }
+      ],
+      "6": [
+        {
+          "name": "Scorpion Leggings",
+          "id": 12963,
+          "points": 1575,
+          "max": 16080
+        },
+        {
+          "name": "Scorpion Leggings +1",
+          "id": 14083,
+          "points": 1680,
+          "max": 16080
+        }
+      ],
+      "7": [
+        {
+          "name": "Coral Visor",
+          "id": 12435,
+          "points": 3000,
+          "max": 18720
+        },
+        {
+          "name": "Coral Visor +1",
+          "id": 13859,
+          "points": 3120,
+          "max": 18720
+        }
+      ],
+      "8": [
+        {
+          "name": "Dragon Greaves",
+          "id": 12948,
+          "points": 6090,
+          "max": 20880
+        },
+        {
+          "name": "Dragon Greaves +1",
+          "id": 14107,
+          "points": 7200,
+          "max": 20880
+        }
+      ],
+      "9": [
+        {
+          "name": "Scorpion Helm",
+          "id": 13846,
+          "points": 6490,
+          "max": 21120
+        },
+        {
+          "name": "Scorpion Helm +1",
+          "id": 12461,
+          "points": 7590,
+          "max": 21120
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Shell Ring",
+          "id": 13442,
+          "points": 151,
+          "max": 5760
+        },
+        {
+          "name": "Shell Ring +1",
+          "id": 13494,
+          "points": 212,
+          "max": 5760
+        }
+      ],
+      "1": [
+        {
+          "name": "Fang Necklace",
+          "id": 13076,
+          "points": 141,
+          "max": 6240
+        },
+        {
+          "name": "Spike Necklace",
+          "id": 13061,
+          "points": 235,
+          "max": 6240
+        }
+      ],
+      "2": [
+        {
+          "name": "Bone Pick",
+          "id": 16649,
+          "points": 362,
+          "max": 9120
+        },
+        {
+          "name": "Bone Pick +1",
+          "id": 16668,
+          "points": 374,
+          "max": 9120
+        }
+      ],
+      "3": [
+        {
+          "name": "Beetle Subligar",
+          "id": 12835,
+          "points": 471,
+          "max": 10560
+        },
+        {
+          "name": "Beetle Subligar +1",
+          "id": 12913,
+          "points": 495,
+          "max": 10560
+        }
+      ],
+      "4": [
+        {
+          "name": "Carapace Mittens",
+          "id": 13713,
+          "points": 1050,
+          "max": 14160
+        },
+        {
+          "name": "Carapace Mittens +1",
+          "id": 12790,
+          "points": 1120,
+          "max": 14160
+        }
+      ],
+      "5": [
+        {
+          "name": "Shell Hairpin",
+          "id": 12506,
+          "points": 750,
+          "max": 12960
+        },
+        {
+          "name": "Shell Hairpin +1",
+          "id": 13836,
+          "points": 850,
+          "max": 12960
+        }
+      ],
+      "6": [
+        {
+          "name": "Scorpion Mittens",
+          "id": 12707,
+          "points": 1050,
+          "max": 14400
+        },
+        {
+          "name": "Scorpion Mittens +1",
+          "id": 13956,
+          "points": 1155,
+          "max": 14400
+        }
+      ],
+      "7": [
+        {
+          "name": "Coral Mittens",
+          "id": 12709,
+          "points": 6412,
+          "max": 21120
+        },
+        {
+          "name": "Merman's Mittens",
+          "id": 13995,
+          "points": 7837,
+          "max": 21120
+        }
+      ],
+      "8": [
+        {
+          "name": "Dragon Finger Gauntlets",
+          "id": 12692,
+          "points": 6900,
+          "max": 21360
+        },
+        {
+          "name": "Dragon Finger Gauntlets +1",
+          "id": 13991,
+          "points": 7200,
+          "max": 21360
+        }
+      ],
+      "9": [
+        {
+          "name": "Carapace Helm",
+          "id": 13878,
+          "points": 6337,
+          "max": 21120
+        },
+        {
+          "name": "Carapace Helm +1",
+          "id": 13879,
+          "points": 7312,
+          "max": 21120
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Cat Baghnakhs",
+          "id": 16405,
+          "points": 29,
+          "max": 3840
+        },
+        {
+          "name": "Cat Baghnakhs +1",
+          "id": 17476,
+          "points": 35,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Bone Ring",
+          "id": 13441,
+          "points": 302,
+          "max": 8160
+        },
+        {
+          "name": "Bone Ring +1",
+          "id": 13500,
+          "points": 423,
+          "max": 8160
+        }
+      ],
+      "2": [
+        {
+          "name": "Bone Subligar",
+          "id": 12834,
+          "points": 362,
+          "max": 9120
+        },
+        {
+          "name": "Bone Subligar +1",
+          "id": 12912,
+          "points": 374,
+          "max": 9120
+        }
+      ],
+      "3": [
+        {
+          "name": "Turtle Shield",
+          "id": 12414,
+          "points": 615,
+          "max": 11520
+        },
+        {
+          "name": "Turtle Shield +1",
+          "id": 12413,
+          "points": 735,
+          "max": 11520
+        }
+      ],
+      "4": [
+        {
+          "name": "Carapace Mask",
+          "id": 13711,
+          "points": 1050,
+          "max": 14160
+        },
+        {
+          "name": "Carapace Mask +1",
+          "id": 13829,
+          "points": 1120,
+          "max": 14160
+        }
+      ],
+      "5": [
+        {
+          "name": "Turtle Bangles",
+          "id": 13981,
+          "points": 3332,
+          "max": 18960
+        },
+        {
+          "name": "Turtle Bangles +1",
+          "id": 13982,
+          "points": 4107,
+          "max": 18960
+        }
+      ],
+      "6": [
+        {
+          "name": "Scorpion Mask",
+          "id": 12451,
+          "points": 1050,
+          "max": 14400
+        },
+        {
+          "name": "Scorpion Mask +1",
+          "id": 12482,
+          "points": 1150,
+          "max": 14400
+        }
+      ],
+      "7": [
+        {
+          "name": "Coral Hairpin",
+          "id": 12508,
+          "points": 3262,
+          "max": 19200
+        },
+        {
+          "name": "Merman's Hairpin",
+          "id": 13850,
+          "points": 3375,
+          "max": 19200
+        }
+      ],
+      "8": [
+        {
+          "name": "Coral Earring",
+          "id": 13312,
+          "points": 3750,
+          "max": 19680
+        },
+        {
+          "name": "Merman's Earring",
+          "id": 13406,
+          "points": 5250,
+          "max": 19680
+        }
+      ],
+      "9": [
+        {
+          "name": "Carapace Breastplate",
+          "id": 13789,
+          "points": 13455,
+          "max": 22560
+        },
+        {
+          "name": "Carapace Breastplate +1",
+          "id": 13790,
+          "points": 14430,
+          "max": 22560
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Cat Baghnakhs",
+          "id": 16405,
+          "points": 29,
+          "max": 3840
+        },
+        {
+          "name": "Cat Baghnakhs +1",
+          "id": 17476,
+          "points": 35,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Bone Mittens",
+          "id": 12710,
+          "points": 544,
+          "max": 10320
+        },
+        {
+          "name": "Bone Mittens +1",
+          "id": 12788,
+          "points": 664,
+          "max": 10320
+        }
+      ],
+      "2": [
+        {
+          "name": "Beetle Mittens",
+          "id": 12711,
+          "points": 282,
+          "max": 8400
+        },
+        {
+          "name": "Beetle Mittens +1",
+          "id": 12789,
+          "points": 306,
+          "max": 8400
+        }
+      ],
+      "3": [
+        {
+          "name": "Shade Leggings",
+          "id": 15315,
+          "points": 3797,
+          "max": 19440
+        },
+        {
+          "name": "Shade Leggings +1",
+          "id": 15319,
+          "points": 3989,
+          "max": 19440
+        }
+      ],
+      "4": [
+        {
+          "name": "Carapace Gorget",
+          "id": 13091,
+          "points": 2310,
+          "max": 17520
+        },
+        {
+          "name": "Blue Gorget",
+          "id": 13063,
+          "points": 3010,
+          "max": 17520
+        }
+      ],
+      "5": [
+        {
+          "name": "Beetle Knife",
+          "id": 17612,
+          "points": 1025,
+          "max": 14160
+        },
+        {
+          "name": "Beetle Knife +1",
+          "id": 17613,
+          "points": 1127,
+          "max": 14160
+        }
+      ],
+      "6": [
+        {
+          "name": "Bone Patas",
+          "id": 16420,
+          "points": 1230,
+          "max": 15120
+        },
+        {
+          "name": "Bone Patas +1",
+          "id": 17477,
+          "points": 1332,
+          "max": 15120
+        }
+      ],
+      "7": [
+        {
+          "name": "Tigerfangs",
+          "id": 16422,
+          "points": 3625,
+          "max": 19440
+        },
+        {
+          "name": "Feral Fangs",
+          "id": 17490,
+          "points": 3770,
+          "max": 19440
+        }
+      ],
+      "8": [
+        {
+          "name": "Coral Sword",
+          "id": 16548,
+          "points": 16280,
+          "max": 22800
+        },
+        {
+          "name": "Merman's Sword",
+          "id": 16620,
+          "points": 16280,
+          "max": 22800
+        }
+      ],
+      "9": [
+        {
+          "name": "Scorpion Breastplate",
+          "id": 12621,
+          "points": 13860,
+          "max": 22560
+        },
+        {
+          "name": "Scorpion Breastplate +1",
+          "id": 12589,
+          "points": 14960,
+          "max": 22560
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Shell Earring",
+          "id": 13313,
+          "points": 151,
+          "max": 5760
+        },
+        {
+          "name": "Shell Earring +1",
+          "id": 13314,
+          "points": 212,
+          "max": 5760
+        }
+      ],
+      "1": [
+        {
+          "name": "Bone Earring",
+          "id": 13321,
+          "points": 302,
+          "max": 8160
+        },
+        {
+          "name": "Bone Earring +1",
+          "id": 13362,
+          "points": 423,
+          "max": 8160
+        }
+      ],
+      "2": [
+        {
+          "name": "Bone Axe",
+          "id": 16642,
+          "points": 205,
+          "max": 7680
+        },
+        {
+          "name": "Bone Axe +1",
+          "id": 16666,
+          "points": 317,
+          "max": 7680
+        }
+      ],
+      "3": [
+        {
+          "name": "Beetle Gorget",
+          "id": 13090,
+          "points": 448,
+          "max": 10320
+        },
+        {
+          "name": "Green Gorget",
+          "id": 13062,
+          "points": 542,
+          "max": 10320
+        }
+      ],
+      "4": [
+        {
+          "name": "Bone Knife",
+          "id": 17610,
+          "points": 750,
+          "max": 12720
+        },
+        {
+          "name": "Bone Knife +1",
+          "id": 17611,
+          "points": 825,
+          "max": 12720
+        }
+      ],
+      "5": [
+        {
+          "name": "Bone Rod",
+          "id": 17062,
+          "points": 1122,
+          "max": 14640
+        },
+        {
+          "name": "Bone Rod +1",
+          "id": 17410,
+          "points": 1782,
+          "max": 14640
+        }
+      ],
+      "6": [
+        {
+          "name": "Fang Earring",
+          "id": 13325,
+          "points": 2500,
+          "max": 18000
+        },
+        {
+          "name": "Spike Earring",
+          "id": 13369,
+          "points": 3500,
+          "max": 18000
+        }
+      ],
+      "7": [
+        {
+          "name": "Hornet Fleuret",
+          "id": 16525,
+          "points": 3840,
+          "max": 19680
+        },
+        {
+          "name": "Hornet Fleuret +1",
+          "id": 17634,
+          "points": 3960,
+          "max": 19680
+        }
+      ],
+      "8": [
+        {
+          "name": "Darksteel Shield",
+          "id": 12308,
+          "points": 5400,
+          "max": 20640
+        },
+        {
+          "name": "Darksteel Shield +1",
+          "id": 12346,
+          "points": 6525,
+          "max": 20640
+        }
+      ],
+      "9": [
+        {
+          "name": "Demon Helm",
+          "id": 13922,
+          "points": 3570,
+          "max": 19440
+        },
+        {
+          "name": "Demon Helm +1",
+          "id": 13923,
+          "points": 4845,
+          "max": 19440
+        }
+      ]
+    }
+  },
+  "7": {
+    "0": {
+      "0": [
+        {
+          "name": "Deodorizer",
+          "id": 4166,
+          "points": 80,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Silence Baghnakhs",
+          "id": 16429,
+          "points": 825,
+          "max": 12240
+        },
+        {
+          "name": "Silence Baghnakhs +1",
+          "id": 16438,
+          "points": 825,
+          "max": 12240
+        }
+      ],
+      "2": [
+        {
+          "name": "Poison Dagger",
+          "id": 16496,
+          "points": 959,
+          "max": 13200
+        },
+        {
+          "name": "Poison Dagger +1",
+          "id": 16741,
+          "points": 1142,
+          "max": 13200
+        }
+      ],
+      "3": [
+        {
+          "name": "Poison Baghnakhs",
+          "id": 16410,
+          "points": 638,
+          "max": 11760
+        },
+        {
+          "name": "Poison Baghnakhs +1",
+          "id": 16692,
+          "points": 748,
+          "max": 11760
+        }
+      ],
+      "4": [
+        {
+          "name": "Fire Sword",
+          "id": 16543,
+          "points": 1320,
+          "max": 15120
+        },
+        {
+          "name": "Flame Sword",
+          "id": 16621,
+          "points": 1320,
+          "max": 15120
+        }
+      ],
+      "5": [
+        {
+          "name": "Yoto",
+          "id": 16908,
+          "points": 1200,
+          "max": 14880
+        },
+        {
+          "name": "Yoto +1",
+          "id": 17768,
+          "points": 1350,
+          "max": 14880
+        }
+      ],
+      "6": [
+        {
+          "name": "Acid Kukri",
+          "id": 16479,
+          "points": 2944,
+          "max": 18720
+        },
+        {
+          "name": "Corrosive Kukri",
+          "id": 16494,
+          "points": 3404,
+          "max": 18720
+        }
+      ],
+      "7": [
+        {
+          "name": "Cermet Kukri",
+          "id": 16477,
+          "points": 8910,
+          "max": 21840
+        },
+        {
+          "name": "Cermet Kukri +1",
+          "id": 17603,
+          "points": 9075,
+          "max": 21840
+        }
+      ],
+      "8": [
+        {
+          "name": "Venom Kris",
+          "id": 16499,
+          "points": 5670,
+          "max": 20880
+        },
+        {
+          "name": "Venom Kris +1",
+          "id": 16761,
+          "points": 6195,
+          "max": 20880
+        }
+      ],
+      "9": [
+        {
+          "name": "Mind Potion",
+          "id": 4209,
+          "points": 900,
+          "max": 14400
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Water Tank",
+          "id": 13683,
+          "points": 210,
+          "max": 6480
+        }
+      ],
+      "1": [
+        {
+          "name": "Poison Potion",
+          "id": 4157,
+          "points": 100,
+          "max": 5760
+        }
+      ],
+      "2": [
+        {
+          "name": "Mokuto",
+          "id": 16906,
+          "points": 894,
+          "max": 12960
+        },
+        {
+          "name": "Mokuto +1",
+          "id": 16925,
+          "points": 902,
+          "max": 12960
+        }
+      ],
+      "3": [
+        {
+          "name": "Poison Claws",
+          "id": 16417,
+          "points": 2400,
+          "max": 17520
+        },
+        {
+          "name": "Poison Claws +1",
+          "id": 16439,
+          "points": 2400,
+          "max": 17520
+        }
+      ],
+      "4": [
+        {
+          "name": "Acid Knife",
+          "id": 16501,
+          "points": 2480,
+          "max": 17760
+        },
+        {
+          "name": "Corrosive Knife",
+          "id": 17608,
+          "points": 2880,
+          "max": 17760
+        }
+      ],
+      "5": [
+        {
+          "name": "Holy Degen",
+          "id": 16523,
+          "points": 5600,
+          "max": 20640
+        },
+        {
+          "name": "Holy Degen +1",
+          "id": 16817,
+          "points": 6300,
+          "max": 20640
+        }
+      ],
+      "6": [
+        {
+          "name": "Cermet Sword",
+          "id": 16539,
+          "points": 9460,
+          "max": 21840
+        },
+        {
+          "name": "Cermet Sword +1",
+          "id": 16825,
+          "points": 10560,
+          "max": 21840
+        }
+      ],
+      "7": [
+        {
+          "name": "Jamadhars",
+          "id": 16401,
+          "points": 6710,
+          "max": 21120
+        },
+        {
+          "name": "Jamadhars +1",
+          "id": 17482,
+          "points": 6862,
+          "max": 21120
+        }
+      ],
+      "8": [
+        {
+          "name": "Bloody Sword",
+          "id": 16609,
+          "points": 12375,
+          "max": 22320
+        },
+        {
+          "name": "Carnage Sword",
+          "id": 17646,
+          "points": 13062,
+          "max": 22320
+        }
+      ],
+      "9": [
+        {
+          "name": "Charisma Potion",
+          "id": 4211,
+          "points": 750,
+          "max": 13920
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Antidote",
+          "id": 4148,
+          "points": 79,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Silence Dagger",
+          "id": 16495,
+          "points": 406,
+          "max": 9120
+        },
+        {
+          "name": "Silence Dagger +1",
+          "id": 16508,
+          "points": 406,
+          "max": 9120
+        }
+      ],
+      "2": [
+        {
+          "name": "Poison Knife",
+          "id": 16472,
+          "points": 1226,
+          "max": 14400
+        },
+        {
+          "name": "Poison Knife +1",
+          "id": 16742,
+          "points": 1453,
+          "max": 14400
+        }
+      ],
+      "3": [
+        {
+          "name": "Blind Dagger",
+          "id": 16454,
+          "points": 100,
+          "max": 6960
+        },
+        {
+          "name": "Blind Dagger +1",
+          "id": 16493,
+          "points": 120,
+          "max": 6960
+        }
+      ],
+      "4": [
+        {
+          "name": "Bokuto",
+          "id": 16905,
+          "points": 1240,
+          "max": 14880
+        },
+        {
+          "name": "Bokuto +1",
+          "id": 16926,
+          "points": 1426,
+          "max": 14880
+        }
+      ],
+      "5": [
+        {
+          "name": "Acid Claws",
+          "id": 16430,
+          "points": 2976,
+          "max": 18720
+        },
+        {
+          "name": "Corrosive Claws",
+          "id": 17487,
+          "points": 3596,
+          "max": 18720
+        }
+      ],
+      "6": [
+        {
+          "name": "Cermet Claws",
+          "id": 16414,
+          "points": 5280,
+          "max": 20640
+        },
+        {
+          "name": "Cermet Claws +1",
+          "id": 17488,
+          "points": 6380,
+          "max": 20640
+        }
+      ],
+      "7": [
+        {
+          "name": "Venom Claws",
+          "id": 16418,
+          "points": 5040,
+          "max": 20400
+        },
+        {
+          "name": "Venom Claws +1",
+          "id": 16425,
+          "points": 5040,
+          "max": 20400
+        }
+      ],
+      "8": [
+        {
+          "name": "Stun Claws",
+          "id": 16431,
+          "points": 6480,
+          "max": 21120
+        },
+        {
+          "name": "Stun Claws +1",
+          "id": 17486,
+          "points": 6615,
+          "max": 21120
+        }
+      ],
+      "9": [
+        {
+          "name": "Dexterity Potion",
+          "id": 4201,
+          "points": 900,
+          "max": 14400
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Tsurara",
+          "id": 1164,
+          "points": 10,
+          "max": 3360
+        }
+      ],
+      "1": [
+        {
+          "name": "Mercury",
+          "id": 914,
+          "points": 300,
+          "max": 8160
+        }
+      ],
+      "2": [
+        {
+          "name": "Silent Oil",
+          "id": 4165,
+          "points": 300,
+          "max": 8640
+        }
+      ],
+      "3": [
+        {
+          "name": "Blind Knife",
+          "id": 16471,
+          "points": 135,
+          "max": 7440
+        },
+        {
+          "name": "Blind Knife +1",
+          "id": 16490,
+          "points": 161,
+          "max": 7440
+        }
+      ],
+      "4": [
+        {
+          "name": "Acid Dagger",
+          "id": 17605,
+          "points": 1717,
+          "max": 16320
+        },
+        {
+          "name": "Corrosive Dagger",
+          "id": 17606,
+          "points": 2003,
+          "max": 16320
+        }
+      ],
+      "5": [
+        {
+          "name": "Holy Mace",
+          "id": 17041,
+          "points": 3102,
+          "max": 18270
+        },
+        {
+          "name": "Holy Mace +1",
+          "id": 17411,
+          "points": 3762,
+          "max": 18270
+        }
+      ],
+      "6": [
+        {
+          "name": "Hanger",
+          "id": 16554,
+          "points": 10185,
+          "max": 22080
+        },
+        {
+          "name": "Hanger +1",
+          "id": 17642,
+          "points": 11235,
+          "max": 22080
+        }
+      ],
+      "7": [
+        {
+          "name": "Venom Kukri",
+          "id": 16505,
+          "points": 7290,
+          "max": 21360
+        },
+        {
+          "name": "Venom Kukri +1",
+          "id": 17604,
+          "points": 7425,
+          "max": 21360
+        }
+      ],
+      "8": [
+        {
+          "name": "Stun Kukri",
+          "id": 16506,
+          "points": 9585,
+          "max": 22080
+        },
+        {
+          "name": "Stun Kukri +1",
+          "id": 17614,
+          "points": 9762,
+          "max": 22080
+        }
+      ],
+      "9": [
+        {
+          "name": "Intelligence Potion",
+          "id": 4207,
+          "points": 840,
+          "max": 14400
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Beeswax",
+          "id": 913,
+          "points": 30,
+          "max": 3840
+        }
+      ],
+      "1": [
+        {
+          "name": "Bee Spatha",
+          "id": 16572,
+          "points": 705,
+          "max": 11520
+        },
+        {
+          "name": "Bee Spatha +1",
+          "id": 16611,
+          "points": 775,
+          "max": 11520
+        }
+      ],
+      "2": [
+        {
+          "name": "Mokuto",
+          "id": 16906,
+          "points": 894,
+          "max": 12960
+        },
+        {
+          "name": "Mokuto +1",
+          "id": 16925,
+          "points": 902,
+          "max": 12960
+        }
+      ],
+      "3": [
+        {
+          "name": "Busuto",
+          "id": 16907,
+          "points": 1200,
+          "max": 14400
+        },
+        {
+          "name": "Busuto +1",
+          "id": 16927,
+          "points": 1230,
+          "max": 14400
+        }
+      ],
+      "4": [
+        {
+          "name": "Poison Katars",
+          "id": 16403,
+          "points": 2464,
+          "max": 17760
+        },
+        {
+          "name": "Poison Katars +1",
+          "id": 16693,
+          "points": 3024,
+          "max": 17760
+        }
+      ],
+      "5": [
+        {
+          "name": "Holy Sword",
+          "id": 16581,
+          "points": 4300,
+          "max": 19920
+        },
+        {
+          "name": "Holy Sword +1",
+          "id": 16816,
+          "points": 4800,
+          "max": 19920
+        }
+      ],
+      "6": [
+        {
+          "name": "Divine Sword",
+          "id": 16549,
+          "points": 4928,
+          "max": 20400
+        },
+        {
+          "name": "Divine Sword +1",
+          "id": 16826,
+          "points": 5488,
+          "max": 20400
+        }
+      ],
+      "7": [
+        {
+          "name": "Cutlass",
+          "id": 16560,
+          "points": 12250,
+          "max": 22320
+        },
+        {
+          "name": "Cutlass +1",
+          "id": 17639,
+          "points": 12372,
+          "max": 22320
+        }
+      ],
+      "8": [
+        {
+          "name": "Holy Lance",
+          "id": 16860,
+          "points": 3150,
+          "max": 18960
+        },
+        {
+          "name": "Holy Lance +1",
+          "id": 16880,
+          "points": 4275,
+          "max": 18960
+        }
+      ],
+      "9": [
+        {
+          "name": "Vitality Potion",
+          "id": 4203,
+          "points": 750,
+          "max": 13920
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Silencing Potion",
+          "id": 4162,
+          "points": 150,
+          "max": 5760
+        }
+      ],
+      "1": [
+        {
+          "name": "Bittern",
+          "id": 2109,
+          "points": 100,
+          "max": 5760
+        }
+      ],
+      "2": [
+        {
+          "name": "Poison Baselard",
+          "id": 16458,
+          "points": 330,
+          "max": 8800
+        },
+        {
+          "name": "Python Baselard",
+          "id": 16743,
+          "points": 457,
+          "max": 8800
+        }
+      ],
+      "3": [
+        {
+          "name": "Poison Cesti",
+          "id": 16387,
+          "points": 992,
+          "max": 13680
+        },
+        {
+          "name": "Poison Cesti +1",
+          "id": 16700,
+          "points": 1312,
+          "max": 13680
+        }
+      ],
+      "4": [
+        {
+          "name": "Flame Claymore",
+          "id": 16588,
+          "points": 979,
+          "max": 13920
+        },
+        {
+          "name": "Burning Claymore",
+          "id": 16929,
+          "points": 979,
+          "max": 13920
+        }
+      ],
+      "5": [
+        {
+          "name": "Homura",
+          "id": 16973,
+          "points": 2300,
+          "max": 17520
+        },
+        {
+          "name": "Homura +1",
+          "id": 16986,
+          "points": 2392,
+          "max": 17520
+        }
+      ],
+      "6": [
+        {
+          "name": "Acid Baselard",
+          "id": 16459,
+          "points": 3720,
+          "max": 19440
+        },
+        {
+          "name": "Corrosive Baselard",
+          "id": 17607,
+          "points": 4320,
+          "max": 19440
+        }
+      ],
+      "7": [
+        {
+          "name": "Venom Baselard",
+          "id": 16507,
+          "points": 6370,
+          "max": 21120
+        },
+        {
+          "name": "Venom Baselard +1",
+          "id": 16510,
+          "points": 6370,
+          "max": 21120
+        }
+      ],
+      "8": [
+        {
+          "name": "Bloody Rapier",
+          "id": 16528,
+          "points": 7600,
+          "max": 21600
+        },
+        {
+          "name": "Carnage Rapier",
+          "id": 16824,
+          "points": 8550,
+          "max": 21600
+        }
+      ],
+      "9": [
+        {
+          "name": "Agility Potion",
+          "id": 4205,
+          "points": 810,
+          "max": 14160
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Deodorizer",
+          "id": 4166,
+          "points": 80,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Echo Drops",
+          "id": 4151,
+          "points": 200,
+          "max": 6960
+        }
+      ],
+      "2": [
+        {
+          "name": "Eye Drops",
+          "id": 4150,
+          "points": 519,
+          "max": 10560
+        }
+      ],
+      "3": [
+        {
+          "name": "Inferno Sword",
+          "id": 16594,
+          "points": 3488,
+          "max": 19200
+        },
+        {
+          "name": "Hellfire Sword",
+          "id": 16928,
+          "points": 3488,
+          "max": 19200
+        }
+      ],
+      "4": [
+        {
+          "name": "Potion Tank",
+          "id": 13684,
+          "points": 210,
+          "max": 8640
+        }
+      ],
+      "5": [
+        {
+          "name": "Homura",
+          "id": 16973,
+          "points": 2300,
+          "max": 17520
+        },
+        {
+          "name": "Homura +1",
+          "id": 16986,
+          "points": 2392,
+          "max": 17520
+        }
+      ],
+      "6": [
+        {
+          "name": "Saber",
+          "id": 16568,
+          "points": 8200,
+          "max": 22080
+        },
+        {
+          "name": "Saber +1",
+          "id": 16612,
+          "points": 11275,
+          "max": 22080
+        }
+      ],
+      "7": [
+        {
+          "name": "Stun Knife",
+          "id": 16503,
+          "points": 8450,
+          "max": 21600
+        },
+        {
+          "name": "Stun Knife +1",
+          "id": 17600,
+          "points": 8612,
+          "max": 21600
+        }
+      ],
+      "8": [
+        {
+          "name": "Stun Jamadhars",
+          "id": 16432,
+          "points": 7370,
+          "max": 21360
+        },
+        {
+          "name": "Stun Jamadhars +1",
+          "id": 17484,
+          "points": 7537,
+          "max": 21360
+        }
+      ],
+      "9": [
+        {
+          "name": "Ice Shield",
+          "id": 12305,
+          "points": 5565,
+          "max": 20880
+        },
+        {
+          "name": "Ice Shield +1",
+          "id": 12357,
+          "points": 6890,
+          "max": 20880
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Antidote",
+          "id": 4148,
+          "points": 79,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Silence Dagger",
+          "id": 16495,
+          "points": 406,
+          "max": 9120
+        },
+        {
+          "name": "Silence Dagger +1",
+          "id": 16508,
+          "points": 406,
+          "max": 9120
+        }
+      ],
+      "2": [
+        {
+          "name": "Poison Dagger",
+          "id": 16496,
+          "points": 959,
+          "max": 13200
+        },
+        {
+          "name": "Poison Dagger +1",
+          "id": 16741,
+          "points": 1142,
+          "max": 13200
+        }
+      ],
+      "3": [
+        {
+          "name": "Poison Kukri",
+          "id": 16478,
+          "points": 1620,
+          "max": 15840
+        },
+        {
+          "name": "Poison Kukri +1",
+          "id": 16489,
+          "points": 1620,
+          "max": 15840
+        }
+      ],
+      "4": [
+        {
+          "name": "Inferno Axe",
+          "id": 16709,
+          "points": 349,
+          "max": 10080
+        },
+        {
+          "name": "Hellfire Axe",
+          "id": 16713,
+          "points": 380,
+          "max": 10080
+        }
+      ],
+      "5": [
+        {
+          "name": "Ether Tank",
+          "id": 13682,
+          "points": 210,
+          "max": 9120
+        }
+      ],
+      "6": [
+        {
+          "name": "Cermet Knife",
+          "id": 16469,
+          "points": 5850,
+          "max": 20800
+        },
+        {
+          "name": "Cermet Knife +1",
+          "id": 17609,
+          "points": 6975,
+          "max": 20800
+        }
+      ],
+      "7": [
+        {
+          "name": "Holy Maul",
+          "id": 17080,
+          "points": 3192,
+          "max": 18960
+        },
+        {
+          "name": "Holy Maul +1",
+          "id": 17114,
+          "points": 3752,
+          "max": 18960
+        }
+      ],
+      "8": [
+        {
+          "name": "Holy Wand",
+          "id": 17085,
+          "points": 3060,
+          "max": 18960
+        },
+        {
+          "name": "Holy Wand +1",
+          "id": 17434,
+          "points": 3240,
+          "max": 18960
+        }
+      ],
+      "9": [
+        {
+          "name": "Strength Potion",
+          "id": 4199,
+          "points": 900,
+          "max": 14400
+        }
+      ]
+    }
+  },
+  "8": {
+    "0": {
+      "0": [
+        {
+          "name": "Pet Food Alpha",
+          "id": 17016,
+          "points": 4,
+          "max": 3360
+        }
+      ],
+      "1": [
+        {
+          "name": "Roast Mutton",
+          "id": 4437,
+          "points": 270,
+          "max": 7680
+        },
+        {
+          "name": "Juicy Mutton",
+          "id": 4335,
+          "points": 300,
+          "max": 7680
+        }
+      ],
+      "2": [
+        {
+          "name": "Smoked Salmon",
+          "id": 4380,
+          "points": 82,
+          "max": 6000
+        }
+      ],
+      "3": [
+        {
+          "name": "Mushroom Soup",
+          "id": 4419,
+          "points": 1500,
+          "max": 15600
+        },
+        {
+          "name": "Witch Soup",
+          "id": 4333,
+          "points": 1740,
+          "max": 15600
+        }
+      ],
+      "4": [
+        {
+          "name": "Tomato Soup",
+          "id": 4420,
+          "points": 441,
+          "max": 10800
+        },
+        {
+          "name": "Tomato Soup",
+          "id": 4341,
+          "points": 1341,
+          "max": 10800
+        }
+      ],
+      "5": [
+        {
+          "name": "Beaugreen Saute",
+          "id": 4572,
+          "points": 247,
+          "max": 9600
+        },
+        {
+          "name": "Monastic Saute",
+          "id": 4293,
+          "points": 865,
+          "max": 9600
+        }
+      ],
+      "6": [
+        {
+          "name": "Raisin Bread",
+          "id": 4546,
+          "points": 525,
+          "max": 12000
+        }
+      ],
+      "7": [
+        {
+          "name": "Boiled Cockatrice",
+          "id": 4547,
+          "points": 693,
+          "max": 13200
+        }
+      ],
+      "8": [
+        {
+          "name": "Karni Yarik",
+          "id": 5588,
+          "points": 675,
+          "max": 13440
+        },
+        {
+          "name": "Karni Yarik +1",
+          "id": 5589,
+          "points": 750,
+          "max": 13440
+        }
+      ],
+      "9": [
+        {
+          "name": "Urchin Sushi",
+          "id": 5151,
+          "points": 2550,
+          "max": 18240
+        },
+        {
+          "name": "Urchin Sushi +1",
+          "id": 5160,
+          "points": 3060,
+          "max": 18240
+        }
+      ]
+    },
+    "1": {
+      "0": [
+        {
+          "name": "Roasted Corn",
+          "id": 4415,
+          "points": 46,
+          "max": 4080
+        },
+        {
+          "name": "Grilled Corn",
+          "id": 4334,
+          "points": 55,
+          "max": 4080
+        }
+      ],
+      "1": [
+        {
+          "name": "Pea Soup",
+          "id": 4416,
+          "points": 420,
+          "max": 9360
+        },
+        {
+          "name": "Emerald Soup",
+          "id": 4327,
+          "points": 541,
+          "max": 9360
+        }
+      ],
+      "2": [
+        {
+          "name": "Dhalmel Steak",
+          "id": 4438,
+          "points": 540,
+          "max": 10800
+        },
+        {
+          "name": "Wild Steak",
+          "id": 4519,
+          "points": 585,
+          "max": 10800
+        }
+      ],
+      "3": [
+        {
+          "name": "Windurst Salad",
+          "id": 4555,
+          "points": 558,
+          "max": 11280
+        },
+        {
+          "name": "Timbre Timbers Salad",
+          "id": 4321,
+          "points": 613,
+          "max": 11280
+        }
+      ],
+      "4": [
+        {
+          "name": "Apple Pie",
+          "id": 4413,
+          "points": 120,
+          "max": 7680
+        },
+        {
+          "name": "Apple Pie +1",
+          "id": 4320,
+          "points": 132,
+          "max": 7680
+        }
+      ],
+      "5": [
+        {
+          "name": "Pamama Tart",
+          "id": 4563,
+          "points": 384,
+          "max": 10560
+        },
+        {
+          "name": "Opo-opo Tart",
+          "id": 4287,
+          "points": 918,
+          "max": 10560
+        }
+      ],
+      "6": [
+        {
+          "name": "Squid Sushi",
+          "id": 5148,
+          "points": 451,
+          "max": 11520
+        },
+        {
+          "name": "Squid Sushi +1",
+          "id": 5162,
+          "points": 483,
+          "max": 11520
+        }
+      ],
+      "7": [
+        {
+          "name": "Herb Crawler Eggs",
+          "id": 4552,
+          "points": 637,
+          "max": 12960
+        }
+      ],
+      "8": [
+        {
+          "name": "Seafood Stew",
+          "id": 4561,
+          "points": 1980,
+          "max": 17280
+        }
+      ],
+      "9": [
+        {
+          "name": "Rice Dumpling",
+          "id": 4271,
+          "points": 210,
+          "max": 10800
+        }
+      ]
+    },
+    "2": {
+      "0": [
+        {
+          "name": "Orange Juice",
+          "id": 4422,
+          "points": 75,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Roast Mutton",
+          "id": 4437,
+          "points": 270,
+          "max": 7680
+        },
+        {
+          "name": "Juicy Mutton",
+          "id": 4335,
+          "points": 300,
+          "max": 7680
+        }
+      ],
+      "2": [
+        {
+          "name": "Puls",
+          "id": 4492,
+          "points": 225,
+          "max": 7920
+        },
+        {
+          "name": "Delicious Puls",
+          "id": 4533,
+          "points": 450,
+          "max": 7920
+        }
+      ],
+      "3": [
+        {
+          "name": "Acorn Cookie",
+          "id": 4510,
+          "points": 9,
+          "max": 5760
+        },
+        {
+          "name": "Wild Cookie",
+          "id": 4577,
+          "points": 10,
+          "max": 5760
+        }
+      ],
+      "4": [
+        {
+          "name": "Apple Pie",
+          "id": 4413,
+          "points": 120,
+          "max": 7680
+        },
+        {
+          "name": "Apple Pie +1",
+          "id": 4320,
+          "points": 132,
+          "max": 7680
+        }
+      ],
+      "5": [
+        {
+          "name": "Bataquiche",
+          "id": 5168,
+          "points": 184,
+          "max": 8880
+        },
+        {
+          "name": "Bataquiche +1",
+          "id": 5169,
+          "points": 276,
+          "max": 8880
+        }
+      ],
+      "6": [
+        {
+          "name": "Irmik Helvasi",
+          "id": 5572,
+          "points": 622,
+          "max": 12480
+        },
+        {
+          "name": "Irmik Helvasi +1",
+          "id": 5573,
+          "points": 661,
+          "max": 12480
+        }
+      ],
+      "7": [
+        {
+          "name": "Salmon Meuniere",
+          "id": 4583,
+          "points": 382,
+          "max": 11280
+        },
+        {
+          "name": "Salmon Meuniere +1",
+          "id": 4347,
+          "points": 382,
+          "max": 11280
+        }
+      ],
+      "8": [
+        {
+          "name": "Pepperoni",
+          "id": 5660,
+          "points": 228,
+          "max": 10560
+        }
+      ],
+      "9": [
+        {
+          "name": "Dorado Sushi",
+          "id": 5178,
+          "points": 661,
+          "max": 13440
+        },
+        {
+          "name": "Dorado Sushi +1",
+          "id": 5179,
+          "points": 991,
+          "max": 13440
+        }
+      ]
+    },
+    "3": {
+      "0": [
+        {
+          "name": "Boiled Crayfish",
+          "id": 4535,
+          "points": 150,
+          "max": 5760
+        },
+        {
+          "name": "Steamed Crayfish",
+          "id": 4338,
+          "points": 180,
+          "max": 5760
+        }
+      ],
+      "1": [
+        {
+          "name": "Tortilla",
+          "id": 4408,
+          "points": 52,
+          "max": 5040
+        },
+        {
+          "name": "Tortilla Buena",
+          "id": 5181,
+          "points": 78,
+          "max": 5040
+        }
+      ],
+      "2": [
+        {
+          "name": "Baked Apple",
+          "id": 4406,
+          "points": 165,
+          "max": 7200
+        },
+        {
+          "name": "Sweet Baked Apple",
+          "id": 4336,
+          "points": 195,
+          "max": 7200
+        }
+      ],
+      "3": [
+        {
+          "name": "Iron Bread",
+          "id": 4499,
+          "points": 37,
+          "max": 6240
+        },
+        {
+          "name": "Steel Bread",
+          "id": 4573,
+          "points": 114,
+          "max": 6240
+        }
+      ],
+      "4": [
+        {
+          "name": "Fish Mithkabob",
+          "id": 4398,
+          "points": 270,
+          "max": 9360
+        },
+        {
+          "name": "Fish Chiefkabob",
+          "id": 4575,
+          "points": 306,
+          "max": 9360
+        }
+      ],
+      "5": [
+        {
+          "name": "Egg Soup",
+          "id": 4417,
+          "points": 450,
+          "max": 11040
+        },
+        {
+          "name": "Humpty Soup",
+          "id": 4521,
+          "points": 525,
+          "max": 11040
+        }
+      ],
+      "6": [
+        {
+          "name": "Herb Quus",
+          "id": 4559,
+          "points": 534,
+          "max": 12000
+        },
+        {
+          "name": "Herb Quus +1",
+          "id": 4294,
+          "points": 879,
+          "max": 12000
+        }
+      ],
+      "7": [
+        {
+          "name": "Whitefish Stew",
+          "id": 4440,
+          "points": 618,
+          "max": 12720
+        }
+      ],
+      "8": [
+        {
+          "name": "Bream Risotto",
+          "id": 4550,
+          "points": 2208,
+          "max": 17760
+        },
+        {
+          "name": "Sea Spray Risotto",
+          "id": 4268,
+          "points": 2688,
+          "max": 17760
+        }
+      ],
+      "9": [
+        {
+          "name": "Sea Bass Croute",
+          "id": 4353,
+          "points": 2727,
+          "max": 18480
+        }
+      ]
+    },
+    "4": {
+      "0": [
+        {
+          "name": "Orange Juice",
+          "id": 4422,
+          "points": 75,
+          "max": 4560
+        }
+      ],
+      "1": [
+        {
+          "name": "Pea Soup",
+          "id": 4416,
+          "points": 420,
+          "max": 9360
+        },
+        {
+          "name": "Emerald Soup",
+          "id": 4327,
+          "points": 541,
+          "max": 9360
+        }
+      ],
+      "2": [
+        {
+          "name": "Vegetable Soup",
+          "id": 4560,
+          "points": 376,
+          "max": 9360
+        },
+        {
+          "name": "Vegetable Broth",
+          "id": 4323,
+          "points": 664,
+          "max": 9360
+        }
+      ],
+      "3": [
+        {
+          "name": "Nebimonite Bake",
+          "id": 4459,
+          "points": 450,
+          "max": 10320
+        },
+        {
+          "name": "Buttered Nebimonite",
+          "id": 4267,
+          "points": 675,
+          "max": 10320
+        }
+      ],
+      "4": [
+        {
+          "name": "Pickled Herring",
+          "id": 4490,
+          "points": 180,
+          "max": 8400
+        },
+        {
+          "name": "Viking Herring",
+          "id": 5183,
+          "points": 270,
+          "max": 8400
+        }
+      ],
+      "5": [
+        {
+          "name": "Sis Kebabi",
+          "id": 5598,
+          "points": 600,
+          "max": 12000
+        },
+        {
+          "name": "Sis Kebabi +1",
+          "id": 5599,
+          "points": 750,
+          "max": 12000
+        }
+      ],
+      "6": [
+        {
+          "name": "Dhalmel Stew",
+          "id": 4433,
+          "points": 778,
+          "max": 13440
+        },
+        {
+          "name": "Wild Stew",
+          "id": 4589,
+          "points": 855,
+          "max": 13440
+        }
+      ],
+      "7": [
+        {
+          "name": "Chocomilk",
+          "id": 4498,
+          "points": 427,
+          "max": 11760
+        },
+        {
+          "name": "Choco-delight",
+          "id": 4283,
+          "points": 1495,
+          "max": 11760
+        }
+      ],
+      "8": [
+        {
+          "name": "Bass Meuniere",
+          "id": 4582,
+          "points": 457,
+          "max": 12240
+        },
+        {
+          "name": "Bass Meuniere +1",
+          "id": 4346,
+          "points": 915,
+          "max": 12240
+        }
+      ],
+      "9": [
+        {
+          "name": "Flounder Meuniere",
+          "id": 4584,
+          "points": 2395,
+          "max": 18000
+        },
+        {
+          "name": "Flounder Meuniere +1",
+          "id": 4345,
+          "points": 3195,
+          "max": 18000
+        }
+      ]
+    },
+    "5": {
+      "0": [
+        {
+          "name": "Salmon Sub",
+          "id": 4355,
+          "points": 417,
+          "max": 8880
+        },
+        {
+          "name": "Fulm-long Salmon Sub",
+          "id": 4266,
+          "points": 432,
+          "max": 8880
+        }
+      ],
+      "1": [
+        {
+          "name": "Roast Carp",
+          "id": 4537,
+          "points": 195,
+          "max": 6960
+        },
+        {
+          "name": "Broiled Carp",
+          "id": 4586,
+          "points": 240,
+          "max": 6960
+        }
+      ],
+      "2": [
+        {
+          "name": "Meat Jerky",
+          "id": 4376,
+          "points": 45,
+          "max": 5520
+        },
+        {
+          "name": "Sheep Jerky",
+          "id": 4518,
+          "points": 63,
+          "max": 5520
+        }
+      ],
+      "3": [
+        {
+          "name": "Black Bread",
+          "id": 4364,
+          "points": 45,
+          "max": 6240
+        },
+        {
+          "name": "Pumpernickel",
+          "id": 4591,
+          "points": 60,
+          "max": 6240
+        }
+      ],
+      "4": [
+        {
+          "name": "Pickled Herring",
+          "id": 4490,
+          "points": 180,
+          "max": 8400
+        },
+        {
+          "name": "Viking Herring",
+          "id": 5183,
+          "points": 270,
+          "max": 8400
+        }
+      ],
+      "5": [
+        {
+          "name": "Eel Kabob",
+          "id": 4457,
+          "points": 750,
+          "max": 12960
+        },
+        {
+          "name": "Broiled Eel",
+          "id": 4588,
+          "points": 825,
+          "max": 12960
+        }
+      ],
+      "6": [
+        {
+          "name": "Colored Egg",
+          "id": 4487,
+          "points": 156,
+          "max": 9120
+        },
+        {
+          "name": "Party Egg",
+          "id": 4595,
+          "points": 345,
+          "max": 9120
+        }
+      ],
+      "7": [
+        {
+          "name": "Rarab Meatball",
+          "id": 4507,
+          "points": 480,
+          "max": 12000
+        },
+        {
+          "name": "Bunny Ball",
+          "id": 4349,
+          "points": 810,
+          "max": 12000
+        }
+      ],
+      "8": [
+        {
+          "name": "Steamed Catfish",
+          "id": 4557,
+          "points": 783,
+          "max": 13920
+        }
+      ],
+      "9": [
+        {
+          "name": "Brain Stew",
+          "id": 4542,
+          "points": 3330,
+          "max": 19200
+        },
+        {
+          "name": "Sophic Stew",
+          "id": 5180,
+          "points": 4995,
+          "max": 19200
+        }
+      ]
+    },
+    "6": {
+      "0": [
+        {
+          "name": "Salmon Sub",
+          "id": 4355,
+          "points": 417,
+          "max": 8880
+        },
+        {
+          "name": "Fulm-long Salmon Sub",
+          "id": 4266,
+          "points": 432,
+          "max": 8880
+        }
+      ],
+      "1": [
+        {
+          "name": "Roast Carp",
+          "id": 4537,
+          "points": 195,
+          "max": 6960
+        },
+        {
+          "name": "Broiled Carp",
+          "id": 4586,
+          "points": 240,
+          "max": 6960
+        }
+      ],
+      "2": [
+        {
+          "name": "Boiled Crab",
+          "id": 4456,
+          "points": 675,
+          "max": 11760
+        },
+        {
+          "name": "Steamed Crab",
+          "id": 4342,
+          "points": 825,
+          "max": 11760
+        }
+      ],
+      "3": [
+        {
+          "name": "Buffalo Jerky",
+          "id": 5196,
+          "points": 252,
+          "max": 8640
+        },
+        {
+          "name": "Bison Jerky",
+          "id": 5207,
+          "points": 567,
+          "max": 8640
+        }
+      ],
+      "4": [
+        {
+          "name": "Cinna-cookie",
+          "id": 4397,
+          "points": 6,
+          "max": 6480
+        },
+        {
+          "name": "Coin Cookie",
+          "id": 4520,
+          "points": 7,
+          "max": 6480
+        }
+      ],
+      "5": [
+        {
+          "name": "Sis Kebabi",
+          "id": 5598,
+          "points": 600,
+          "max": 12000
+        },
+        {
+          "name": "Sis Kebabi +1",
+          "id": 5599,
+          "points": 750,
+          "max": 12000
+        }
+      ],
+      "6": [
+        {
+          "name": "Mutton Tortilla",
+          "id": 4506,
+          "points": 607,
+          "max": 12480
+        },
+        {
+          "name": "Mutton Tortilla +1",
+          "id": 4348,
+          "points": 880,
+          "max": 12480
+        }
+      ],
+      "7": [
+        {
+          "name": "Shallops Tropicale",
+          "id": 4554,
+          "points": 2106,
+          "max": 17520
+        }
+      ],
+      "8": [
+        {
+          "name": "Coeurl Sautee",
+          "id": 4548,
+          "points": 924,
+          "max": 14400
+        },
+        {
+          "name": "Royal Sautee",
+          "id": 4295,
+          "points": 1449,
+          "max": 14400
+        }
+      ],
+      "9": [
+        {
+          "name": "Sweet Rice Cake",
+          "id": 4270,
+          "points": 147,
+          "max": 10320
+        }
+      ]
+    },
+    "7": {
+      "0": [
+        {
+          "name": "Roasted Corn",
+          "id": 4415,
+          "points": 46,
+          "max": 4080
+        },
+        {
+          "name": "Grilled Corn",
+          "id": 4334,
+          "points": 55,
+          "max": 4080
+        }
+      ],
+      "1": [
+        {
+          "name": "Tortilla",
+          "id": 4408,
+          "points": 52,
+          "max": 5040
+        },
+        {
+          "name": "Tortilla Buena",
+          "id": 5181,
+          "points": 78,
+          "max": 5040
+        }
+      ],
+      "2": [
+        {
+          "name": "Baked Popoto",
+          "id": 4436,
+          "points": 120,
+          "max": 6720
+        },
+        {
+          "name": "Pipin' Hot Popoto",
+          "id": 4282,
+          "points": 127,
+          "max": 6720
+        }
+      ],
+      "3": [
+        {
+          "name": "Roast Trout",
+          "id": 4404,
+          "points": 225,
+          "max": 8400
+        },
+        {
+          "name": "Broiled Trout",
+          "id": 4587,
+          "points": 247,
+          "max": 8400
+        }
+      ],
+      "4": [
+        {
+          "name": "Goulash",
+          "id": 5750,
+          "points": 558,
+          "max": 11520
+        },
+        {
+          "name": "Goulash +1",
+          "id": 5751,
+          "points": 613,
+          "max": 11520
+        }
+      ],
+      "5": [
+        {
+          "name": "Bretzel",
+          "id": 4391,
+          "points": 9,
+          "max": 7200
+        },
+        {
+          "name": "Salty Bretzel",
+          "id": 5182,
+          "points": 13,
+          "max": 7200
+        }
+      ],
+      "6": [
+        {
+          "name": "Balik Sis",
+          "id": 5600,
+          "points": 900,
+          "max": 13920
+        },
+        {
+          "name": "Balik Sis +1",
+          "id": 5601,
+          "points": 975,
+          "max": 13920
+        }
+      ],
+      "7": [
+        {
+          "name": "Turtle Soup",
+          "id": 4418,
+          "points": 1800,
+          "max": 16800
+        },
+        {
+          "name": "Stamina Soup",
+          "id": 4337,
+          "points": 2100,
+          "max": 16800
+        }
+      ],
+      "8": [
+        {
+          "name": "Shark Fin Soup",
+          "id": 4452,
+          "points": 1725,
+          "max": 16800
+        },
+        {
+          "name": "Ocean Soup",
+          "id": 4285,
+          "points": 2100,
+          "max": 16800
+        }
+      ],
+      "9": [
+        {
+          "name": "Salmon Croute",
+          "id": 4551,
+          "points": 1350,
+          "max": 16080
+        }
+      ]
+    }
+  }
+}
