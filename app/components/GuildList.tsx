@@ -101,69 +101,72 @@ const GuildList = memo(function GuildList({
                                                 </thead>
                                                 <tbody className="divide-y divide-slate-100 dark:divide-white/5 relative">
                                                     <AnimatePresence mode="popLayout" initial={false}>
-                                                        {SKILL_RANKS.slice(3).map((rank) => {
-                                                            const rotationCounter = earthDays % (rank.id + 1);
-                                                            const items = gData?.[rotationCounter.toString()] || [];
-                                                            const rankKey = `row-${earthDays}-${rank.id}`;
+                                                        {(() => {
+                                                            const flatRows = SKILL_RANKS.slice(3).flatMap((rank) => {
+                                                                const rotationCounter = earthDays % (rank.id + 1);
+                                                                const items = gData?.[rotationCounter.toString()] || [];
+                                                                const rankKey = `row-${earthDays}-${rank.id}`;
 
-                                                            if (items.length === 0) {
-                                                                return (
+                                                                if (items.length === 0) {
+                                                                    return [
+                                                                        <motion.tr
+                                                                            key={`${rankKey}-empty`}
+                                                                            initial={{ opacity: 0 }}
+                                                                            animate={{ opacity: 1 }}
+                                                                            exit={{ opacity: 0 }}
+                                                                            className="hover:bg-slate-50 dark:hover:bg-slate-700/30 transition-colors"
+                                                                        >
+                                                                            <td className="px-6 py-4 font-medium text-slate-500 dark:text-slate-400">
+                                                                                {rank.name}
+                                                                            </td>
+                                                                            <td colSpan={4} className="px-6 py-4 text-slate-400 dark:text-slate-600 italic text-xs">
+                                                                                No active item
+                                                                            </td>
+                                                                        </motion.tr>
+                                                                    ];
+                                                                }
+
+                                                                return items.map((item: GuildItem, index: number) => (
                                                                     <motion.tr
-                                                                        key={`${rankKey}-empty`}
-                                                                        initial={{ opacity: 0 }}
-                                                                        animate={{ opacity: 1 }}
-                                                                        exit={{ opacity: 0 }}
-                                                                        className="hover:bg-slate-50 dark:hover:bg-slate-700/30 transition-colors"
+                                                                        key={`${rankKey}-${item.id}-${index}`}
+                                                                        initial={{ opacity: 0, x: -10 }}
+                                                                        animate={{ opacity: 1, x: 0 }}
+                                                                        exit={{ opacity: 0, x: 10 }}
+                                                                        transition={{ duration: 0.2 }}
+                                                                        className={`group hover:bg-blue-50/40 dark:hover:bg-blue-900/10 transition-colors`}
                                                                     >
-                                                                        <td className="px-6 py-4 font-medium text-slate-500 dark:text-slate-400">
-                                                                            {rank.name}
+                                                                        {index === 0 && (
+                                                                            <td
+                                                                                className="px-6 py-4 font-bold text-slate-500 dark:text-slate-400 bg-slate-50/30 dark:bg-slate-900/20 border-r border-slate-50 dark:border-white/5 align-top"
+                                                                                rowSpan={items.length}
+                                                                            >
+                                                                                {rank.name}
+                                                                            </td>
+                                                                        )}
+                                                                        <td className="px-6 py-4 font-semibold text-slate-700 dark:text-slate-200">
+                                                                            {item.name}
                                                                         </td>
-                                                                        <td colSpan={4} className="px-6 py-4 text-slate-400 dark:text-slate-600 italic text-xs">
-                                                                            No active item
+                                                                        <td className="px-6 py-4 text-right text-slate-500 dark:text-slate-400 font-mono">
+                                                                            {item.points.toLocaleString()}
+                                                                        </td>
+                                                                        {index === 0 && (
+                                                                            <td
+                                                                                className="px-6 py-4 text-right border-l border-slate-50 dark:border-white/5 align-top font-bold text-slate-700 dark:text-slate-200"
+                                                                                rowSpan={items.length}
+                                                                            >
+                                                                                {item.max.toLocaleString()}
+                                                                            </td>
+                                                                        )}
+                                                                        <td className="px-6 py-4 text-right">
+                                                                            <span className="inline-block bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 text-[10px] font-black px-2 py-0.5 rounded-full border border-blue-100 dark:border-blue-800/30">
+                                                                                {Math.ceil(item.max / item.points)}
+                                                                            </span>
                                                                         </td>
                                                                     </motion.tr>
-                                                                );
-                                                            }
-
-                                                            return items.map((item: GuildItem, index: number) => (
-                                                                <motion.tr
-                                                                    key={`${rankKey}-${item.id}-${index}`}
-                                                                    initial={{ opacity: 0, x: -10 }}
-                                                                    animate={{ opacity: 1, x: 0 }}
-                                                                    exit={{ opacity: 0, x: 10 }}
-                                                                    transition={{ duration: 0.2 }}
-                                                                    className={`group hover:bg-blue-50/40 dark:hover:bg-blue-900/10 transition-colors`}
-                                                                >
-                                                                    {index === 0 && (
-                                                                        <td
-                                                                            className="px-6 py-4 font-bold text-slate-500 dark:text-slate-400 bg-slate-50/30 dark:bg-slate-900/20 border-r border-slate-50 dark:border-white/5 align-top"
-                                                                            rowSpan={items.length}
-                                                                        >
-                                                                            {rank.name}
-                                                                        </td>
-                                                                    )}
-                                                                    <td className="px-6 py-4 font-semibold text-slate-700 dark:text-slate-200">
-                                                                        {item.name}
-                                                                    </td>
-                                                                    <td className="px-6 py-4 text-right text-slate-500 dark:text-slate-400 font-mono">
-                                                                        {item.points.toLocaleString()}
-                                                                    </td>
-                                                                    {index === 0 && (
-                                                                        <td
-                                                                            className="px-6 py-4 text-right border-l border-slate-50 dark:border-white/5 align-top font-bold text-slate-700 dark:text-slate-200"
-                                                                            rowSpan={items.length}
-                                                                        >
-                                                                            {item.max.toLocaleString()}
-                                                                        </td>
-                                                                    )}
-                                                                    <td className="px-6 py-4 text-right">
-                                                                        <span className="inline-block bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 text-[10px] font-black px-2 py-0.5 rounded-full border border-blue-100 dark:border-blue-800/30">
-                                                                            {Math.ceil(item.max / item.points)}
-                                                                        </span>
-                                                                    </td>
-                                                                </motion.tr>
-                                                            ));
-                                                        })}
+                                                                ));
+                                                            });
+                                                            return flatRows;
+                                                        })()}
                                                     </AnimatePresence>
                                                 </tbody>
                                             </table>
