@@ -89,11 +89,11 @@ const GuildList = memo(function GuildList({
                                                 <caption className="sr-only">{gName} Guild Points</caption>
                                                 <thead className="bg-slate-50 dark:bg-slate-900/50 text-slate-500 dark:text-slate-400 text-[9px] sm:text-[10px] uppercase font-bold tracking-tighter sm:tracking-widest border-b border-slate-100 dark:border-white/5">
                                                     <tr>
-                                                        <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4">Rank</th>
+                                                        <th className="pl-3 pr-2 sm:px-4 lg:px-6 py-2.5 sm:py-4">Rank</th>
                                                         <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4">Item</th>
                                                         <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right">Pts</th>
                                                         <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right">Max</th>
-                                                        <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right">Qty</th>
+                                                        <th className="pl-2 pr-3 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right">Qty</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody className="divide-y divide-slate-100 dark:divide-white/5 relative">
@@ -121,11 +121,11 @@ const GuildList = memo(function GuildList({
                                                                             exit={{ opacity: 0 }}
                                                                             className="hover:bg-slate-50 dark:hover:bg-slate-700/30 transition-colors"
                                                                         >
-                                                                            <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-medium text-slate-500 dark:text-slate-400 whitespace-nowrap">
+                                                                            <td className="pl-3 pr-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-medium text-slate-500 dark:text-slate-400 whitespace-nowrap">
                                                                                 <span className="sm:hidden">{shortRankName}</span>
                                                                                 <span className="hidden sm:inline">{rank.name}</span>
                                                                             </td>
-                                                                            <td colSpan={4} className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-slate-400 dark:text-slate-600 italic text-[10px]">
+                                                                            <td colSpan={4} className="pl-2 pr-3 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-slate-400 dark:text-slate-600 italic text-[10px]">
                                                                                 No active item
                                                                             </td>
                                                                         </motion.tr>
@@ -143,14 +143,14 @@ const GuildList = memo(function GuildList({
                                                                     >
                                                                         {index === 0 && (
                                                                             <td
-                                                                                className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-bold text-slate-500 dark:text-slate-400 bg-slate-50/30 dark:bg-slate-900/20 border-r border-slate-50 dark:border-white/5 align-top whitespace-nowrap"
+                                                                                className="pl-3 pr-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-bold text-slate-500 dark:text-slate-400 bg-slate-50/30 dark:bg-slate-900/20 border-r border-slate-50 dark:border-white/5 align-top whitespace-nowrap"
                                                                                 rowSpan={items.length}
                                                                             >
                                                                                 <span className="sm:hidden">{shortRankName}</span>
                                                                                 <span className="hidden sm:inline">{rank.name}</span>
                                                                             </td>
                                                                         )}
-                                                                        <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-semibold text-slate-700 dark:text-slate-200 whitespace-normal min-w-[50px] leading-tight">
+                                                                        <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-semibold text-slate-700 dark:text-slate-200 whitespace-normal min-w-[40px] leading-tight">
                                                                             {item.name}
                                                                         </td>
                                                                         <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right text-slate-500 dark:text-slate-400 font-mono whitespace-nowrap">
@@ -164,7 +164,7 @@ const GuildList = memo(function GuildList({
                                                                                 {item.max.toLocaleString()}
                                                                             </td>
                                                                         )}
-                                                                        <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right whitespace-nowrap">
+                                                                        <td className="pl-2 pr-3 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right whitespace-nowrap">
                                                                             <span className="inline-block bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 text-[10px] font-black px-1.5 py-0.5 rounded-full border border-blue-100 dark:border-blue-800/30">
                                                                                 {Math.ceil(item.max / item.points)}
                                                                             </span>
