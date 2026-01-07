@@ -33,7 +33,16 @@ export function useGuildScroll(): UseGuildScrollReturn {
       isProgrammaticScroll.current = true;
       const element = document.getElementById(`guild-${guildId}`);
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const isMobile = window.innerWidth < 1024;
+        const headerOffset = isMobile ? 64 : 0; // Mobile header height
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+
         closeSidebarCallback();
         updateUrlCallback({ guild: String(guildId) });
 
