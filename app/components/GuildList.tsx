@@ -28,22 +28,7 @@ const GuildList = memo(function GuildList({
     const { setIsSidebarOpen } = useStore();
 
     return (
-        <div className="flex-1 flex flex-col min-w-0 overflow-hidden bg-slate-50 dark:bg-slate-900">
-            {/* Mobile Header */}
-            <header className="bg-white dark:bg-slate-800 p-4 flex items-center justify-between lg:hidden shadow-md z-50 sticky top-0">
-                <button
-                    onClick={() => setIsSidebarOpen(true)}
-                    className="p-2 -ml-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-                >
-                    <span className="sr-only">Open sidebar</span>
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-                <h1 className="text-lg font-bold text-slate-800 dark:text-slate-100">FFXI GP Calculator</h1>
-                <div className="w-8"></div>
-            </header>
-
+        <div className="flex-1 flex flex-col min-w-0 bg-slate-50 dark:bg-slate-900">
             <div
                 id="main-scroll-container"
                 className="flex-1 overflow-y-auto scroll-smooth custom-scrollbar"
@@ -56,6 +41,21 @@ const GuildList = memo(function GuildList({
                     }
                 }}
             >
+                {/* Mobile Header */}
+                <header className="bg-white dark:bg-slate-800 p-4 flex items-center justify-between lg:hidden shadow-md z-50 sticky top-0">
+                    <button
+                        onClick={() => setIsSidebarOpen(true)}
+                        className="p-2 -ml-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                    >
+                        <span className="sr-only">Open sidebar</span>
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                    <h1 className="text-lg font-bold text-slate-800 dark:text-slate-100">FFXI GP Calculator</h1>
+                    <div className="w-8"></div>
+                </header>
+
                 <main className="p-4 md:p-8 md:max-w-6xl mx-auto w-full">
                     <motion.div layout className="flex flex-col space-y-8 pb-24">
                         {targetGuilds.map((guildId) => {
