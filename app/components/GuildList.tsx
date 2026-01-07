@@ -79,24 +79,21 @@ const GuildList = memo(function GuildList({
                                             <span className="w-1.5 h-6 bg-blue-500 rounded-full mr-3"></span>
                                             {gName}
                                         </h3>
-                                        <div className="text-[10px] font-bold uppercase tracking-widest text-slate-400 bg-slate-100 dark:bg-slate-900 px-2 py-0.5 rounded-full">
-                                            Active
-                                        </div>
                                     </div>
 
-                                    <div className="overflow-x-auto">
+                                    <div className="overflow-x-auto -mx-1 sm:mx-0">
                                         {!gData ? (
                                             <SkeletonTable />
                                         ) : (
-                                            <table className="w-full text-sm text-left whitespace-nowrap">
+                                            <table className="w-full text-[10px] sm:text-sm text-left">
                                                 <caption className="sr-only">{gName} Guild Points</caption>
-                                                <thead className="bg-slate-50 dark:bg-slate-900/50 text-slate-500 dark:text-slate-400 text-[10px] uppercase font-bold tracking-widest border-b border-slate-100 dark:border-white/5">
+                                                <thead className="bg-slate-50 dark:bg-slate-900/50 text-slate-500 dark:text-slate-400 text-[9px] sm:text-[10px] uppercase font-bold tracking-tighter sm:tracking-widest border-b border-slate-100 dark:border-white/5">
                                                     <tr>
-                                                        <th className="px-6 py-4">Rank</th>
-                                                        <th className="px-6 py-4">Item</th>
-                                                        <th className="px-6 py-4 text-right">Points</th>
-                                                        <th className="px-6 py-4 text-right">Max</th>
-                                                        <th className="px-6 py-4 text-right">Qty</th>
+                                                        <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4">Rank</th>
+                                                        <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4">Item</th>
+                                                        <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right">Pts</th>
+                                                        <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right">Max</th>
+                                                        <th className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right">Qty</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody className="divide-y divide-slate-100 dark:divide-white/5 relative">
@@ -107,6 +104,14 @@ const GuildList = memo(function GuildList({
                                                                 const items = gData?.[rotationCounter.toString()] || [];
                                                                 const rankKey = `row-${earthDays}-${rank.id}`;
 
+                                                                // Abbreviate ranks for mobile
+                                                                const shortRankName = rank.name === 'Journeyman' ? 'Jour.' :
+                                                                    rank.name === 'Apprentice' ? 'Appr.' :
+                                                                        rank.name === 'Craftsman' ? 'Craft.' :
+                                                                            rank.name === 'Initiate' ? 'Init.' :
+                                                                                rank.name === 'Veteran' ? 'Vet.' :
+                                                                                    rank.name === 'Artisan' ? 'Art.' : rank.name;
+
                                                                 if (items.length === 0) {
                                                                     return [
                                                                         <motion.tr
@@ -116,10 +121,11 @@ const GuildList = memo(function GuildList({
                                                                             exit={{ opacity: 0 }}
                                                                             className="hover:bg-slate-50 dark:hover:bg-slate-700/30 transition-colors"
                                                                         >
-                                                                            <td className="px-6 py-4 font-medium text-slate-500 dark:text-slate-400">
-                                                                                {rank.name}
+                                                                            <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-medium text-slate-500 dark:text-slate-400 whitespace-nowrap">
+                                                                                <span className="sm:hidden">{shortRankName}</span>
+                                                                                <span className="hidden sm:inline">{rank.name}</span>
                                                                             </td>
-                                                                            <td colSpan={4} className="px-6 py-4 text-slate-400 dark:text-slate-600 italic text-xs">
+                                                                            <td colSpan={4} className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-slate-400 dark:text-slate-600 italic text-[10px]">
                                                                                 No active item
                                                                             </td>
                                                                         </motion.tr>
@@ -137,28 +143,29 @@ const GuildList = memo(function GuildList({
                                                                     >
                                                                         {index === 0 && (
                                                                             <td
-                                                                                className="px-6 py-4 font-bold text-slate-500 dark:text-slate-400 bg-slate-50/30 dark:bg-slate-900/20 border-r border-slate-50 dark:border-white/5 align-top"
+                                                                                className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-bold text-slate-500 dark:text-slate-400 bg-slate-50/30 dark:bg-slate-900/20 border-r border-slate-50 dark:border-white/5 align-top whitespace-nowrap"
                                                                                 rowSpan={items.length}
                                                                             >
-                                                                                {rank.name}
+                                                                                <span className="sm:hidden">{shortRankName}</span>
+                                                                                <span className="hidden sm:inline">{rank.name}</span>
                                                                             </td>
                                                                         )}
-                                                                        <td className="px-6 py-4 font-semibold text-slate-700 dark:text-slate-200">
+                                                                        <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 font-semibold text-slate-700 dark:text-slate-200 whitespace-normal min-w-[50px] leading-tight">
                                                                             {item.name}
                                                                         </td>
-                                                                        <td className="px-6 py-4 text-right text-slate-500 dark:text-slate-400 font-mono">
+                                                                        <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right text-slate-500 dark:text-slate-400 font-mono whitespace-nowrap">
                                                                             {item.points.toLocaleString()}
                                                                         </td>
                                                                         {index === 0 && (
                                                                             <td
-                                                                                className="px-6 py-4 text-right border-l border-slate-50 dark:border-white/5 align-top font-bold text-slate-700 dark:text-slate-200"
+                                                                                className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right border-l border-slate-50 dark:border-white/5 align-top font-bold text-slate-700 dark:text-slate-200 whitespace-nowrap"
                                                                                 rowSpan={items.length}
                                                                             >
                                                                                 {item.max.toLocaleString()}
                                                                             </td>
                                                                         )}
-                                                                        <td className="px-6 py-4 text-right">
-                                                                            <span className="inline-block bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 text-[10px] font-black px-2 py-0.5 rounded-full border border-blue-100 dark:border-blue-800/30">
+                                                                        <td className="px-2 sm:px-4 lg:px-6 py-2.5 sm:py-4 text-right whitespace-nowrap">
+                                                                            <span className="inline-block bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 text-[10px] font-black px-1.5 py-0.5 rounded-full border border-blue-100 dark:border-blue-800/30">
                                                                                 {Math.ceil(item.max / item.points)}
                                                                             </span>
                                                                         </td>
