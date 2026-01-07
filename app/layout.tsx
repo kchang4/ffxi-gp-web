@@ -14,8 +14,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'FFXI GP Calculator',
-  description:
-    'A tool to track Guild Points items and patterns for Final Fantasy XI.',
+  description: 'A tool to track Guild Points items and patterns for Final Fantasy XI.',
+  keywords: ['FFXI', 'Final Fantasy XI', 'Guild Points', 'GP Calculator', 'Crafting'],
+  openGraph: {
+    title: 'FFXI GP Calculator',
+    description: 'Track Guild Points items and patterns for Final Fantasy XI.',
+    url: 'https://ffxi-gp.vercel.app', // Placeholder, but good to have
+    siteName: 'FFXI GP Calculator',
+    images: [
+      {
+        url: '/icons/icon-512x512.png',
+        width: 512,
+        height: 512,
+        alt: 'FFXI GP Calculator Icon',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'FFXI GP Calculator',
+    description: 'Track Guild Points items and patterns for Final Fantasy XI.',
+    images: ['/icons/icon-512x512.png'],
+  },
 };
 
 export default function RootLayout({
@@ -33,6 +55,17 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-full overflow-hidden`}
       >
         {children}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                  navigator.serviceWorker.register('/sw.js');
+                });
+              }
+            `,
+          }}
+        />
       </body>
     </html>
   );

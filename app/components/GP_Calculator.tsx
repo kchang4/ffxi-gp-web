@@ -1,13 +1,13 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useState, useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useRef } from 'react';
 import {
     useVanaTime,
     calculateEarthDays,
     getVanaTime,
 } from '../hooks/useVanaTime';
-import { useTheme } from '../hooks/useTheme';
+import { useStore } from '../store/useStore';
 import { useGuildScroll } from '../hooks/useGuildScroll';
 import GuildList from './GuildList';
 
@@ -27,30 +27,37 @@ export default function GP_Calculator({
     initialGuildData,
     initialTheme,
 }: GP_CalculatorProps) {
-    const [vYear, setVYear] = useState(1495);
-    const [vMonth, setVMonth] = useState(3);
-    const [vDay, setVDay] = useState(13);
-    const [pattern, setPattern] = useState(1);
-    const [guildData, setGuildData] = useState<GuildData | null>(
-        initialGuildData,
-    );
+    const {
+        vYear, vMonth, vDay, setVanaDate,
+        pattern, setPattern,
+        guildData, setGuildData,
+        isSidebarOpen, setIsSidebarOpen,
+        theme, setTheme, toggleTheme,
+        mounted, setMounted,
+        selectedGuild, setSelectedGuild
+    } = useStore();
 
-    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const currentVana = useVanaTime();
-    const { theme, toggleTheme, mounted } = useTheme(initialTheme);
+    const isFirstMount = useRef(true);
 
     const {
         pendingScrollGuild,
         setPendingScrollGuild,
-        selectedGuild,
-        setSelectedGuild,
         isProgrammaticScroll,
         scrollToGuild,
     } = useGuildScroll();
 
+    // Initialization
     useEffect(() => {
+        if (isFirstMount.current) {
+            setGuildData(initialGuildData);
+            setTheme(initialTheme);
+            setMounted(true);
+            isFirstMount.current = false;
+        }
+
         // Fallback if data wasn't passed from server
-        if (!guildData) {
+        if (!initialGuildData && !guildData) {
             fetch('/guild_data.json')
                 .then((res) => res.json())
                 .then((data) => setGuildData(data));
@@ -70,9 +77,7 @@ export default function GP_Calculator({
                 const targetDate = new Date(Number(t));
                 if (!isNaN(targetDate.getTime())) {
                     const vDate = getVanaTime(targetDate);
-                    setVYear(vDate.vYear);
-                    setVMonth(vDate.vMonth);
-                    setVDay(vDate.vDay);
+                    setVanaDate(vDate.vYear, vDate.vMonth, vDate.vDay);
                 }
             }
         }
@@ -115,7 +120,6 @@ export default function GP_Calculator({
     );
 
     // Handle Auto-Scroll
-    // We use a small timeout to ensure the DOM elements are rendered
     useEffect(() => {
         if (guildData && pendingScrollGuild !== null) {
             setTimeout(() => {
@@ -125,10 +129,11 @@ export default function GP_Calculator({
                 setPendingScrollGuild(null);
             }, 100);
         }
-    }, [guildData, pendingScrollGuild, scrollToGuild]); // eslint-disable-line react-hooks/exhaustive-deps
+    }, [guildData, pendingScrollGuild, scrollToGuild, setIsSidebarOpen, setPendingScrollGuild, updateUrl]);
 
     // Sync state to URL
     useEffect(() => {
+        if (!mounted) return;
         const daysSinceEpochVana =
             (vYear - 886) * 360 + (vMonth - 1) * 30 + (vDay - 1);
         const earthMilliseconds = (daysSinceEpochVana / 25) * 86400000;
@@ -141,12 +146,10 @@ export default function GP_Calculator({
             },
             true,
         );
-    }, [vYear, vMonth, vDay, pattern]); // eslint-disable-line react-hooks/exhaustive-deps
+    }, [vYear, vMonth, vDay, pattern, mounted, updateUrl]);
 
     const setDateToNow = () => {
-        setVYear(currentVana.vYear);
-        setVMonth(currentVana.vMonth);
-        setVDay(currentVana.vDay);
+        setVanaDate(currentVana.vYear, currentVana.vMonth, currentVana.vDay);
     };
 
     const handleGuildClick = (guildId: number) => {
@@ -158,25 +161,10 @@ export default function GP_Calculator({
             className={`flex h-screen font-sans transition-colors duration-300 ${mounted ? (theme === 'dark' ? 'dark bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900') : 'bg-gray-50 text-gray-900'}`}
         >
             <Sidebar
-                isSidebarOpen={isSidebarOpen}
-                setIsSidebarOpen={setIsSidebarOpen}
-                theme={theme}
-                toggleTheme={toggleTheme}
                 currentVana={currentVana}
                 setDateToNow={setDateToNow}
-                vYear={vYear}
-                setVYear={setVYear}
-                vMonth={vMonth}
-                setVMonth={setVMonth}
-                vDay={vDay}
-                setVDay={setVDay}
-                pattern={pattern}
-                setPattern={setPattern}
-                targetGuilds={TARGET_GUILD_IDS}
-                selectedGuild={selectedGuild}
                 onGuildClick={handleGuildClick}
                 earthDays={earthDays}
-                mounted={mounted}
             />
 
             <GuildList
@@ -184,7 +172,6 @@ export default function GP_Calculator({
                 targetGuilds={TARGET_GUILD_IDS}
                 pattern={pattern}
                 earthDays={earthDays}
-                setIsSidebarOpen={setIsSidebarOpen}
                 onGuildHeaderClick={handleGuildClick}
                 isProgrammaticScroll={isProgrammaticScroll}
                 updateUrl={updateUrl}

@@ -2,6 +2,7 @@ import { memo } from 'react';
 import { useGuildScroll } from '../hooks/useGuildScroll';
 import { GuildData, GuildItem } from '../types/guild';
 import { GUILDS, SKILL_RANKS } from '../constants';
+import { useStore } from '../store/useStore';
 import SkeletonTable from './ui/SkeletonTable';
 
 interface GuildListProps {
@@ -9,7 +10,6 @@ interface GuildListProps {
     targetGuilds: number[];
     pattern: number;
     earthDays: number;
-    setIsSidebarOpen: (isOpen: boolean) => void;
     onGuildHeaderClick: (id: number) => void;
     isProgrammaticScroll: React.MutableRefObject<boolean>;
     updateUrl: (params: Record<string, string>, replace?: boolean) => void;
@@ -20,11 +20,11 @@ const GuildList = memo(function GuildList({
     targetGuilds,
     pattern,
     earthDays,
-    setIsSidebarOpen,
     onGuildHeaderClick,
     isProgrammaticScroll,
     updateUrl,
 }: GuildListProps) {
+    const { setIsSidebarOpen } = useStore();
     return (
         <div className="flex-1 flex flex-col min-w-0 overflow-hidden bg-slate-50 dark:bg-slate-900">
             {/* Mobile Header */}

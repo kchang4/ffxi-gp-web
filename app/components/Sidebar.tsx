@@ -1,51 +1,43 @@
+import { useState } from 'react';
 import { GUILDS } from '../constants';
 import { VanaTime } from '../hooks/useVanaTime';
 import NumberInput from './ui/NumberInput';
 import { Icons } from './ui/Icons';
+import { useStore } from '../store/useStore';
 
 interface SidebarProps {
-  isSidebarOpen: boolean;
-  setIsSidebarOpen: (isOpen: boolean) => void;
-  theme: 'light' | 'dark';
-  toggleTheme: () => void;
   currentVana: VanaTime;
   setDateToNow: () => void;
-  vYear: number;
-  setVYear: (y: number) => void;
-  vMonth: number;
-  setVMonth: (m: number) => void;
-  vDay: number;
-  setVDay: (d: number) => void;
-  pattern: number;
-  setPattern: (p: number) => void;
-  targetGuilds: number[];
-  selectedGuild: number | null;
   onGuildClick: (id: number) => void;
   earthDays: number;
-  mounted: boolean;
 }
 
 export default function Sidebar({
-  isSidebarOpen,
-  setIsSidebarOpen,
-  theme,
-  toggleTheme,
   currentVana,
   setDateToNow,
-  vYear,
-  setVYear,
-  vMonth,
-  setVMonth,
-  vDay,
-  setVDay,
-  pattern,
-  setPattern,
-  targetGuilds,
-  selectedGuild,
   onGuildClick,
   earthDays,
-  mounted,
 }: SidebarProps) {
+  const {
+    isSidebarOpen, setIsSidebarOpen,
+    theme, toggleTheme,
+    vYear, setVanaDate, vMonth, vDay,
+    pattern, setPattern,
+    selectedGuild,
+    mounted
+  } = useStore();
+
+  const [copyStatus, setCopyStatus] = useState<'idle' | 'copied'>('idle');
+
+  const handleCopyLink = () => {
+    if (typeof window === 'undefined') return;
+    const url = new URL(window.location.href);
+    navigator.clipboard.writeText(url.toString()).then(() => {
+      setCopyStatus('copied');
+      setTimeout(() => setCopyStatus('idle'), 2000);
+    });
+  };
+
   return (
     <>
       {/* Mobile Backdrop */}
@@ -153,7 +145,7 @@ export default function Sidebar({
                       label="Year"
                       value={vYear}
                       onChange={(e) =>
-                        setVYear(Math.max(1, Number(e.target.value)))
+                        setVanaDate(Math.max(1, Number(e.target.value)), vMonth, vDay)
                       }
                       min={1}
                     />
@@ -164,9 +156,10 @@ export default function Sidebar({
                       value={vMonth}
                       onChange={(e) => {
                         const val = Number(e.target.value);
-                        if (val > 12) setVMonth(12);
-                        else if (val < 1 && e.target.value !== '') setVMonth(1);
-                        else setVMonth(val);
+                        let next = val;
+                        if (val > 12) next = 12;
+                        else if (val < 1 && e.target.value !== '') next = 1;
+                        setVanaDate(vYear, next, vDay);
                       }}
                       min={1}
                       max={12}
@@ -178,9 +171,10 @@ export default function Sidebar({
                       value={vDay}
                       onChange={(e) => {
                         const val = Number(e.target.value);
-                        if (val > 30) setVDay(30);
-                        else if (val < 1 && e.target.value !== '') setVDay(1);
-                        else setVDay(val);
+                        let next = val;
+                        if (val > 30) next = 30;
+                        else if (val < 1 && e.target.value !== '') next = 1;
+                        setVanaDate(vYear, vMonth, next);
                       }}
                       min={1}
                       max={30}
@@ -221,7 +215,7 @@ export default function Sidebar({
                 Jump To Guild
               </h2>
               <nav className="space-y-1">
-                {targetGuilds.map((guildId) => (
+                {[1, 2, 3, 4, 5, 6, 7, 8].map((guildId) => (
                   <button
                     key={guildId}
                     onClick={() => onGuildClick(guildId)}
@@ -241,9 +235,20 @@ export default function Sidebar({
                 ))}
               </nav>
             </section>
+
+            {/* Smart Sharing */}
+            <section className="pt-2">
+              <button
+                onClick={handleCopyLink}
+                className="w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-bold transition flex items-center justify-center space-x-2 shadow-sm"
+              >
+                <Icons.Sync />
+                <span>{copyStatus === 'copied' ? 'Link Copied!' : 'Copy Shareable Link'}</span>
+              </button>
+            </section>
           </div>
 
-          <div className="p-4 border-t border-slate-200 text-xs text-center text-slate-400 bg-white dark:bg-slate-800">
+          <div className="p-4 border-t border-slate-200 dark:border-slate-700 text-xs text-center text-slate-400 bg-white dark:bg-slate-800">
             {earthDays.toLocaleString()} Earth Days Elapsed
           </div>
         </div>
