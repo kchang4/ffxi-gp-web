@@ -99,16 +99,17 @@ const GuildList = memo(function GuildList({
                                                         <th className="px-6 py-4 text-right">Qty</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody className="divide-y divide-slate-100 dark:divide-white/5">
+                                                <tbody className="divide-y divide-slate-100 dark:divide-white/5 relative">
                                                     <AnimatePresence mode="popLayout" initial={false}>
                                                         {SKILL_RANKS.slice(3).map((rank) => {
                                                             const rotationCounter = earthDays % (rank.id + 1);
                                                             const items = gData?.[rotationCounter.toString()] || [];
+                                                            const rankKey = `row-${earthDays}-${rank.id}`;
 
                                                             if (items.length === 0) {
                                                                 return (
                                                                     <motion.tr
-                                                                        key={`${rank.id}-empty`}
+                                                                        key={`${rankKey}-empty`}
                                                                         initial={{ opacity: 0 }}
                                                                         animate={{ opacity: 1 }}
                                                                         exit={{ opacity: 0 }}
@@ -126,11 +127,11 @@ const GuildList = memo(function GuildList({
 
                                                             return items.map((item: GuildItem, index: number) => (
                                                                 <motion.tr
-                                                                    key={`${item.id}-${item.name}`}
+                                                                    key={`${rankKey}-${item.id}-${index}`}
                                                                     initial={{ opacity: 0, x: -10 }}
                                                                     animate={{ opacity: 1, x: 0 }}
                                                                     exit={{ opacity: 0, x: 10 }}
-                                                                    transition={{ duration: 0.2, delay: index * 0.05 }}
+                                                                    transition={{ duration: 0.2 }}
                                                                     className={`group hover:bg-blue-50/40 dark:hover:bg-blue-900/10 transition-colors`}
                                                                 >
                                                                     {index === 0 && (
