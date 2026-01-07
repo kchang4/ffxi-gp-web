@@ -30,7 +30,7 @@ const GuildList = memo(function GuildList({
     return (
         <div className="flex-1 flex flex-col min-w-0 overflow-hidden bg-slate-50 dark:bg-slate-900">
             {/* Mobile Header */}
-            <header className="bg-white dark:bg-slate-800 p-4 flex items-center justify-between lg:hidden shadow-md z-10 sticky top-0">
+            <header className="bg-white dark:bg-slate-800 p-4 flex items-center justify-between lg:hidden shadow-md z-50 sticky top-0">
                 <button
                     onClick={() => setIsSidebarOpen(true)}
                     className="p-2 -ml-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
