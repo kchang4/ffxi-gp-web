@@ -80,7 +80,7 @@ const GuildList = memo(function GuildList({
                                     <div
                                         key={guildId}
                                         id={`guild-${guildId}`}
-                                        className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden"
+                                        className="relative bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden"
                                     >
                                         <div
                                             className="p-5 border-b border-slate-100 dark:border-slate-700 bg-white dark:bg-slate-800 flex justify-between items-center cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors"

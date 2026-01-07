@@ -22,6 +22,7 @@ interface SidebarProps {
   selectedGuild: number | null;
   onGuildClick: (id: number) => void;
   earthDays: number;
+  mounted: boolean;
 }
 
 export default function Sidebar({
@@ -43,6 +44,7 @@ export default function Sidebar({
   selectedGuild,
   onGuildClick,
   earthDays,
+  mounted,
 }: SidebarProps) {
   return (
     <>
@@ -224,14 +226,14 @@ export default function Sidebar({
                     key={guildId}
                     onClick={() => onGuildClick(guildId)}
                     className={`w-full text-left px-4 py-3 lg:px-3 lg:py-2 text-base lg:text-sm rounded-lg transition-all duration-200 flex items-center group ${selectedGuild === guildId
-                        ? 'bg-blue-50 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 font-medium'
-                        : 'text-slate-600 dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700 hover:shadow-sm hover:text-blue-600 dark:hover:text-blue-300'
+                      ? 'bg-blue-50 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 font-medium'
+                      : 'text-slate-600 dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700 hover:shadow-sm hover:text-blue-600 dark:hover:text-blue-300'
                       }`}
                   >
                     <span
                       className={`w-2 h-2 rounded-full mr-3 transition-colors ${selectedGuild === guildId
-                          ? 'bg-blue-500 dark:bg-blue-400'
-                          : 'bg-slate-300 dark:bg-slate-600 group-hover:bg-blue-500 dark:group-hover:bg-blue-400'
+                        ? 'bg-blue-500 dark:bg-blue-400'
+                        : 'bg-slate-300 dark:bg-slate-600 group-hover:bg-blue-500 dark:group-hover:bg-blue-400'
                         }`}
                     ></span>
                     {GUILDS[guildId as keyof typeof GUILDS]}

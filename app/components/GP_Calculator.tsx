@@ -35,7 +35,7 @@ export default function GP_Calculator({
 
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const currentVana = useVanaTime();
-    const { theme, toggleTheme } = useTheme();
+    const { theme, toggleTheme, mounted } = useTheme();
 
     const {
         pendingScrollGuild,
@@ -153,7 +153,7 @@ export default function GP_Calculator({
 
     return (
         <div
-            className={`flex h-screen font-sans transition-colors duration-300 ${theme === 'dark' ? 'dark bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900'}`}
+            className={`flex h-screen font-sans transition-colors duration-300 ${mounted ? (theme === 'dark' ? 'dark bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900') : 'bg-gray-50 text-gray-900'}`}
         >
             <Sidebar
                 isSidebarOpen={isSidebarOpen}
@@ -174,6 +174,7 @@ export default function GP_Calculator({
                 selectedGuild={selectedGuild}
                 onGuildClick={handleGuildClick}
                 earthDays={earthDays}
+                mounted={mounted}
             />
 
             <GuildList

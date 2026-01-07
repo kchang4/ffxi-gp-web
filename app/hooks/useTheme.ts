@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 
 export function useTheme() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     if (typeof document !== 'undefined') {
       const match = document.cookie.match(new RegExp('(^| )theme=([^;]+)'));
       if (match) {
@@ -24,5 +26,5 @@ export function useTheme() {
     document.cookie = `theme=${next}; path=/; max-age=31536000`; // 1 year
   };
 
-  return { theme, toggleTheme };
+  return { theme, toggleTheme, mounted };
 }
