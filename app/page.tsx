@@ -1,3 +1,4 @@
+import { cookies } from 'next/headers';
 import fs from 'fs';
 import path from 'path';
 import GP_Calculator from './components/GP_Calculator';
@@ -11,6 +12,13 @@ async function getGuildData(): Promise<GuildData> {
 
 export default async function Home() {
   const guildData = await getGuildData();
+  const themeCookie = (await cookies()).get('theme');
+  const initialTheme = (themeCookie?.value as 'light' | 'dark') || 'light';
 
-  return <GP_Calculator initialGuildData={guildData} />;
+  return (
+    <GP_Calculator
+      initialGuildData={guildData}
+      initialTheme={initialTheme}
+    />
+  );
 }

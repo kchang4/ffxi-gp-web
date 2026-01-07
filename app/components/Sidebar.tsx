@@ -109,7 +109,7 @@ export default function Sidebar({
 
               {/* Live Clock Widget */}
               {currentVana.vYear > 0 && (
-                <div className="mb-5 bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden relative">
+                <div className="mb-5 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden relative">
                   <div className="bg-slate-800 text-white p-3 text-center relative overflow-hidden">
                     <div className="relative z-10 flex flex-col justify-center items-center">
                       <span className="text-2xl font-mono font-bold tracking-widest leading-none">
@@ -124,17 +124,17 @@ export default function Sidebar({
                       </span>
                     </div>
                   </div>
-                  <div className="p-3 text-center bg-white">
+                  <div className="p-3 text-center bg-white dark:bg-slate-800">
                     <div className="flex justify-center items-baseline space-x-1">
-                      <span className="text-xl font-bold text-slate-700">
+                      <span className="text-xl font-bold text-slate-700 dark:text-slate-200">
                         {currentVana.vYear}
                       </span>
                       <span className="text-slate-400">/</span>
-                      <span className="text-xl font-bold text-slate-700">
+                      <span className="text-xl font-bold text-slate-700 dark:text-slate-200">
                         {String(currentVana.vMonth).padStart(2, '0')}
                       </span>
                       <span className="text-slate-400">/</span>
-                      <span className="text-xl font-bold text-slate-700">
+                      <span className="text-xl font-bold text-slate-700 dark:text-slate-200">
                         {String(currentVana.vDay).padStart(2, '0')}
                       </span>
                     </div>
@@ -197,12 +197,12 @@ export default function Sidebar({
               <h2 className="text-xs uppercase tracking-wider text-slate-500 font-bold mb-3">
                 Pattern
               </h2>
-              <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+              <div className="p-4 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
                 <select
                   aria-label="Selection Rotation Pattern"
                   value={pattern}
                   onChange={(e) => setPattern(Number(e.target.value))}
-                  className="w-full border-slate-200 rounded p-2 text-sm bg-slate-50 font-medium text-slate-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 cursor-pointer"
+                  className="w-full border-slate-200 dark:border-slate-600 rounded p-2 text-sm bg-slate-50 dark:bg-slate-700 font-medium text-slate-700 dark:text-slate-100 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 cursor-pointer"
                 >
                   {[0, 1, 2, 3, 4, 5, 6, 7].map((p) => (
                     <option key={p} value={p}>

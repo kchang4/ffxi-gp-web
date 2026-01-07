@@ -20,10 +20,12 @@ import { TARGET_GUILD_IDS } from '../constants';
 
 interface GP_CalculatorProps {
     initialGuildData: GuildData | null;
+    initialTheme: 'light' | 'dark';
 }
 
 export default function GP_Calculator({
     initialGuildData,
+    initialTheme,
 }: GP_CalculatorProps) {
     const [vYear, setVYear] = useState(1495);
     const [vMonth, setVMonth] = useState(3);
@@ -35,7 +37,7 @@ export default function GP_Calculator({
 
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const currentVana = useVanaTime();
-    const { theme, toggleTheme, mounted } = useTheme();
+    const { theme, toggleTheme, mounted } = useTheme(initialTheme);
 
     const {
         pendingScrollGuild,
