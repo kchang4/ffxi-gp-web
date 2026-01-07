@@ -36,7 +36,7 @@ export function useGuildScroll(): UseGuildScrollReturn {
 
       if (element && scrollContainer) {
         const isMobile = window.innerWidth < 1024;
-        const headerOffset = isMobile ? 64 : 0; // Mobile header height
+        const headerOffset = isMobile ? 80 : 0; // Mobile header height + padding
         const elementPosition = element.offsetTop;
         const offsetPosition = elementPosition - headerOffset;
 

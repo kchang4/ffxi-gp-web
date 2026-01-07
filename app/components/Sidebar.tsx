@@ -260,7 +260,7 @@ export default function Sidebar({
                     Jump To Guild
                   </h2>
                   <nav className="space-y-1">
-                    {[1, 2, 3, 4, 5, 6, 7, 8].map((guildId) => (
+                    {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((guildId) => (
                       <button
                         key={guildId}
                         onClick={() => onGuildClick(guildId)}
